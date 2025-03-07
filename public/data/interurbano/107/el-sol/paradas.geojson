@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 107 - El Sol"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19924503444027,
+          -26.821027019927424
+        ]
+      },
+      "properties": {
+        "name": "V. de la Merced y Marcos Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19993696391722,
+          -26.823971885339468
+        ]
+      },
+      "properties": {
+        "name": " V. de la Merced y Santiago "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20061039710198,
+          -26.826850651763817
+        ]
+      },
+      "properties": {
+        "name": " V. de la Merced y Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20287198919563,
+          -26.827077978912648
+        ]
+      },
+      "properties": {
+        "name": " Cordoba y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20586250335067,
+          -26.826605317992442
+        ]
+      },
+      "properties": {
+        "name": " Cordoba y Maipu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20879668788852,
+          -26.825865562181356
+        ]
+      },
+      "properties": {
+        "name": "107ec01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21303822398978,
+          -26.825843054322362
+        ]
+      },
+      "properties": {
+        "name": "107ec02"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21385974681883,
+          -26.828615815703202
+        ]
+      },
+      "properties": {
+        "name": "107ec03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21319454354993,
+          -26.830498686618522
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y La Rioja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21031694085146,
+          -26.831168491062375
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y Jujuy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20726606152455,
+          -26.831781574722672
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y Mu�ecas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20441872548605,
+          -26.832404783015974
+        ]
+      },
+      "properties": {
+        "name": "Crisostomo y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19962961827703,
+          -26.8334530395903
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y Entre Rios"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19645797949957,
+          -26.830087207193948
+        ]
+      },
+      "properties": {
+        "name": "  Av. Saenz Pe�a y A. Jacques"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19593587961477,
+          -26.82774720338264
+        ]
+      },
+      "properties": {
+        "name": " Av. Saenz Pe�a y Guatemala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19517080570948,
+          -26.82442354964735
+        ]
+      },
+      "properties": {
+        "name": "  Av. Saenz Pe�a y Honduras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19442422809642,
+          -26.821883102068533
+        ]
+      },
+      "properties": {
+        "name": "  Av. Saenz Pe�a y  y P. Garcia"
+      }
+    }
+  ]
+}

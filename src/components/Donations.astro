@@ -1,0 +1,51 @@
+---
+const MP_URL = import.meta.env.PUBLIC_MERCADO_PAGO_DONATION_URL;
+---
+
+<section class="Donations">
+
+    <h2>Apoyá este proyecto</h2>
+
+    <p>Esta app es gratuita y sin publicidad. Si te resulta útil, podés colaborar con una donación para ayudar a mantenerla en línea y mejorarla.</p>
+    
+    <div class="Donations-links">
+        <a href={MP_URL} class="btn">{MP_URL}</a>
+    </div>
+
+</section>
+
+<style>
+
+    .Donations {
+        padding: 20px;
+        background-color: var(--color-primary);
+        border-radius: 5px;
+        margin-top: 20px;
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .Donations-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            a {
+                padding: 10px 20px;
+                background-color: white;
+                color: var(--color-primary);
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1rem;
+            }
+        }
+    }
+</style>

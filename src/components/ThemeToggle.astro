@@ -1,0 +1,27 @@
+---
+
+---
+
+
+<button class="btn Theme-toogle-btn" onclick="window.THEME.toggleTheme()" title="Cambiar tema">
+    <i class="bi bi-moon"></i>
+    <i class="bi bi-sun"></i>
+</button>
+
+
+<script>
+
+</script>
+
+<style is:global>
+
+    .Theme-toogle-btn .bi-moon,
+    [data-bs-theme="dark"] .Theme-toogle-btn .bi-sun {
+        display: none;
+    }
+
+    [data-bs-theme="dark"] .Theme-toogle-btn .bi-moon {
+        display: block;
+    }
+
+</style>

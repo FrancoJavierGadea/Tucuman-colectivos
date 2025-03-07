@@ -1,0 +1,21 @@
+{
+  "name": "Linea 7",
+  "direction": "Occonor",
+  "length_km": 42.19,
+  "category": "urbano",
+  "provider": {
+    "name": "El Ceibo S.R.L.",
+    "contact": {
+      "phone": "381 434-6969",
+      "email": "",
+      "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://www.facebook.com/Linea7107ElCeiboSrl"
+    }
+  },
+  "id": "7/occonor",
+  "bus_path": "/data/urbano/7/occonor/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/7/img/landscape.webp",
+    "square": "/data/urbano/7/img/square.webp"
+  }
+}

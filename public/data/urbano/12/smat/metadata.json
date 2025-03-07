@@ -1,0 +1,21 @@
+{
+  "name": "Linea 12",
+  "direction": "Smat",
+  "length_km": 24.13,
+  "category": "urbano",
+  "provider": {
+    "name": "Cerro Pozo U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "website": ""
+    }
+  },
+  "id": "12/smat",
+  "bus_path": "/data/urbano/12/smat/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/12/img/landscape.webp",
+    "square": "/data/urbano/12/img/square.webp"
+  }
+}

@@ -1,0 +1,60 @@
+---
+import play_icon from "bootstrap-icons/icons/play.svg?raw";
+import pause_icon from "bootstrap-icons/icons/pause.svg?raw";
+
+const {} = Astro.props;
+---
+
+<button class="btn Map-play-btn">
+    <div class="play-icon" set:html={play_icon}></div>
+    <div class="pause-icon" set:html={pause_icon}></div>
+</button>
+
+<script>
+    const btn = document.querySelector('.Map-play-btn');
+
+    btn.addEventListener('click', () => {
+
+        btn.toggleAttribute('data-playing');
+    });
+</script>
+
+<style>
+    .Map-play-btn {
+        --bs-btn-bg: #fff;
+        --bs-btn-hover-bg: #f1f1f1;
+        --bs-btn-color: #333;
+    }
+
+    :global([data-bs-theme="dark"]) .Map-play-btn {
+
+        --bs-btn-bg: #333;
+        --bs-btn-hover-bg: #444;
+        --bs-btn-color: #ffffff;
+    }
+
+    & .Map-play-btn {
+        --bs-btn-padding-x: 5px;
+        --bs-btn-padding-y: 5px;
+        font-weight: normal;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & :global(svg){
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+    }
+
+    .Map-play-btn .pause-icon,
+    .Map-play-btn[data-playing] .play-icon {
+        display: none;
+    }
+    .Map-play-btn[data-playing] .pause-icon {
+        display: block;
+    } 
+</style>

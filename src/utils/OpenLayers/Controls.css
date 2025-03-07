@@ -1,0 +1,85 @@
+.ol-control {
+	--ol-button-background: #fff;
+	--ol-button-background-hover: #f1f1f1;
+	--ol-button-color: #333;
+}
+
+:host-context([data-bs-theme="dark"]) .ol-control {
+
+	--ol-button-background: #333;
+	--ol-button-background-hover: #444;
+	--ol-button-color: #ffffff;
+}
+
+.ol-control {
+	background: var(--ol-button-background);
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	padding: 5px;
+	width: fit-content;
+
+	--ol-button-size: 30px;
+	--ol-border-gap: 5px;
+	--ol-icon-size: 20px;
+
+	button {
+	   background: var(--ol-button-background);
+	   border: none;
+	   color: var(--ol-button-color);
+	   width: var(--ol-button-size);
+	   height: var(--ol-button-size);
+	   font-size: var(--ol-icon-size);
+	   
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	   cursor: pointer;
+	   border-radius: 8px;
+	   transition: background 0.2s;
+
+	   	&:hover {
+			background: var(--ol-button-background-hover);
+  		}
+	}
+}
+
+
+.ol-zoom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  bottom: calc(var(--ol-border-gap) + 40px + var(--ol-border-gap));
+  right: var(--ol-border-gap);
+}
+
+.ol-rotate {
+	position: absolute;
+  	right: var(--ol-border-gap);
+  	bottom: var(--ol-border-gap);
+}
+
+.ol-full-screen {
+	position: absolute;
+  	right: var(--ol-border-gap);
+  	top: var(--ol-border-gap);
+}
+
+
+.custom-controls {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	position: absolute;
+	top: var(--ol-border-gap);
+	left: var(--ol-border-gap);
+
+	
+	button .play-icon, button[data-paused] .pause-icon {
+		display: none;
+	}
+	button[data-paused] .play-icon {
+		display: block;
+	}
+}

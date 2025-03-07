@@ -1,0 +1,21 @@
+{
+  "name": "Linea 18",
+  "direction": "Antihorario",
+  "length_km": 14.64,
+  "category": "urbano",
+  "provider": {
+    "name": "Colón U.T.E.",
+    "contact": {
+      "phone": "381 436-7427",
+      "email": "",
+      "address": "Av. Colón 1256, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "id": "18/antihorario",
+  "bus_path": "/data/urbano/18/antihorario/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/18/img/landscape.webp",
+    "square": "/data/urbano/18/img/square.webp"
+  }
+}

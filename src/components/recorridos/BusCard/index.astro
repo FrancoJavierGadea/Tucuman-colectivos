@@ -1,0 +1,47 @@
+---
+import bookmark_icon from "bootstrap-icons/icons/bookmark.svg?raw";
+import bookmark_fill_icon from "bootstrap-icons/icons/bookmark-fill.svg?raw";
+import stops_icon from "bootstrap-icons/icons/geo-alt.svg?raw";
+import report_icon from "bootstrap-icons/icons/exclamation-triangle.svg?raw";
+import "./bus-card.css";
+
+const {title, direction, length, provider, id, image} = Astro.props;
+---
+
+
+<custom-bus-card data-bus-id={id}>
+
+    <div class="Bus-content" role="button">
+
+        <img class="Bus-image" src={image} loading="lazy" onerror="this.src = '/square.default.png'" />
+
+        <div class="Bus-info">
+            <h4 class="Bus-title">{title}</h4>
+            <p class="Bus-direction">{direction}</p>
+
+            <div class="Bus-footer">
+                <span class="Bus-provider">{provider}</span>
+                <span class="Bus-path-length">{length} km</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="Bus-controls">
+        <button class="Save-btn btn" title="Guardar">
+            <div class="save-icon" set:html={bookmark_icon} />
+            <div class="saved-icon" set:html={bookmark_fill_icon} />
+        </button>
+        <button class="Stops-btn btn" title="Mostrar paradas">
+            <div class="stops-icon" set:html={stops_icon} />
+        </button>
+        <button class="Report-btn btn" title="Corregir recorrido">
+            <div class="report-icon" set:html={report_icon} />
+        </button>
+    </div>
+</custom-bus-card>
+
+<script>
+    import {BusCard} from "./bus-card.js";
+
+    customElements.define('custom-bus-card', BusCard);
+</script>

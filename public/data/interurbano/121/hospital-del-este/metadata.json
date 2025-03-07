@@ -1,0 +1,19 @@
+{
+  "name": "Linea 121",
+  "direction": "Hospital del este",
+  "length_km": 35.15,
+  "category": "interurbano",
+  "provider": {
+    "name": "T.A. Ciudad de Alderetes S.R.L.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "website": ""
+    }
+  },
+  "image": {
+    "landscape": "/data/interurbano/121/img/landscape.webp",
+    "square": "/data/interurbano/121/img/square.webp"
+  }
+}

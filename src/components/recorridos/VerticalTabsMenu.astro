@@ -1,0 +1,211 @@
+---
+import Logo from "../Logo.astro";
+import ThemeToggle from "../ThemeToggle.astro";
+
+
+const {tabs = []} = Astro.props;
+
+const TABS = tabs.map(tab => {
+
+    return {
+        ...tab,
+        tab_id: `tab-${tab.id}-${Math.random().toString(36).slice(2)}`,
+    }
+});
+
+const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
+---
+
+
+<custom-vertical-tabs-menu class="Vertical-tabs-menu">
+
+    <div class="Tabs-menu">
+
+        <div class="Tabs-menu-header">
+
+            <a class="nav-link Home-link" href="/" title="Home">
+                <Logo width="40px" height="40px" />
+            </a>
+        </div>
+
+        <ul class="Tabs-menu-controls nav nav-pills" role="tablist">
+    
+            {
+                TABS.map(({icon, id, name, tab_id, active, label}) => {
+    
+                    return <li class="nav-item">
+                        <button class="nav-link" class:list={{active}}
+                            role="tab" title={name} 
+                            data-bs-toggle="tab" data-bs-target={`#${tab_id}`}
+                        >
+                            { icon && <i class={`bi ${icon}`}></i> }
+                            { label && <span>{label}</span> }
+                        </button>
+                    </li>
+                })
+            }
+        </ul>
+
+        <div class="Tabs-menu-footer">
+
+            <ThemeToggle />
+
+            <a class="nav-link" href={GITHUB_URL} title="Ver repositorio" target="_blank">
+                <i class="bi bi-github" />
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="Tabs-content tab-content" role="tabpanel">
+        {
+            TABS.map(({id, tab_id, active}) => {
+
+                const html = Astro.slots.render(id);
+
+                return <div class="tab-pane" class:list={{active}} id={tab_id} role="tabpanel">
+                    
+                    <Fragment set:html={html} />
+                </div>
+            })
+        }
+    </div>
+
+</custom-vertical-tabs-menu>
+
+<script>
+
+    import Tab from "bootstrap/js/dist/tab.js";
+
+    class CustomVerticalTabsMenu extends HTMLElement {
+
+        constructor(){
+            super();
+
+            this.querySelectorAll('.Tabs-menu .Tabs-menu-controls button')
+            .forEach((button, index) => {
+
+                const tab = new Tab(button)
+                
+                button.addEventListener('click', () => {
+
+                    tab.show();
+                });
+            });
+        }
+    }
+
+    customElements.define('custom-vertical-tabs-menu', CustomVerticalTabsMenu);
+
+</script>
+
+<style>
+    .Vertical-tabs-menu {
+        --sb-track-color: #f2f2f2;
+        --sb-thumb-color: #5e5e5e;
+
+        --v-tabs-menu-shadow: 0 1px 2px #3c40434d, 0 2px 6px 2px #3c404326;
+        --v-tabs-menu-color: #222;
+        --v-tabs-menu-hover-color: color-mix(in srgb, var(--v-tabs-menu-color), white 25%);
+    }
+    :global([data-bs-theme="dark"]) .Vertical-tabs-menu {
+        --sb-track-color: #5e5e5e;
+        --sb-thumb-color: #f2f2f2;
+
+        --v-tabs-menu-shadow: 0 1px 2px #7272724d, 0 2px 6px 2px #70707026;
+        --v-tabs-menu-color: #fff;
+        --v-tabs-menu-hover-color: color-mix(in srgb, var(--v-tabs-menu-color), black 25%);
+    }
+
+    .Vertical-tabs-menu {
+        height: 100%;
+        display: flex;
+        justify-content: start;
+
+        & .Tabs-menu {
+            width: 60px;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            padding: 15px 5px;
+            gap: 15px;
+
+            & .Tabs-menu-controls {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                flex-grow: 1;
+                flex-shrink: 0;
+
+                --bs-nav-link-color: var(--v-tabs-menu-color);
+                --bs-nav-link-hover-color: var(--v-tabs-menu-hover-color);
+                --bs-nav-tabs-link-active-color: var(--v-tabs-menu-active-color);
+                --bs-nav-tabs-link-active-bg: var(--v-tabs-menu-active-bg);
+
+
+            }
+
+            & .Tabs-menu-header, & .Tabs-menu-footer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding: 5px;
+            }
+            & .Tabs-menu-header {
+                border-bottom: 1px solid #adadad;
+            }
+
+            box-shadow: var(--v-tabs-menu-shadow);
+
+            & button, & a {
+                flex-shrink: 0;
+                width: 100%;
+                padding-inline: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    display: block;
+                }
+            }
+            .Home-link {
+                font-size: 30px;
+                height: 40px;
+            }
+
+            hr {
+                margin: 0;
+            }
+        }
+
+        & .Tabs-content {
+            --sb-size: 5px;
+
+            flex-grow: 1;
+            overflow: hidden auto;
+        }
+    }
+
+    .Vertical-tabs-menu .Tabs-content::-webkit-scrollbar {
+        width: var(--sb-size);
+    }
+    .Vertical-tabs-menu .Tabs-content::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 1px;
+    }
+    .Vertical-tabs-menu .Tabs-content::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+        border-radius: 1px;
+    }
+    
+    @supports not selector(::-webkit-scrollbar) {
+        .Vertical-tabs-menu .Tabs-content {
+            scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+        }
+    }
+
+</style>

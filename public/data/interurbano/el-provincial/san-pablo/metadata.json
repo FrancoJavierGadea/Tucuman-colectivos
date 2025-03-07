@@ -1,0 +1,21 @@
+{
+  "name": "Linea el-provincial",
+  "direction": "San pablo",
+  "length_km": 37.85,
+  "category": "interurbano",
+  "provider": {
+    "name": "El Provincial S.R.L.",
+    "contact": {
+      "phone": "381 397-1969",
+      "email": "",
+      "address": "Batalla de Chacabuco 902, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "id": "el-provincial/san-pablo",
+  "bus_path": "public/data/interurbano/el-provincial/san-pablo/recorrido.geojson",
+  "image": {
+    "landscape": "/data/interurbano/el-provincial/img/landscape.webp",
+    "square": "/data/interurbano/el-provincial/img/square.webp"
+  }
+}

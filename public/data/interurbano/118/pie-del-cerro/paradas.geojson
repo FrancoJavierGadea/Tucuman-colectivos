@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 118 - Pie del Cerro"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19773858990847,
+          -26.825185733344746
+        ]
+      },
+      "properties": {
+        "name": "118ep1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20246519162525,
+          -26.824328488727723
+        ]
+      },
+      "properties": {
+        "name": "1066pm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.206531635931,
+          -26.82344710133502
+        ]
+      },
+      "properties": {
+        "name": "118ep2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20972184027801,
+          -26.822722386026832
+        ]
+      },
+      "properties": {
+        "name": "118ep3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21279495211401,
+          -26.82204283481087
+        ]
+      },
+      "properties": {
+        "name": "118ep4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21700952707299,
+          -26.821932946681862
+        ]
+      },
+      "properties": {
+        "name": "118ep5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21820689242699,
+          -26.826179404903787
+        ]
+      },
+      "properties": {
+        "name": "1187ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21826298895607,
+          -26.829489871553914
+        ]
+      },
+      "properties": {
+        "name": "11817ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21796956932583,
+          -26.83220106017743
+        ]
+      },
+      "properties": {
+        "name": "118ep6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21603062068795,
+          -26.83428726016356
+        ]
+      },
+      "properties": {
+        "name": "11812ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2115262328502,
+          -26.835177101000166
+        ]
+      },
+      "properties": {
+        "name": "118ep7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2069559247239,
+          -26.83617528888665
+        ]
+      },
+      "properties": {
+        "name": "1189ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20202974616765,
+          -26.837368061012718
+        ]
+      },
+      "properties": {
+        "name": "118ep8"
+      }
+    }
+  ]
+}

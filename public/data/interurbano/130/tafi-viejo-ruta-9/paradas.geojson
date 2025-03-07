@@ -1,0 +1,1295 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 130 - Ruta 9"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19397041172634,
+          -26.837273371289623
+        ]
+      },
+      "properties": {
+        "name": "Terminal San Miguel de Tucum�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19601283270889,
+          -26.83727188488594
+        ]
+      },
+      "properties": {
+        "name": "D. Garc�a y Av. B. Ter�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19777003078987,
+          -26.835598888396103
+        ]
+      },
+      "properties": {
+        "name": "Av. S. Pe�a y San Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1968110987139,
+          -26.831051648576288
+        ]
+      },
+      "properties": {
+        "name": "tuc 116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1956819043384,
+          -26.82701531212619
+        ]
+      },
+      "properties": {
+        "name": "Guatemala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19497941203124,
+          -26.824136013604356
+        ]
+      },
+      "properties": {
+        "name": "Honduras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19440282705551,
+          -26.821610529248996
+        ]
+      },
+      "properties": {
+        "name": "P. Garc�a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19623688998225,
+          -26.822592839444923
+        ]
+      },
+      "properties": {
+        "name": "Balcarce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19921052071187,
+          -26.822062099855803
+        ]
+      },
+      "properties": {
+        "name": "M. Paz y  V. de la Merced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20221422186461,
+          -26.821510485850723
+        ]
+      },
+      "properties": {
+        "name": "M. Paz y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20507759437616,
+          -26.820988686347572
+        ]
+      },
+      "properties": {
+        "name": "M. Paz y  Maipu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20773381508408,
+          -26.820326742949206
+        ]
+      },
+      "properties": {
+        "name": "Marcos Paz  y Av. Salta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20804292580648,
+          -26.81903448969401
+        ]
+      },
+      "properties": {
+        "name": "Av. salta y Sta. Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20745181935328,
+          -26.816330939556746
+        ]
+      },
+      "properties": {
+        "name": "Av. Rep. de Siria y Espa�a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20647692065499,
+          -26.812329377339896
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20566996472306,
+          -26.810026537206312
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Per�"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20520848281572,
+          -26.808220868476
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20471513061091,
+          -26.806305940730144
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Ecuador"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20411851864228,
+          -26.8041053837092
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Venezuela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20364556342783,
+          -26.802346272774244
+        ]
+      },
+      "properties": {
+        "name": "Av.  Siria y Mejico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2032817705486,
+          -26.80060092951033
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Delfin Gallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20425619822436,
+          -26.79682095519834
+        ]
+      },
+      "properties": {
+        "name": "L. de la Torre y Emilio Castelar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20883833099508,
+          -26.784287204039956
+        ]
+      },
+      "properties": {
+        "name": "Pente Di Bacco V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21045181694834,
+          -26.780846021372362
+        ]
+      },
+      "properties": {
+        "name": "Pte. Las Talitas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21213604007465,
+          -26.777465633509205
+        ]
+      },
+      "properties": {
+        "name": "Puente Peatonal V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21420719325732,
+          -26.773286591163092
+        ]
+      },
+      "properties": {
+        "name": "Pte. Peatonal 2 (Villa nueva Italia)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21533788472651,
+          -26.770679859467936
+        ]
+      },
+      "properties": {
+        "name": "Porton Arsenal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21593825801082,
+          -26.76891697454847
+        ]
+      },
+      "properties": {
+        "name": "Ultima Calle de Villa Italia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21777585096807,
+          -26.748803657795133
+        ]
+      },
+      "properties": {
+        "name": "Puente Taf� Viejo V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22442136459934,
+          -26.747257312855172
+        ]
+      },
+      "properties": {
+        "name": "Country El Pinar V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2321951780296,
+          -26.745750839110098
+        ]
+      },
+      "properties": {
+        "name": "Lomas de Taf� 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23666623340777,
+          -26.744855469147797
+        ]
+      },
+      "properties": {
+        "name": "B� las Flores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24835600635727,
+          -26.740119479814716
+        ]
+      },
+      "properties": {
+        "name": "Primero de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24788101841132,
+          -26.7386896820886
+        ]
+      },
+      "properties": {
+        "name": "Chazarreta y O. Costello"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24729550794035,
+          -26.736881506654957
+        ]
+      },
+      "properties": {
+        "name": "Chazarreta y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24931651416946,
+          -26.736312412218805
+        ]
+      },
+      "properties": {
+        "name": "24 de Sep y Ing. Civid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25084933752025,
+          -26.73598340509263
+        ]
+      },
+      "properties": {
+        "name": "24 de Sep. y Prof Marino"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25204410702439,
+          -26.735779584528007
+        ]
+      },
+      "properties": {
+        "name": "24 de Sep. y Av. Independencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25109302737694,
+          -26.732804839930658
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind. y Maip�"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25072824102601,
+          -26.73147372189285
+        ]
+      },
+      "properties": {
+        "name": "Psje. Sin Nombre y Rivadavia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25301942337366,
+          -26.72959270885135
+        ]
+      },
+      "properties": {
+        "name": "Alsina y Rivadavia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25461907847628,
+          -26.728368469054693
+        ]
+      },
+      "properties": {
+        "name": "Congreso y Bolivar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25460421179318,
+          -26.726979565006513
+        ]
+      },
+      "properties": {
+        "name": "Congreso y Reconquista"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25427714476477,
+          -26.725603922488574
+        ]
+      },
+      "properties": {
+        "name": "Congreso y Cochabamba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25405414451812,
+          -26.724546950337324
+        ]
+      },
+      "properties": {
+        "name": "Av. Hip. Yrigoyen y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25265406465476,
+          -26.724830782623297
+        ]
+      },
+      "properties": {
+        "name": "Av. Hip. Yrigoyen y Alsina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25357463896098,
+          -26.7231133066667
+        ]
+      },
+      "properties": {
+        "name": "P. M. Araoz y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25656387440425,
+          -26.72252773885464
+        ]
+      },
+      "properties": {
+        "name": "P. M. Araoz y San Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25654632162271,
+          -26.724015733871102
+        ]
+      },
+      "properties": {
+        "name": "Sgo. Cabral y Hip- Yrigoyen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25697891545023,
+          -26.725325333631336
+        ]
+      },
+      "properties": {
+        "name": "Sgo. Cabral y Cochabamba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2574548962693,
+          -26.72671356130752
+        ]
+      },
+      "properties": {
+        "name": "Reconquisa y Sgo. Cabral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26069340778767,
+          -26.723220121080463
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2631168866012,
+          -26.72274802088008
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26449351938747,
+          -26.726073920082726
+        ]
+      },
+      "properties": {
+        "name": "Av. Per� SUD y Bolivar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26405299460825,
+          -26.727908289490436
+        ]
+      },
+      "properties": {
+        "name": "Paisandu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26255216340816,
+          -26.72979462898674
+        ]
+      },
+      "properties": {
+        "name": "Av. Alem y La Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26017425279917,
+          -26.730267905136376
+        ]
+      },
+      "properties": {
+        "name": "Av Alem y Moreno"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25916092108244,
+          -26.72867944443207
+        ]
+      },
+      "properties": {
+        "name": "Rivadav�a y Chacabuco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25792259000309,
+          -26.73011266847466
+        ]
+      },
+      "properties": {
+        "name": "Sgo. Cabral y Alem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25795513574991,
+          -26.731658533736802
+        ]
+      },
+      "properties": {
+        "name": "San Martin y Uttinger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25860900939004,
+          -26.734139801751905
+        ]
+      },
+      "properties": {
+        "name": "San Mart�bn y Sarmiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25906760854943,
+          -26.735889076386055
+        ]
+      },
+      "properties": {
+        "name": "San Martin y Buenos aires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25957058827261,
+          -26.737955405418763
+        ]
+      },
+      "properties": {
+        "name": "San Mart�n y Entre R�os"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25949957937054,
+          -26.739308275702644
+        ]
+      },
+      "properties": {
+        "name": "C. del per� SUD  y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2593930660174,
+          -26.740518446811908
+        ]
+      },
+      "properties": {
+        "name": "C. del per� SUD  y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25723908793739,
+          -26.742961543812427
+        ]
+      },
+      "properties": {
+        "name": "Av. Roca y Saenz Pe�a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25367043978426,
+          -26.739993313716518
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind y Villagra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25321972610675,
+          -26.73839381246877
+        ]
+      },
+      "properties": {
+        "name": "Pasaje Cervantes y Av. Independencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25064698098875,
+          -26.737687371172818
+        ]
+      },
+      "properties": {
+        "name": "Esc. N� 40 Bernardino Rivadavia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24806847599362,
+          -26.738472686710107
+        ]
+      },
+      "properties": {
+        "name": "O. Costello y Chazarreta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24850238673741,
+          -26.74013417703699
+        ]
+      },
+      "properties": {
+        "name": "Primero de Mayo V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23674836972837,
+          -26.745003847644362
+        ]
+      },
+      "properties": {
+        "name": "B� las Flores V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2322125595424,
+          -26.74590525279459
+        ]
+      },
+      "properties": {
+        "name": "Lomas de Taf� 1 V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22450297632332,
+          -26.747378688132017
+        ]
+      },
+      "properties": {
+        "name": "Country El Pinar V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21916434032792,
+          -26.748652370368546
+        ]
+      },
+      "properties": {
+        "name": "Puente Taf� Viejo V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21624575423502,
+          -26.768669885071393
+        ]
+      },
+      "properties": {
+        "name": "Ultima Calle de Villa Italia V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21558715816181,
+          -26.77046833867374
+        ]
+      },
+      "properties": {
+        "name": "Porton Arsenal V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21463942234912,
+          -26.7727887893612
+        ]
+      },
+      "properties": {
+        "name": "Pte. Peatonal 2 (Villa nueva Italia)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21238189721431,
+          -26.777523250191074
+        ]
+      },
+      "properties": {
+        "name": "Puente Peatonal V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21072543473593,
+          -26.78092806980294
+        ]
+      },
+      "properties": {
+        "name": "Pte. Las Talitas V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20924107225528,
+          -26.783972018282128
+        ]
+      },
+      "properties": {
+        "name": "Pente Di Bacco V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20447229741762,
+          -26.796488315937594
+        ]
+      },
+      "properties": {
+        "name": "L. de la Torre y Emilio Castelar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20351613452387,
+          -26.799997583215614
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Delfin Gallo V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20362221506005,
+          -26.80181752131123
+        ]
+      },
+      "properties": {
+        "name": "Av.  Siria y Mejico V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20416865317077,
+          -26.803910469067063
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Venezuela V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20488284654799,
+          -26.806590178506433
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Ecuador V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20527756482211,
+          -26.80804230355031
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Paraguay V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20559912911979,
+          -26.80942842328818
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Per� V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20661261210067,
+          -26.812337681774018
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Chile V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2075407267959,
+          -26.815977156792066
+        ]
+      },
+      "properties": {
+        "name": "Av. Siria y Espa�a V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20865035674633,
+          -26.82097550943089
+        ]
+      },
+      "properties": {
+        "name": "Av. SaltayCorrientes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20955432284379,
+          -26.82280209549699
+        ]
+      },
+      "properties": {
+        "name": "Santigo del Estero "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21244696028863,
+          -26.823461867605225
+        ]
+      },
+      "properties": {
+        "name": "Jose Colombre y San juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21384212731924,
+          -26.828553807409214
+        ]
+      },
+      "properties": {
+        "name": "J. Colombres y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21470580171331,
+          -26.831727404269994
+        ]
+      },
+      "properties": {
+        "name": "Alberdi y S. Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21520134148989,
+          -26.834462807070683
+        ]
+      },
+      "properties": {
+        "name": "Gral.Paz y J.B Alberdi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21247651789045,
+          -26.835051656059
+        ]
+      },
+      "properties": {
+        "name": "Gral. Paz y Jujuy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20652962275973,
+          -26.836334950309606
+        ]
+      },
+      "properties": {
+        "name": "Gral Paz y 9 de Julio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2018647058691,
+          -26.837427728246173
+        ]
+      },
+      "properties": {
+        "name": "Gral. Paz y Entre R�os"
+      }
+    }
+  ]
+}

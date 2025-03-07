@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 101 - El grafico"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.207924,
+          -26.818114
+        ]
+      },
+      "properties": {
+        "name": " Av. Salta y Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.208493,
+          -26.820881
+        ]
+      },
+      "properties": {
+        "name": "  Av. Salta y Corrientes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20936,
+          -26.823657
+        ]
+      },
+      "properties": {
+        "name": "Salta y San Juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.210097,
+          -26.826465
+        ]
+      },
+      "properties": {
+        "name": " Salta y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.210866,
+          -26.829089
+        ]
+      },
+      "properties": {
+        "name": "Salta y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21146001978482,
+          -26.83165834608066
+        ]
+      },
+      "properties": {
+        "name": " Jujuy y San Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21238809002683,
+          -26.835830464854716
+        ]
+      },
+      "properties": {
+        "name": " Jujuy y Gral. Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.210411,
+          -26.838407
+        ]
+      },
+      "properties": {
+        "name": "1011mseg8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20736240853884,
+          -26.838984762399072
+        ]
+      },
+      "properties": {
+        "name": "1011mseg9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20473715997288,
+          -26.839479441396293
+        ]
+      },
+      "properties": {
+        "name": "1011mseg10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2019774785692,
+          -26.839298670497676
+        ]
+      },
+      "properties": {
+        "name": " Entre Rios y Lamadrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20142535229253,
+          -26.83691002282682
+        ]
+      },
+      "properties": {
+        "name": " Entre Rios y Las Piedras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20047909636611,
+          -26.832280983028248
+        ]
+      },
+      "properties": {
+        "name": " Entre Rios y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1998066316083,
+          -26.829784198590218
+        ]
+      },
+      "properties": {
+        "name": " Monteagudo y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19920167585552,
+          -26.827061015009615
+        ]
+      },
+      "properties": {
+        "name": "1011mseg15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19952171100826,
+          -26.82501990552367
+        ]
+      },
+      "properties": {
+        "name": "1011mseg16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20233565237257,
+          -26.824409855069618
+        ]
+      },
+      "properties": {
+        "name": " Santiago y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20517924014095,
+          -26.82379775575619
+        ]
+      },
+      "properties": {
+        "name": "1011mseg18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20815,
+          -26.819468
+        ]
+      },
+      "properties": {
+        "name": "1011mseg19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20625971926873,
+          -26.81863005086202
+        ]
+      },
+      "properties": {
+        "name": "1011mseg20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20682826365895,
+          -26.817654348398847
+        ]
+      },
+      "properties": {
+        "name": " Av. Sarmiento y Av. Salta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2125921689778,
+          -26.81649238941542
+        ]
+      },
+      "properties": {
+        "name": " Av. Sarmiento y Suipacha"
+      }
+    }
+  ]
+}

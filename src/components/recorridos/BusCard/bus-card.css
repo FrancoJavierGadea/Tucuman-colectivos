@@ -1,0 +1,112 @@
+@import "./bus-card-colors.css";
+
+
+custom-bus-card {
+    --bus-card-bg: #ffffff;
+    --bus-card-color: #333;
+    --bus-card-shadow: 0 2px 4px 0 #0000001a;
+    --bus-card-active-bg: var(--bus-card-bg);
+
+    --bus-card-hover-bg: color-mix(in srgb, var(--bus-card-active-bg), black 25%);
+
+    --bus-card-saved-color: #0D6EFD;
+}
+[data-bs-theme="dark"] custom-bus-card {
+    --bus-card-bg: #333;
+    --bus-card-color: #fff;
+    --bus-card-shadow: 0 2px 4px 0 #0000001a;
+    --bus-card-active-bg: var(--bus-card-bg);
+
+    --bus-card-hover-bg: color-mix(in srgb, var(--bus-card-active-bg), white 25%);
+
+    --bus-card-saved-color: #F3B229;
+}
+
+
+
+
+custom-bus-card {
+
+    display: flex;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--bus-card-shadow);
+
+    background-color: var(--bus-card-bg);
+
+    .Bus-content {
+        flex-grow: 1;
+        height: 100%;
+        display: flex;
+        cursor: pointer;
+
+        &:hover .Bus-info {
+            background-color: var(--bus-card-hover-bg);
+        }
+    }
+
+    &[data-color] .Bus-content {
+
+        background-color: var(--bus-card-active-bg);
+        color: var(--bus-card-color);
+    }
+
+    .Bus-image {
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+    
+    .Bus-info {
+        padding: 10px;
+        background-color: var(---bus-card-bg);
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+
+        .Bus-title {
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        .Bus-direction {
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        .Bus-footer {
+            font-size: 12px;
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .Bus-controls { 
+        background-color: var(---bus-card-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-left: 1px solid #e4e4e4;
+
+        button {
+            font-size: 10px;
+            --bs-btn-border-radius: 0;
+
+            &:hover {
+                background-color: var(--bus-card-hover-bg);
+            }
+        }
+    }
+
+    .saved-icon, &[saved] .save-icon {
+        display: none;
+    }
+    &[saved] .saved-icon {
+        display: block;
+    }
+
+    &[saved] .Save-btn {
+        color: var(--bus-card-saved-color);
+    }
+}

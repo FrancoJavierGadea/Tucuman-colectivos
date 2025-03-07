@@ -1,0 +1,140 @@
+---
+const {tabs = []} = Astro.props;
+
+const TABS = tabs.map(tab => {
+
+    return {
+        ...tab,
+        tab_id: `tab-${tab.id}-${Math.random().toString(36).slice(2)}`,
+    }
+})
+---
+
+<custom-horizontal-tabs-menu class="Horizontal-tabs-menu">
+
+    <ul class="Tabs-menu nav nav-tabs nav-fill" role="tablist">
+        {
+            TABS.map(({icon, id, name, tab_id, active, label}) => {
+
+                return <li class="nav-item">
+                    <button class="nav-link" class:list={{active}}
+                        role="tab" title={name} 
+                        data-bs-toggle="tab" data-bs-target={`#${tab_id}`}
+                    >
+                        { icon && <i class={`bi ${icon}`}></i> }
+                        { label && <span>{label}</span> }
+                    </button>
+                </li>
+            })
+        }
+    </ul>
+
+    <div class="Tabs-content tab-content" role="tabpanel">
+        {
+            TABS.map(({id, tab_id, active}) => {
+
+                const html = Astro.slots.render(id);
+
+                return <div class="tab-pane" class:list={{active}} id={tab_id} role="tabpanel">
+                    
+                    <Fragment set:html={html} />
+                </div>
+            })
+        }
+    </div>
+
+</custom-horizontal-tabs-menu>
+
+<script>
+    class CustomHorizontalTabsMenu extends HTMLElement {
+
+        constructor(){
+            super();
+
+            this.querySelectorAll('.Tabs-menu button').forEach((button, index) => {
+
+                button.addEventListener('click', () => {
+
+                
+                });
+            });
+        }
+    }
+
+    customElements.define('custom-horizontal-tabs-menu', CustomHorizontalTabsMenu);
+</script>
+
+<style>
+
+    .Horizontal-tabs-menu {
+        --sb-track-color: #f2f2f2;
+        --sb-thumb-color: #5e5e5e;
+        --h-tabs-menu-color: #222;
+        --h-tabs-menu-hover-color: #222;
+        --h-tabs-menu-active-color: #f2f2f2;
+        --h-tabs-menu-active-bg: #0d6efd;
+        --h-tabs-menu-active-border-color: #0d6efd;
+    }
+    :global([data-bs-theme="dark"]) .Horizontal-tabs-menu {
+        --sb-track-color: #5e5e5e;
+        --sb-thumb-color: #f2f2f2;
+        --h-tabs-menu-color: #f2f2f2;
+        --h-tabs-menu-hover-color: #f2f2f2;
+        --h-tabs-menu-active-color: #f2f2f2;
+        --h-tabs-menu-active-bg: #222;
+        --h-tabs-menu-active-border-color: #0d6efd;
+    }
+
+    .Horizontal-tabs-menu {
+
+        height: 100%;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        & .Tabs-menu {
+            --bs-nav-link-color: var(--h-tabs-menu-color);
+            --bs-nav-link-hover-color: var(--h-tabs-menu-hover-color);
+            --bs-nav-tabs-link-active-color: var(--h-tabs-menu-active-color);
+            --bs-nav-tabs-link-active-bg: var(--h-tabs-menu-active-bg);
+
+            --bs-nav-tabs-link-active-border-color: var(--h-tabs-menu-active-border-color) var(--h-tabs-menu-active-border-color) var(--bs-body-bg);
+            --bs-nav-tabs-border-color: var(--h-tabs-menu-active-border-color);
+            
+            li:first-child button {
+                border-top-left-radius: 0;
+            }
+            li:last-child button {
+                border-top-right-radius: 0;
+            }
+        }
+
+        & .Tabs-content {
+            
+            --sb-size: 5px;
+
+            flex-grow: 1;
+            overflow: hidden auto;
+        }   
+    }
+
+    .Horizontal-tabs-menu .Tabs-content::-webkit-scrollbar {
+        width: var(--sb-size);
+    }
+    .Horizontal-tabs-menu .Tabs-content::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 1px;
+    }
+    .Horizontal-tabs-menu .Tabs-content::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+        border-radius: 1px;
+    }
+    
+    @supports not selector(::-webkit-scrollbar) {
+        .Horizontal-tabs-menu .Tabs-content {
+            scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+        }
+    }
+
+</style>

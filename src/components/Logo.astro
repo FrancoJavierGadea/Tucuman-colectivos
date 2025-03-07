@@ -1,0 +1,44 @@
+---
+import logo from "@/../public/logo-dark.inkspace.svg?raw";
+
+const {width = '100px', height = '100px'} = Astro.props;
+---
+
+
+<div class="Logo">
+
+    <div class="Logo-content" set:html={logo} />
+
+</div>
+
+
+<style
+    define:vars={{
+        'logo-width': width,
+        'logo-height': height
+    }}
+>
+    .Logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Logo > div > :global(svg) {
+        display: block;
+        width: var(--logo-width);
+        height: var(--logo-height);
+    }
+
+
+    /* .Logo .Logo-dark, 
+    :global([data-bs-theme="dark"]) .Logo .Logo-light {
+        display: none;
+    }
+    :global([data-bs-theme="dark"]) .Logo .Logo-dark {
+        display: block;
+    } */
+</style>
+
+
+

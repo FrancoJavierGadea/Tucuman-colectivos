@@ -1,0 +1,225 @@
+---
+import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
+import arrowLeft_icon from "bootstrap-icons/icons/arrow-bar-left.svg?raw";
+import close_icon from "bootstrap-icons/icons/x-lg.svg?raw";
+
+const {show, closeBtn} = Astro.props;
+---
+
+
+<custom-map-offcanvas class="Map-offcanvas" show>
+
+    <div class="Map-offcanvas-aside collapse collapse-horizontal">
+
+        <div class="aside-content">
+            
+            <slot name="aside-content" />
+
+        </div>
+
+        {
+            closeBtn && <button class="btn Map-offcanvas-close-button" type="button">
+                <div class="close-icon" set:html={close_icon} /> 
+            </button>
+        }
+    </div>
+
+    <div class="Map-offcanvas-content">
+
+        <div class="Map-offcanvas-controls">
+
+            <slot name="controls" />
+
+        </div>
+
+        <button class="btn Map-offcanvas-btn" type="button">
+            
+            <div class="arrow-right-icon" set:html={arrowRight_icon} />
+            <div class="arrow-left-icon" set:html={arrowLeft_icon} />
+        </button>
+
+    </div>
+
+</custom-map-offcanvas>
+
+<script>
+    import Collapse from "bootstrap/js/dist/collapse.js";
+
+    class CustomMapOffcanvas extends HTMLElement {
+
+        static get observedAttributes() {
+            return ['show'];
+        }
+
+        attributeChangedCallback(name, oldValue, newValue) {
+
+            if(name === 'show') {
+
+                if(this.show) {
+
+                    console.log('show');
+
+                    this.collapse.show();
+
+                } else {
+
+                    console.log('hide');
+
+                    this.collapse.hide();
+                }
+            }
+        }
+
+        constructor() {
+            super();
+
+            this.$ = (selector) => this.querySelector(selector);
+
+            this.collapse = new Collapse(this.$('.Map-offcanvas-aside'));
+
+            this.$('.Map-offcanvas-btn').addEventListener('click', () => {
+
+                this.show = !this.show;
+            });
+
+            this.$('.Map-offcanvas-close-button')?.addEventListener('click', () => {
+
+                this.show = false;
+            });
+        }
+
+        get show(){
+
+            return this.hasAttribute('show');
+        }
+
+        set show(value){
+
+            value ? this.setAttribute('show', '') : this.removeAttribute('show');
+        }
+    }
+
+    customElements.define('custom-map-offcanvas', CustomMapOffcanvas);
+</script>
+
+
+<style>
+
+    .Map-offcanvas {
+        --map-offcanvas-background: #fff;
+        --map-offcanvas-btn-background: #ffffff;
+    }
+    :global([data-bs-theme="dark"]) .Map-offcanvas {
+        --map-offcanvas-background: #222;
+        --map-offcanvas-btn-background: #444;
+    }
+
+    .Map-offcanvas {
+        display: flex;
+        height: 100dvh;
+        width: 100dvw;
+        position: relative;
+        z-index: 1000;
+        pointer-events: none;
+
+        --map-offcanvas-width: 500px;
+
+        & .Map-offcanvas-aside {
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-color: var(--map-offcanvas-background);
+            pointer-events: auto;
+
+            box-shadow: 0 1px 2px #3c404386, 0 2px 6px 2px #3c404326;
+
+            & .Map-offcanvas-close-button {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
+            
+            & .aside-content {
+                height: 100%;
+                width: var(--map-offcanvas-width);
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                overflow: hidden auto;
+
+                & .aside-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+                    border-bottom: 1px solid #e4e4e4;
+
+                    & h3 {
+                        margin: 0;
+                    }
+                }
+
+                & * {
+                    flex-shrink: 0;
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 100dvw;
+                }
+            }
+        }
+
+        & .Map-offcanvas-content {
+            position: relative;
+            height: 100%;
+            flex-grow: 1;
+            pointer-events: none;
+        }
+
+        & .Map-offcanvas-content .Map-offcanvas-controls {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            pointer-events: auto;
+        }
+    }
+
+
+    .Map-offcanvas .Map-offcanvas-btn {
+        --bs-btn-padding-x: 5px;
+        --bs-btn-padding-y: 5px;
+        --bs-border-radius: 0px 8px 8px 0px;
+        align-content: center;
+        background-color: var(--map-offcanvas-btn-background);
+        height: 50px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        pointer-events: auto;
+
+        box-shadow: 0 1px 2px #3c404386, 0 2px 6px 2px #3c404326;
+    }
+
+    .Map-offcanvas .arrow-left-icon, .Map-offcanvas[show] .arrow-right-icon {
+        display: none;
+    }
+    .Map-offcanvas[show] .arrow-left-icon {
+        display: block;
+    }
+    .Map-offcanvas .Map-offcanvas-btn :global(svg) {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+</style>

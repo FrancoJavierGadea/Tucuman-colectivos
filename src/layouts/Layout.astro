@@ -1,0 +1,47 @@
+---
+import "bootstrap-icons/font/bootstrap-icons.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import bootstrap_script from "bootstrap/dist/js/bootstrap.min.js?url";
+
+const {title} = Astro.props;
+---
+
+<!DOCTYPE html>
+
+<html lang="es" data-bs-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{title}</title>
+
+        <link rel="icon" href="/favicon-1.svg" type="image/svg" />
+
+        <script src="/src/scripts/ThemeConfig.js"></script>
+    </head>
+    <body>
+        
+        <slot />
+
+        <script is:inline src={bootstrap_script}></script>
+        
+    </body>
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    [data-bs-theme="dark"] {
+        --bs-body-bg: #222;
+        --bs-body-color: #fff;
+    }
+
+    body {
+        height: 100dvh;
+        width: 100dvw;
+        display: flow-root;
+    }
+</style>

@@ -1,0 +1,19 @@
+{
+  "name": "Linea 129",
+  "direction": "Hospital oeste",
+  "length_km": 24.29,
+  "category": "interurbano",
+  "provider": {
+    "name": "Tandilense S.R.L",
+    "contact": {
+      "phone": "381 472-0206",
+      "email": "",
+      "address": "Terminal Ómnibus Tucumán: Av. Brígido Terán 250 - Local 520, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "image": {
+    "landscape": "/data/interurbano/129/img/landscape.webp",
+    "square": "/data/interurbano/129/img/square.webp"
+  }
+}

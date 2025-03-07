@@ -1,0 +1,48 @@
+---
+const dev = {
+    name: 'Franco Javier Gadea',
+    url: 'https://francogadea.com',
+}
+---
+
+<div class="About">
+
+
+    <slot />
+
+    <footer>
+        <p class="footer-sign">
+            Hecho con <i class="bi bi-suit-heart-fill"></i> 
+            <a href={dev.url} target="_blank" rel="noopener noreferrer">{dev.name}</a>
+        </p>
+    </footer>
+</div>
+
+<style>
+
+    .About {
+
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+
+        footer {
+            margin-top: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+            .footer-sign {
+                margin-bottom: 10px;
+                i {
+                    color: red;
+                }
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+</style>

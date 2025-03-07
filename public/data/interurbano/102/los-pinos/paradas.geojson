@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 102 - Los Pinos"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19408465415155,
+          -26.831663354797055
+        ]
+      },
+      "properties": {
+        "name": "Av. Soldati y Francia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20156120315802,
+          -26.834634731008702
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo entre La Heras y Entre Rios"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20469444941402,
+          -26.833765416358336
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo entre 9 de Julio y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20800511142217,
+          -26.833085426390806
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo entre Chacabuco y Bs.As"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21098555394613,
+          -26.832526320470347
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo entre Jujuy y Ayacucho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21698030765911,
+          -26.83158943409229
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo entre B. Araoz y San Luis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21755250964567,
+          -26.8339820095362
+        ]
+      },
+      "properties": {
+        "name": "B. Araoz y San Luis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21462408407444,
+          -26.83453911313062
+        ]
+      },
+      "properties": {
+        "name": "J.B.Alberdi y  La Rioja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21119024495283,
+          -26.835361499142525
+        ]
+      },
+      "properties": {
+        "name": "Jujuy y Ayacucho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20823208917275,
+          -26.835732897319513
+        ]
+      },
+      "properties": {
+        "name": "Chacabuco y Buenos Aires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20518474276615,
+          -26.836422633559682
+        ]
+      },
+      "properties": {
+        "name": "9 de Julio y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20207793594183,
+          -26.837271533934608
+        ]
+      },
+      "properties": {
+        "name": "Las Heras y Entre R�os"
+      }
+    }
+  ]
+}

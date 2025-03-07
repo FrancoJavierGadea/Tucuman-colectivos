@@ -1,0 +1,983 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 140 - TCM - Las Cantinas"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19405845106259,
+          -26.83729750269202
+        ]
+      },
+      "properties": {
+        "name": "Terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19525597467388,
+          -26.836025770828922
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1949370455634,
+          -26.834656407109883
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18917547267263,
+          -26.834113010068762
+        ]
+      },
+      "properties": {
+        "name": "Av. B. Araoz y Av. Leguizamo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18612423028263,
+          -26.834726495983656
+        ]
+      },
+      "properties": {
+        "name": "Fac. Educ. Fisica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18510981225224,
+          -26.834917219394445
+        ]
+      },
+      "properties": {
+        "name": "Av. B. Araoz y Formosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1814573363711,
+          -26.835670203018992
+        ]
+      },
+      "properties": {
+        "name": "Av. B. Araoz y Av. S. Borez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.17817007983959,
+          -26.836333089151548
+        ]
+      },
+      "properties": {
+        "name": "cabrera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1675419837856,
+          -26.838410968785208
+        ]
+      },
+      "properties": {
+        "name": "Alberdi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1657053940475,
+          -26.839241467873904
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.16392086911206,
+          -26.840212384316406
+        ]
+      },
+      "properties": {
+        "name": "Sarmiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.16146889417274,
+          -26.840708862516998
+        ]
+      },
+      "properties": {
+        "name": "plaza banda del rio sali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.16026307035692,
+          -26.840985073970476
+        ]
+      },
+      "properties": {
+        "name": "Belgrano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.15785043163652,
+          -26.841417790223964
+        ]
+      },
+      "properties": {
+        "name": "las heras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.15562686380906,
+          -26.841826799452118
+        ]
+      },
+      "properties": {
+        "name": "san miguel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.15284150123338,
+          -26.842570143187395
+        ]
+      },
+      "properties": {
+        "name": "obispo colombres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.14924774089549,
+          -26.842991953673526
+        ]
+      },
+      "properties": {
+        "name": "Ing. Concepcion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1393636662955,
+          -26.844941941122222
+        ]
+      },
+      "properties": {
+        "name": "cevil 02"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13537331704866,
+          -26.845745125009746
+        ]
+      },
+      "properties": {
+        "name": "cevil 03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.12963937033045,
+          -26.846890307367662
+        ]
+      },
+      "properties": {
+        "name": "cevil 04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.12771135904994,
+          -26.857342305049173
+        ]
+      },
+      "properties": {
+        "name": "Estacion Cevil "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13201990847185,
+          -26.87551954322454
+        ]
+      },
+      "properties": {
+        "name": "cevil 90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13228779297083,
+          -26.876908314390064
+        ]
+      },
+      "properties": {
+        "name": "cementerio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.12826678714102,
+          -26.878046131795102
+        ]
+      },
+      "properties": {
+        "name": "Scannia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.10725404667683,
+          -26.881969289130875
+        ]
+      },
+      "properties": {
+        "name": "Barrio Sta. Ines"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.10028923280788,
+          -26.884537554095633
+        ]
+      },
+      "properties": {
+        "name": "(COLOMBRES) G�emes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.10066929202534,
+          -26.88615005706381
+        ]
+      },
+      "properties": {
+        "name": "lucas cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.10123854459005,
+          -26.888386551991918
+        ]
+      },
+      "properties": {
+        "name": "Ing. Cruz Alta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.10100943683291,
+          -26.888823124698007
+        ]
+      },
+      "properties": {
+        "name": "Ing. Cruz Alta (v)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1004514036248,
+          -26.886005614207715
+        ]
+      },
+      "properties": {
+        "name": "lucas cordoba (v)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.10025369365778,
+          -26.884617815958475
+        ]
+      },
+      "properties": {
+        "name": "(COLOMBRES) G�emes (V)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1071233929211,
+          -26.88190254931418
+        ]
+      },
+      "properties": {
+        "name": "Barrio Sta. Ines"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.12817490699881,
+          -26.878035441808585
+        ]
+      },
+      "properties": {
+        "name": "Scannia (V)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13214524641278,
+          -26.8769543998832
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13179055071762,
+          -26.875580501573484
+        ]
+      },
+      "properties": {
+        "name": "cevil 91"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1274177597704,
+          -26.857406123536567
+        ]
+      },
+      "properties": {
+        "name": "Estacion Cevil  (V)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1295859439837,
+          -26.84652573760275
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13609066521802,
+          -26.845265921665703
+        ]
+      },
+      "properties": {
+        "name": "cevil 16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.13947587219533,
+          -26.84465877747105
+        ]
+      },
+      "properties": {
+        "name": "cevil 15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1487212234004,
+          -26.842874271355765
+        ]
+      },
+      "properties": {
+        "name": "Ing. Concepcion (V)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.15279751315329,
+          -26.842401662169387
+        ]
+      },
+      "properties": {
+        "name": "obispo colombres (v)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.15525848561218,
+          -26.841735139265573
+        ]
+      },
+      "properties": {
+        "name": "lucas cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1577087841077,
+          -26.841154433500943
+        ]
+      },
+      "properties": {
+        "name": "paso de los andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.15972190375098,
+          -26.840783398565335
+        ]
+      },
+      "properties": {
+        "name": "25 de Mayo (Vuelta)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.16118127049073,
+          -26.840518374189813
+        ]
+      },
+      "properties": {
+        "name": "plaza banda del rio sali (v)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.16356874459339,
+          -26.840055364733313
+        ]
+      },
+      "properties": {
+        "name": "Sarmiento (V)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1672524850782,
+          -26.83839812712714
+        ]
+      },
+      "properties": {
+        "name": "alberdi (v)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.16957382522264,
+          -26.83791424681283
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.17783306805721,
+          -26.836243563121627
+        ]
+      },
+      "properties": {
+        "name": "mario bravo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18147010963118,
+          -26.83551633473202
+        ]
+      },
+      "properties": {
+        "name": "Av. B. Araoz y C. Suarez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18491729738408,
+          -26.834850315816638
+        ]
+      },
+      "properties": {
+        "name": "Av. B. Araoz y Formosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1859427093372,
+          -26.834651080899857
+        ]
+      },
+      "properties": {
+        "name": "Fac. Filosofia y Letras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.18894847536765,
+          -26.834047082261243
+        ]
+      },
+      "properties": {
+        "name": "Av. B. Araoz y Av. Leguizamo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19421537116652,
+          -26.831761180307556
+        ]
+      },
+      "properties": {
+        "name": "francia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19383959395982,
+          -26.830130199106836
+        ]
+      },
+      "properties": {
+        "name": "a. jacques"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19578493514798,
+          -26.827194371287682
+        ]
+      },
+      "properties": {
+        "name": "guatemala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19510228724631,
+          -26.82431606579474
+        ]
+      },
+      "properties": {
+        "name": "honduras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.194445,
+          -26.821819
+        ]
+      },
+      "properties": {
+        "name": "Centro de Salud"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19768443189251,
+          -26.822305591476347
+        ]
+      },
+      "properties": {
+        "name": "monteagudo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20029954842212,
+          -26.821820043735663
+        ]
+      },
+      "properties": {
+        "name": "laprida"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20343681070179,
+          -26.821278107348835
+        ]
+      },
+      "properties": {
+        "name": "mu�ecas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20653512291292,
+          -26.820628384012945
+        ]
+      },
+      "properties": {
+        "name": "Av. Fco de Aguirre y Junin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2094713674571,
+          -26.819975662085625
+        ]
+      },
+      "properties": {
+        "name": "Catamarca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21066496012939,
+          -26.82234176678286
+        ]
+      },
+      "properties": {
+        "name": "Catamarca y Santiago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21293777866464,
+          -26.824932241947185
+        ]
+      },
+      "properties": {
+        "name": "cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21363035527169,
+          -26.827742606998644
+        ]
+      },
+      "properties": {
+        "name": "Av. Avellaneda y San Martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21426029453244,
+          -26.830161998166616
+        ]
+      },
+      "properties": {
+        "name": "crisostomo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21512804820321,
+          -26.833069379931516
+        ]
+      },
+      "properties": {
+        "name": "piedras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21250027879832,
+          -26.834974718681224
+        ]
+      },
+      "properties": {
+        "name": "Jujuy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20810495012175,
+          -26.835929091025662
+        ]
+      },
+      "properties": {
+        "name": "buenos aires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20482607129145,
+          -26.836694215451736
+        ]
+      },
+      "properties": {
+        "name": "Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20178542851515,
+          -26.837515362289558
+        ]
+      },
+      "properties": {
+        "name": "Entre Rios"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19905860732949,
+          -26.838190321540367
+        ]
+      },
+      "properties": {
+        "name": "Av. Saenz Pe�a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19777036370182,
+          -26.83561265666578
+        ]
+      },
+      "properties": {
+        "name": " Av. Colon y S. Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1965407145143,
+          -26.832633802788507
+        ]
+      },
+      "properties": {
+        "name": "El Bajo"
+      }
+    }
+  ]
+}

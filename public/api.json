@@ -1,0 +1,1225 @@
+{
+  "interurbano": {
+    "category": "interurbano",
+    "lines": {
+      "100": {
+        "routes": [
+          {
+            "direction": "avellaneda",
+            "url": "/data/interurbano/100/avellaneda",
+            "metadata": "/data/interurbano/100/avellaneda/metadata.json",
+            "recorrido": "/data/interurbano/100/avellaneda/recorrido.geojson",
+            "paradas": "/data/interurbano/100/avellaneda/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/100/avellaneda/img/landscape.png",
+              "square": "/data/interurbano/100/avellaneda/img/square.png"
+            }
+          },
+          {
+            "direction": "castillo",
+            "url": "/data/interurbano/100/castillo",
+            "metadata": "/data/interurbano/100/castillo/metadata.json",
+            "recorrido": "/data/interurbano/100/castillo/recorrido.geojson",
+            "paradas": "/data/interurbano/100/castillo/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/100/castillo/img/landscape.png",
+              "square": "/data/interurbano/100/castillo/img/square.png"
+            }
+          },
+          {
+            "direction": "escuela-de-agricultura",
+            "url": "/data/interurbano/100/escuela-de-agricultura",
+            "metadata": "/data/interurbano/100/escuela-de-agricultura/metadata.json",
+            "recorrido": "/data/interurbano/100/escuela-de-agricultura/recorrido.geojson",
+            "paradas": "/data/interurbano/100/escuela-de-agricultura/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/100/escuela-de-agricultura/img/landscape.png",
+              "square": "/data/interurbano/100/escuela-de-agricultura/img/square.png"
+            }
+          },
+          {
+            "direction": "san-pablo",
+            "url": "/data/interurbano/100/san-pablo",
+            "metadata": "/data/interurbano/100/san-pablo/metadata.json",
+            "recorrido": "/data/interurbano/100/san-pablo/recorrido.geojson",
+            "paradas": "/data/interurbano/100/san-pablo/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/100/san-pablo/img/landscape.png",
+              "square": "/data/interurbano/100/san-pablo/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 100"
+      },
+      "101": {
+        "routes": [
+          {
+            "direction": "el-grafico",
+            "url": "/data/interurbano/101/el-grafico",
+            "metadata": "/data/interurbano/101/el-grafico/metadata.json",
+            "recorrido": "/data/interurbano/101/el-grafico/recorrido.geojson",
+            "paradas": "/data/interurbano/101/el-grafico/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/101/el-grafico/img/landscape.png",
+              "square": "/data/interurbano/101/el-grafico/img/square.png"
+            }
+          },
+          {
+            "direction": "lomas-de-tafi",
+            "url": "/data/interurbano/101/lomas-de-tafi",
+            "metadata": "/data/interurbano/101/lomas-de-tafi/metadata.json",
+            "recorrido": "/data/interurbano/101/lomas-de-tafi/recorrido.geojson",
+            "paradas": "/data/interurbano/101/lomas-de-tafi/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/101/lomas-de-tafi/img/landscape.png",
+              "square": "/data/interurbano/101/lomas-de-tafi/img/square.png"
+            }
+          },
+          {
+            "direction": "lomas-de-tafi-2",
+            "url": "/data/interurbano/101/lomas-de-tafi-2",
+            "metadata": "/data/interurbano/101/lomas-de-tafi-2/metadata.json",
+            "recorrido": "/data/interurbano/101/lomas-de-tafi-2/recorrido.geojson",
+            "paradas": "/data/interurbano/101/lomas-de-tafi-2/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/101/lomas-de-tafi-2/img/landscape.png",
+              "square": "/data/interurbano/101/lomas-de-tafi-2/img/square.png"
+            }
+          },
+          {
+            "direction": "los-nogales",
+            "url": "/data/interurbano/101/los-nogales",
+            "metadata": "/data/interurbano/101/los-nogales/metadata.json",
+            "recorrido": "/data/interurbano/101/los-nogales/recorrido.geojson",
+            "paradas": "/data/interurbano/101/los-nogales/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/101/los-nogales/img/landscape.png",
+              "square": "/data/interurbano/101/los-nogales/img/square.png"
+            }
+          },
+          {
+            "direction": "los-pocitos",
+            "url": "/data/interurbano/101/los-pocitos",
+            "metadata": "/data/interurbano/101/los-pocitos/metadata.json",
+            "recorrido": "/data/interurbano/101/los-pocitos/recorrido.geojson",
+            "paradas": "/data/interurbano/101/los-pocitos/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/101/los-pocitos/img/landscape.png",
+              "square": "/data/interurbano/101/los-pocitos/img/square.png"
+            }
+          },
+          {
+            "direction": "soeme",
+            "url": "/data/interurbano/101/soeme",
+            "metadata": "/data/interurbano/101/soeme/metadata.json",
+            "recorrido": "/data/interurbano/101/soeme/recorrido.geojson",
+            "paradas": "/data/interurbano/101/soeme/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/101/soeme/img/landscape.png",
+              "square": "/data/interurbano/101/soeme/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 101"
+      },
+      "102": {
+        "routes": [
+          {
+            "direction": "horco-molle",
+            "url": "/data/interurbano/102/horco-molle",
+            "metadata": "/data/interurbano/102/horco-molle/metadata.json",
+            "recorrido": "/data/interurbano/102/horco-molle/recorrido.geojson",
+            "paradas": "/data/interurbano/102/horco-molle/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/102/horco-molle/img/landscape.png",
+              "square": "/data/interurbano/102/horco-molle/img/square.png"
+            }
+          },
+          {
+            "direction": "la-rinconada",
+            "url": "/data/interurbano/102/la-rinconada",
+            "metadata": "/data/interurbano/102/la-rinconada/metadata.json",
+            "recorrido": "/data/interurbano/102/la-rinconada/recorrido.geojson",
+            "paradas": "/data/interurbano/102/la-rinconada/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/102/la-rinconada/img/landscape.png",
+              "square": "/data/interurbano/102/la-rinconada/img/square.png"
+            }
+          },
+          {
+            "direction": "los-pinos",
+            "url": "/data/interurbano/102/los-pinos",
+            "metadata": "/data/interurbano/102/los-pinos/metadata.json",
+            "recorrido": "/data/interurbano/102/los-pinos/recorrido.geojson",
+            "paradas": "/data/interurbano/102/los-pinos/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/102/los-pinos/img/landscape.png",
+              "square": "/data/interurbano/102/los-pinos/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 102"
+      },
+      "103": {
+        "routes": [
+          {
+            "direction": "manantial-expedicion",
+            "url": "/data/interurbano/103/manantial-expedicion",
+            "metadata": "/data/interurbano/103/manantial-expedicion/metadata.json",
+            "recorrido": "/data/interurbano/103/manantial-expedicion/recorrido.geojson",
+            "paradas": "/data/interurbano/103/manantial-expedicion/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/103/manantial-expedicion/img/landscape.png",
+              "square": "/data/interurbano/103/manantial-expedicion/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 103"
+      },
+      "105": {
+        "routes": [
+          {
+            "direction": "unsta",
+            "url": "/data/interurbano/105/unsta",
+            "metadata": "/data/interurbano/105/unsta/metadata.json",
+            "recorrido": "/data/interurbano/105/unsta/recorrido.geojson",
+            "paradas": "/data/interurbano/105/unsta/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/105/unsta/img/landscape.png",
+              "square": "/data/interurbano/105/unsta/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 105"
+      },
+      "106": {
+        "routes": [
+          {
+            "direction": "prospero-mena",
+            "url": "/data/interurbano/106/prospero-mena",
+            "metadata": "/data/interurbano/106/prospero-mena/metadata.json",
+            "recorrido": "/data/interurbano/106/prospero-mena/recorrido.geojson",
+            "paradas": "/data/interurbano/106/prospero-mena/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/106/prospero-mena/img/landscape.png",
+              "square": "/data/interurbano/106/prospero-mena/img/square.png"
+            }
+          },
+          {
+            "direction": "vial-2",
+            "url": "/data/interurbano/106/vial-2",
+            "metadata": "/data/interurbano/106/vial-2/metadata.json",
+            "recorrido": "/data/interurbano/106/vial-2/recorrido.geojson",
+            "paradas": "/data/interurbano/106/vial-2/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/106/vial-2/img/landscape.png",
+              "square": "/data/interurbano/106/vial-2/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 106"
+      },
+      "107": {
+        "routes": [
+          {
+            "direction": "el-grafico",
+            "url": "/data/interurbano/107/el-grafico",
+            "metadata": "/data/interurbano/107/el-grafico/metadata.json",
+            "recorrido": "/data/interurbano/107/el-grafico/recorrido.geojson",
+            "paradas": "/data/interurbano/107/el-grafico/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/107/el-grafico/img/landscape.png",
+              "square": "/data/interurbano/107/el-grafico/img/square.png"
+            }
+          },
+          {
+            "direction": "el-sol",
+            "url": "/data/interurbano/107/el-sol",
+            "metadata": "/data/interurbano/107/el-sol/metadata.json",
+            "recorrido": "/data/interurbano/107/el-sol/recorrido.geojson",
+            "paradas": "/data/interurbano/107/el-sol/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/107/el-sol/img/landscape.png",
+              "square": "/data/interurbano/107/el-sol/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 107"
+      },
+      "109": {
+        "routes": [
+          {
+            "direction": "lomas-de-tafi",
+            "url": "/data/interurbano/109/lomas-de-tafi",
+            "metadata": "/data/interurbano/109/lomas-de-tafi/metadata.json",
+            "recorrido": "/data/interurbano/109/lomas-de-tafi/recorrido.geojson",
+            "paradas": "/data/interurbano/109/lomas-de-tafi/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/109/lomas-de-tafi/img/landscape.png",
+              "square": "/data/interurbano/109/lomas-de-tafi/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 109"
+      },
+      "110": {
+        "routes": [
+          {
+            "direction": "manantial",
+            "url": "/data/interurbano/110/manantial",
+            "metadata": "/data/interurbano/110/manantial/metadata.json",
+            "recorrido": "/data/interurbano/110/manantial/recorrido.geojson",
+            "paradas": "/data/interurbano/110/manantial/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/110/manantial/img/landscape.png",
+              "square": "/data/interurbano/110/manantial/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 110"
+      },
+      "118": {
+        "routes": [
+          {
+            "direction": "200-viviendas",
+            "url": "/data/interurbano/118/200-viviendas",
+            "metadata": "/data/interurbano/118/200-viviendas/metadata.json",
+            "recorrido": "/data/interurbano/118/200-viviendas/recorrido.geojson",
+            "paradas": "/data/interurbano/118/200-viviendas/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/118/200-viviendas/img/landscape.png",
+              "square": "/data/interurbano/118/200-viviendas/img/square.png"
+            }
+          },
+          {
+            "direction": "apunt",
+            "url": "/data/interurbano/118/apunt",
+            "metadata": "/data/interurbano/118/apunt/metadata.json",
+            "recorrido": "/data/interurbano/118/apunt/recorrido.geojson",
+            "paradas": "/data/interurbano/118/apunt/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/118/apunt/img/landscape.png",
+              "square": "/data/interurbano/118/apunt/img/square.png"
+            }
+          },
+          {
+            "direction": "la-rinconada",
+            "url": "/data/interurbano/118/la-rinconada",
+            "metadata": "/data/interurbano/118/la-rinconada/metadata.json",
+            "recorrido": "/data/interurbano/118/la-rinconada/recorrido.geojson",
+            "paradas": "/data/interurbano/118/la-rinconada/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/118/la-rinconada/img/landscape.png",
+              "square": "/data/interurbano/118/la-rinconada/img/square.png"
+            }
+          },
+          {
+            "direction": "pie-del-cerro",
+            "url": "/data/interurbano/118/pie-del-cerro",
+            "metadata": "/data/interurbano/118/pie-del-cerro/metadata.json",
+            "recorrido": "/data/interurbano/118/pie-del-cerro/recorrido.geojson",
+            "paradas": "/data/interurbano/118/pie-del-cerro/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/118/pie-del-cerro/img/landscape.png",
+              "square": "/data/interurbano/118/pie-del-cerro/img/square.png"
+            }
+          },
+          {
+            "direction": "zona-sur-los-pinos",
+            "url": "/data/interurbano/118/zona-sur-los-pinos",
+            "metadata": "/data/interurbano/118/zona-sur-los-pinos/metadata.json",
+            "recorrido": "/data/interurbano/118/zona-sur-los-pinos/recorrido.geojson",
+            "paradas": "/data/interurbano/118/zona-sur-los-pinos/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/118/zona-sur-los-pinos/img/landscape.png",
+              "square": "/data/interurbano/118/zona-sur-los-pinos/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 118"
+      },
+      "121": {
+        "routes": [
+          {
+            "direction": "aereopuerto",
+            "url": "/data/interurbano/121/aereopuerto",
+            "metadata": "/data/interurbano/121/aereopuerto/metadata.json",
+            "recorrido": "/data/interurbano/121/aereopuerto/recorrido.geojson",
+            "paradas": "/data/interurbano/121/aereopuerto/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/121/aereopuerto/img/landscape.png",
+              "square": "/data/interurbano/121/aereopuerto/img/square.png"
+            }
+          },
+          {
+            "direction": "alderete",
+            "url": "/data/interurbano/121/alderete",
+            "metadata": "/data/interurbano/121/alderete/metadata.json",
+            "recorrido": "/data/interurbano/121/alderete/recorrido.geojson",
+            "paradas": "/data/interurbano/121/alderete/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/121/alderete/img/landscape.png",
+              "square": "/data/interurbano/121/alderete/img/square.png"
+            }
+          },
+          {
+            "direction": "alderetes",
+            "url": "/data/interurbano/121/alderetes",
+            "metadata": "/data/interurbano/121/alderetes/metadata.json",
+            "recorrido": "/data/interurbano/121/alderetes/recorrido.geojson",
+            "paradas": "/data/interurbano/121/alderetes/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/121/alderetes/img/landscape.png",
+              "square": "/data/interurbano/121/alderetes/img/square.png"
+            }
+          },
+          {
+            "direction": "hospital-del-este",
+            "url": "/data/interurbano/121/hospital-del-este",
+            "metadata": "/data/interurbano/121/hospital-del-este/metadata.json",
+            "recorrido": "/data/interurbano/121/hospital-del-este/recorrido.geojson",
+            "paradas": "/data/interurbano/121/hospital-del-este/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/121/hospital-del-este/img/landscape.png",
+              "square": "/data/interurbano/121/hospital-del-este/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 121"
+      },
+      "122": {
+        "routes": [
+          {
+            "direction": "alderete",
+            "url": "/data/interurbano/122/alderete",
+            "metadata": "/data/interurbano/122/alderete/metadata.json",
+            "recorrido": "/data/interurbano/122/alderete/recorrido.geojson",
+            "paradas": "/data/interurbano/122/alderete/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/122/alderete/img/landscape.png",
+              "square": "/data/interurbano/122/alderete/img/square.png"
+            }
+          },
+          {
+            "direction": "alderetes",
+            "url": "/data/interurbano/122/alderetes",
+            "metadata": "/data/interurbano/122/alderetes/metadata.json",
+            "recorrido": "/data/interurbano/122/alderetes/recorrido.geojson",
+            "paradas": "/data/interurbano/122/alderetes/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/122/alderetes/img/landscape.png",
+              "square": "/data/interurbano/122/alderetes/img/square.png"
+            }
+          },
+          {
+            "direction": "piedritas",
+            "url": "/data/interurbano/122/piedritas",
+            "metadata": "/data/interurbano/122/piedritas/metadata.json",
+            "recorrido": "/data/interurbano/122/piedritas/recorrido.geojson",
+            "paradas": "/data/interurbano/122/piedritas/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/122/piedritas/img/landscape.png",
+              "square": "/data/interurbano/122/piedritas/img/square.png"
+            }
+          },
+          {
+            "direction": "rincon-del-este",
+            "url": "/data/interurbano/122/rincon-del-este",
+            "metadata": "/data/interurbano/122/rincon-del-este/metadata.json",
+            "recorrido": "/data/interurbano/122/rincon-del-este/recorrido.geojson",
+            "paradas": "/data/interurbano/122/rincon-del-este/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/122/rincon-del-este/img/landscape.png",
+              "square": "/data/interurbano/122/rincon-del-este/img/square.png"
+            }
+          },
+          {
+            "direction": "san-jorge",
+            "url": "/data/interurbano/122/san-jorge",
+            "metadata": "/data/interurbano/122/san-jorge/metadata.json",
+            "recorrido": "/data/interurbano/122/san-jorge/recorrido.geojson",
+            "paradas": "/data/interurbano/122/san-jorge/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/122/san-jorge/img/landscape.png",
+              "square": "/data/interurbano/122/san-jorge/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 122"
+      },
+      "123": {
+        "routes": [
+          {
+            "direction": "lasteni",
+            "url": "/data/interurbano/123/lasteni",
+            "metadata": "/data/interurbano/123/lasteni/metadata.json",
+            "recorrido": "/data/interurbano/123/lasteni/recorrido.geojson",
+            "paradas": "/data/interurbano/123/lasteni/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/123/lasteni/img/landscape.png",
+              "square": "/data/interurbano/123/lasteni/img/square.png"
+            }
+          },
+          {
+            "direction": "pascar",
+            "url": "/data/interurbano/123/pascar",
+            "metadata": "/data/interurbano/123/pascar/metadata.json",
+            "recorrido": "/data/interurbano/123/pascar/recorrido.geojson",
+            "paradas": "/data/interurbano/123/pascar/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/123/pascar/img/landscape.png",
+              "square": "/data/interurbano/123/pascar/img/square.png"
+            }
+          },
+          {
+            "direction": "v-lasteni",
+            "url": "/data/interurbano/123/v-lasteni",
+            "metadata": "/data/interurbano/123/v-lasteni/metadata.json",
+            "recorrido": "/data/interurbano/123/v-lasteni/recorrido.geojson",
+            "paradas": "/data/interurbano/123/v-lasteni/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/123/v-lasteni/img/landscape.png",
+              "square": "/data/interurbano/123/v-lasteni/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 123"
+      },
+      "124": {
+        "routes": [
+          {
+            "direction": "alderetes",
+            "url": "/data/interurbano/124/alderetes",
+            "metadata": "/data/interurbano/124/alderetes/metadata.json",
+            "recorrido": "/data/interurbano/124/alderetes/recorrido.geojson",
+            "paradas": "/data/interurbano/124/alderetes/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/124/alderetes/img/landscape.png",
+              "square": "/data/interurbano/124/alderetes/img/square.png"
+            }
+          },
+          {
+            "direction": "b.-victori",
+            "url": "/data/interurbano/124/b.-victori",
+            "metadata": "/data/interurbano/124/b.-victori/metadata.json",
+            "recorrido": "/data/interurbano/124/b.-victori/recorrido.geojson",
+            "paradas": "/data/interurbano/124/b.-victori/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/124/b.-victori/img/landscape.png",
+              "square": "/data/interurbano/124/b.-victori/img/square.png"
+            }
+          },
+          {
+            "direction": "las-piedritas-directo",
+            "url": "/data/interurbano/124/las-piedritas-directo",
+            "metadata": "/data/interurbano/124/las-piedritas-directo/metadata.json",
+            "recorrido": "/data/interurbano/124/las-piedritas-directo/recorrido.geojson",
+            "paradas": "/data/interurbano/124/las-piedritas-directo/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/124/las-piedritas-directo/img/landscape.png",
+              "square": "/data/interurbano/124/las-piedritas-directo/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 124"
+      },
+      "125": {
+        "routes": [
+          {
+            "direction": "aereopuerto",
+            "url": "/data/interurbano/125/aereopuerto",
+            "metadata": "/data/interurbano/125/aereopuerto/metadata.json",
+            "recorrido": "/data/interurbano/125/aereopuerto/recorrido.geojson",
+            "paradas": "/data/interurbano/125/aereopuerto/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/125/aereopuerto/img/landscape.png",
+              "square": "/data/interurbano/125/aereopuerto/img/square.png"
+            }
+          },
+          {
+            "direction": "san-cristo",
+            "url": "/data/interurbano/125/san-cristo",
+            "metadata": "/data/interurbano/125/san-cristo/metadata.json",
+            "recorrido": "/data/interurbano/125/san-cristo/recorrido.geojson",
+            "paradas": "/data/interurbano/125/san-cristo/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/125/san-cristo/img/landscape.png",
+              "square": "/data/interurbano/125/san-cristo/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 125"
+      },
+      "129": {
+        "routes": [
+          {
+            "direction": "flecha-bus",
+            "url": "/data/interurbano/129/flecha-bus",
+            "metadata": "/data/interurbano/129/flecha-bus/metadata.json",
+            "recorrido": "/data/interurbano/129/flecha-bus/recorrido.geojson",
+            "paradas": "/data/interurbano/129/flecha-bus/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/129/flecha-bus/img/landscape.png",
+              "square": "/data/interurbano/129/flecha-bus/img/square.png"
+            }
+          },
+          {
+            "direction": "hospital-oeste",
+            "url": "/data/interurbano/129/hospital-oeste",
+            "metadata": "/data/interurbano/129/hospital-oeste/metadata.json",
+            "recorrido": "/data/interurbano/129/hospital-oeste/recorrido.geojson",
+            "paradas": "/data/interurbano/129/hospital-oeste/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/129/hospital-oeste/img/landscape.png",
+              "square": "/data/interurbano/129/hospital-oeste/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 129"
+      },
+      "130": {
+        "routes": [
+          {
+            "direction": "ruta-9",
+            "url": "/data/interurbano/130/ruta-9",
+            "metadata": "/data/interurbano/130/ruta-9/metadata.json",
+            "recorrido": "/data/interurbano/130/ruta-9/recorrido.geojson",
+            "paradas": "/data/interurbano/130/ruta-9/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/130/ruta-9/img/landscape.png",
+              "square": "/data/interurbano/130/ruta-9/img/square.png"
+            }
+          },
+          {
+            "direction": "san-jose",
+            "url": "/data/interurbano/130/san-jose",
+            "metadata": "/data/interurbano/130/san-jose/metadata.json",
+            "recorrido": "/data/interurbano/130/san-jose/recorrido.geojson",
+            "paradas": "/data/interurbano/130/san-jose/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/130/san-jose/img/landscape.png",
+              "square": "/data/interurbano/130/san-jose/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 130"
+      },
+      "131": {
+        "routes": [
+          {
+            "direction": "lomas-de-tafi",
+            "url": "/data/interurbano/131/lomas-de-tafi",
+            "metadata": "/data/interurbano/131/lomas-de-tafi/metadata.json",
+            "recorrido": "/data/interurbano/131/lomas-de-tafi/recorrido.geojson",
+            "paradas": "/data/interurbano/131/lomas-de-tafi/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/131/lomas-de-tafi/img/landscape.png",
+              "square": "/data/interurbano/131/lomas-de-tafi/img/square.png"
+            }
+          },
+          {
+            "direction": "tv-diagonal",
+            "url": "/data/interurbano/131/tv-diagonal",
+            "metadata": "/data/interurbano/131/tv-diagonal/metadata.json",
+            "recorrido": "/data/interurbano/131/tv-diagonal/recorrido.geojson",
+            "paradas": "/data/interurbano/131/tv-diagonal/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/131/tv-diagonal/img/landscape.png",
+              "square": "/data/interurbano/131/tv-diagonal/img/square.png"
+            }
+          },
+          {
+            "direction": "tv-karamaneff",
+            "url": "/data/interurbano/131/tv-karamaneff",
+            "metadata": "/data/interurbano/131/tv-karamaneff/metadata.json",
+            "recorrido": "/data/interurbano/131/tv-karamaneff/recorrido.geojson",
+            "paradas": "/data/interurbano/131/tv-karamaneff/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/131/tv-karamaneff/img/landscape.png",
+              "square": "/data/interurbano/131/tv-karamaneff/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 131"
+      },
+      "140": {
+        "routes": [
+          {
+            "direction": "tcm",
+            "url": "/data/interurbano/140/tcm",
+            "metadata": "/data/interurbano/140/tcm/metadata.json",
+            "recorrido": "/data/interurbano/140/tcm/recorrido.geojson",
+            "paradas": "/data/interurbano/140/tcm/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/140/tcm/img/landscape.png",
+              "square": "/data/interurbano/140/tcm/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 140"
+      },
+      "141": {
+        "routes": [
+          {
+            "direction": "los-aguirres",
+            "url": "/data/interurbano/141/los-aguirres",
+            "metadata": "/data/interurbano/141/los-aguirres/metadata.json",
+            "recorrido": "/data/interurbano/141/los-aguirres/recorrido.geojson",
+            "paradas": "/data/interurbano/141/los-aguirres/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/141/los-aguirres/img/landscape.png",
+              "square": "/data/interurbano/141/los-aguirres/img/square.png"
+            }
+          },
+          {
+            "direction": "policia-iv",
+            "url": "/data/interurbano/141/policia-iv",
+            "metadata": "/data/interurbano/141/policia-iv/metadata.json",
+            "recorrido": "/data/interurbano/141/policia-iv/recorrido.geojson",
+            "paradas": "/data/interurbano/141/policia-iv/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/141/policia-iv/img/landscape.png",
+              "square": "/data/interurbano/141/policia-iv/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 141"
+      },
+      "142": {
+        "routes": [
+          {
+            "direction": "lomas-de-tafi",
+            "url": "/data/interurbano/142/lomas-de-tafi",
+            "metadata": "/data/interurbano/142/lomas-de-tafi/metadata.json",
+            "recorrido": "/data/interurbano/142/lomas-de-tafi/recorrido.geojson",
+            "paradas": "/data/interurbano/142/lomas-de-tafi/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/142/lomas-de-tafi/img/landscape.png",
+              "square": "/data/interurbano/142/lomas-de-tafi/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 142"
+      },
+      "214": {
+        "routes": [
+          {
+            "direction": "los-fresnos",
+            "url": "/data/interurbano/214/los-fresnos",
+            "metadata": "/data/interurbano/214/los-fresnos/metadata.json",
+            "recorrido": "/data/interurbano/214/los-fresnos/recorrido.geojson",
+            "paradas": "/data/interurbano/214/los-fresnos/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/214/los-fresnos/img/landscape.png",
+              "square": "/data/interurbano/214/los-fresnos/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 214"
+      },
+      "414": {
+        "routes": [
+          {
+            "direction": "san-andreas",
+            "url": "/data/interurbano/414/san-andreas",
+            "metadata": "/data/interurbano/414/san-andreas/metadata.json",
+            "recorrido": "/data/interurbano/414/san-andreas/recorrido.geojson",
+            "paradas": "/data/interurbano/414/san-andreas/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/414/san-andreas/img/landscape.png",
+              "square": "/data/interurbano/414/san-andreas/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 414"
+      },
+      "el-provincial": {
+        "routes": [
+          {
+            "direction": "rinconada",
+            "url": "/data/interurbano/el-provincial/rinconada",
+            "metadata": "/data/interurbano/el-provincial/rinconada/metadata.json",
+            "recorrido": "/data/interurbano/el-provincial/rinconada/recorrido.geojson",
+            "paradas": "/data/interurbano/el-provincial/rinconada/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/el-provincial/rinconada/img/landscape.png",
+              "square": "/data/interurbano/el-provincial/rinconada/img/square.png"
+            }
+          },
+          {
+            "direction": "san-pablo",
+            "url": "/data/interurbano/el-provincial/san-pablo",
+            "metadata": "/data/interurbano/el-provincial/san-pablo/metadata.json",
+            "recorrido": "/data/interurbano/el-provincial/san-pablo/recorrido.geojson",
+            "paradas": "/data/interurbano/el-provincial/san-pablo/paradas.geojson",
+            "images": {
+              "landscape": "/data/interurbano/el-provincial/san-pablo/img/landscape.png",
+              "square": "/data/interurbano/el-provincial/san-pablo/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea el-provincial"
+      }
+    }
+  },
+  "urbano": {
+    "category": "urbano",
+    "lines": {
+      "1": {
+        "routes": [
+          {
+            "direction": "mitre",
+            "url": "/data/urbano/1/mitre",
+            "metadata": "/data/urbano/1/mitre/metadata.json",
+            "recorrido": "/data/urbano/1/mitre/recorrido.geojson",
+            "paradas": "/data/urbano/1/mitre/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/1/mitre/img/landscape.png",
+              "square": "/data/urbano/1/mitre/img/square.png"
+            }
+          },
+          {
+            "direction": "salta",
+            "url": "/data/urbano/1/salta",
+            "metadata": "/data/urbano/1/salta/metadata.json",
+            "recorrido": "/data/urbano/1/salta/recorrido.geojson",
+            "paradas": "/data/urbano/1/salta/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/1/salta/img/landscape.png",
+              "square": "/data/urbano/1/salta/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 1"
+      },
+      "3": {
+        "routes": [
+          {
+            "direction": "las-piedras",
+            "url": "/data/urbano/3/las-piedras",
+            "metadata": "/data/urbano/3/las-piedras/metadata.json",
+            "recorrido": "/data/urbano/3/las-piedras/recorrido.geojson",
+            "paradas": "/data/urbano/3/las-piedras/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/3/las-piedras/img/landscape.png",
+              "square": "/data/urbano/3/las-piedras/img/square.png"
+            }
+          },
+          {
+            "direction": "lavalle",
+            "url": "/data/urbano/3/lavalle",
+            "metadata": "/data/urbano/3/lavalle/metadata.json",
+            "recorrido": "/data/urbano/3/lavalle/recorrido.geojson",
+            "paradas": "/data/urbano/3/lavalle/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/3/lavalle/img/landscape.png",
+              "square": "/data/urbano/3/lavalle/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 3"
+      },
+      "4": {
+        "routes": [
+          {
+            "direction": "colombres",
+            "url": "/data/urbano/4/colombres",
+            "metadata": "/data/urbano/4/colombres/metadata.json",
+            "recorrido": "/data/urbano/4/colombres/recorrido.geojson",
+            "paradas": "/data/urbano/4/colombres/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/4/colombres/img/landscape.png",
+              "square": "/data/urbano/4/colombres/img/square.png"
+            }
+          },
+          {
+            "direction": "mercofrut",
+            "url": "/data/urbano/4/mercofrut",
+            "metadata": "/data/urbano/4/mercofrut/metadata.json",
+            "recorrido": "/data/urbano/4/mercofrut/recorrido.geojson",
+            "paradas": "/data/urbano/4/mercofrut/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/4/mercofrut/img/landscape.png",
+              "square": "/data/urbano/4/mercofrut/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 4"
+      },
+      "5": {
+        "routes": [
+          {
+            "direction": "agrimensor",
+            "url": "/data/urbano/5/agrimensor",
+            "metadata": "/data/urbano/5/agrimensor/metadata.json",
+            "recorrido": "/data/urbano/5/agrimensor/recorrido.geojson",
+            "paradas": "/data/urbano/5/agrimensor/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/5/agrimensor/img/landscape.png",
+              "square": "/data/urbano/5/agrimensor/img/square.png"
+            }
+          },
+          {
+            "direction": "balcarce",
+            "url": "/data/urbano/5/balcarce",
+            "metadata": "/data/urbano/5/balcarce/metadata.json",
+            "recorrido": "/data/urbano/5/balcarce/recorrido.geojson",
+            "paradas": "/data/urbano/5/balcarce/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/5/balcarce/img/landscape.png",
+              "square": "/data/urbano/5/balcarce/img/square.png"
+            }
+          },
+          {
+            "direction": "barrio-oeste",
+            "url": "/data/urbano/5/barrio-oeste",
+            "metadata": "/data/urbano/5/barrio-oeste/metadata.json",
+            "recorrido": "/data/urbano/5/barrio-oeste/recorrido.geojson",
+            "paradas": "/data/urbano/5/barrio-oeste/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/5/barrio-oeste/img/landscape.png",
+              "square": "/data/urbano/5/barrio-oeste/img/square.png"
+            }
+          },
+          {
+            "direction": "barrio-oeste-x-santiago",
+            "url": "/data/urbano/5/barrio-oeste-x-santiago",
+            "metadata": "/data/urbano/5/barrio-oeste-x-santiago/metadata.json",
+            "recorrido": "/data/urbano/5/barrio-oeste-x-santiago/recorrido.geojson",
+            "paradas": "/data/urbano/5/barrio-oeste-x-santiago/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/5/barrio-oeste-x-santiago/img/landscape.png",
+              "square": "/data/urbano/5/barrio-oeste-x-santiago/img/square.png"
+            }
+          },
+          {
+            "direction": "seoc-el-molino",
+            "url": "/data/urbano/5/seoc-el-molino",
+            "metadata": "/data/urbano/5/seoc-el-molino/metadata.json",
+            "recorrido": "/data/urbano/5/seoc-el-molino/recorrido.geojson",
+            "paradas": "/data/urbano/5/seoc-el-molino/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/5/seoc-el-molino/img/landscape.png",
+              "square": "/data/urbano/5/seoc-el-molino/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 5"
+      },
+      "6": {
+        "routes": [
+          {
+            "direction": "crisostomo-alvarez",
+            "url": "/data/urbano/6/crisostomo-alvarez",
+            "metadata": "/data/urbano/6/crisostomo-alvarez/metadata.json",
+            "recorrido": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson",
+            "paradas": "/data/urbano/6/crisostomo-alvarez/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/6/crisostomo-alvarez/img/landscape.png",
+              "square": "/data/urbano/6/crisostomo-alvarez/img/square.png"
+            }
+          },
+          {
+            "direction": "democracia",
+            "url": "/data/urbano/6/democracia",
+            "metadata": "/data/urbano/6/democracia/metadata.json",
+            "recorrido": "/data/urbano/6/democracia/recorrido.geojson",
+            "paradas": "/data/urbano/6/democracia/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/6/democracia/img/landscape.png",
+              "square": "/data/urbano/6/democracia/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 6"
+      },
+      "7": {
+        "routes": [
+          {
+            "direction": "aget",
+            "url": "/data/urbano/7/aget",
+            "metadata": "/data/urbano/7/aget/metadata.json",
+            "recorrido": "/data/urbano/7/aget/recorrido.geojson",
+            "paradas": "/data/urbano/7/aget/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/7/aget/img/landscape.png",
+              "square": "/data/urbano/7/aget/img/square.png"
+            }
+          },
+          {
+            "direction": "occonor",
+            "url": "/data/urbano/7/occonor",
+            "metadata": "/data/urbano/7/occonor/metadata.json",
+            "recorrido": "/data/urbano/7/occonor/recorrido.geojson",
+            "paradas": "/data/urbano/7/occonor/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/7/occonor/img/landscape.png",
+              "square": "/data/urbano/7/occonor/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 7"
+      },
+      "8": {
+        "routes": [
+          {
+            "direction": "el-bosque",
+            "url": "/data/urbano/8/el-bosque",
+            "metadata": "/data/urbano/8/el-bosque/metadata.json",
+            "recorrido": "/data/urbano/8/el-bosque/recorrido.geojson",
+            "paradas": "/data/urbano/8/el-bosque/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/8/el-bosque/img/landscape.png",
+              "square": "/data/urbano/8/el-bosque/img/square.png"
+            }
+          },
+          {
+            "direction": "muñecas",
+            "url": "/data/urbano/8/muñecas",
+            "metadata": "/data/urbano/8/muñecas/metadata.json",
+            "recorrido": "/data/urbano/8/muñecas/recorrido.geojson",
+            "paradas": "/data/urbano/8/muñecas/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/8/muñecas/img/landscape.png",
+              "square": "/data/urbano/8/muñecas/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 8"
+      },
+      "9": {
+        "routes": [
+          {
+            "direction": "bulnes",
+            "url": "/data/urbano/9/bulnes",
+            "metadata": "/data/urbano/9/bulnes/metadata.json",
+            "recorrido": "/data/urbano/9/bulnes/recorrido.geojson",
+            "paradas": "/data/urbano/9/bulnes/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/9/bulnes/img/landscape.png",
+              "square": "/data/urbano/9/bulnes/img/square.png"
+            }
+          },
+          {
+            "direction": "viamonte",
+            "url": "/data/urbano/9/viamonte",
+            "metadata": "/data/urbano/9/viamonte/metadata.json",
+            "recorrido": "/data/urbano/9/viamonte/recorrido.geojson",
+            "paradas": "/data/urbano/9/viamonte/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/9/viamonte/img/landscape.png",
+              "square": "/data/urbano/9/viamonte/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 9"
+      },
+      "10": {
+        "routes": [
+          {
+            "direction": "san-cayetano",
+            "url": "/data/urbano/10/san-cayetano",
+            "metadata": "/data/urbano/10/san-cayetano/metadata.json",
+            "recorrido": "/data/urbano/10/san-cayetano/recorrido.geojson",
+            "paradas": "/data/urbano/10/san-cayetano/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/10/san-cayetano/img/landscape.png",
+              "square": "/data/urbano/10/san-cayetano/img/square.png"
+            }
+          },
+          {
+            "direction": "villa-amalia",
+            "url": "/data/urbano/10/villa-amalia",
+            "metadata": "/data/urbano/10/villa-amalia/metadata.json",
+            "recorrido": "/data/urbano/10/villa-amalia/recorrido.geojson",
+            "paradas": "/data/urbano/10/villa-amalia/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/10/villa-amalia/img/landscape.png",
+              "square": "/data/urbano/10/villa-amalia/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 10"
+      },
+      "11": {
+        "routes": [
+          {
+            "direction": "11-de-marzo",
+            "url": "/data/urbano/11/11-de-marzo",
+            "metadata": "/data/urbano/11/11-de-marzo/metadata.json",
+            "recorrido": "/data/urbano/11/11-de-marzo/recorrido.geojson",
+            "paradas": "/data/urbano/11/11-de-marzo/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/11/11-de-marzo/img/landscape.png",
+              "square": "/data/urbano/11/11-de-marzo/img/square.png"
+            }
+          },
+          {
+            "direction": "manantial-sur",
+            "url": "/data/urbano/11/manantial-sur",
+            "metadata": "/data/urbano/11/manantial-sur/metadata.json",
+            "recorrido": "/data/urbano/11/manantial-sur/recorrido.geojson",
+            "paradas": "/data/urbano/11/manantial-sur/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/11/manantial-sur/img/landscape.png",
+              "square": "/data/urbano/11/manantial-sur/img/square.png"
+            }
+          },
+          {
+            "direction": "villa-angelina",
+            "url": "/data/urbano/11/villa-angelina",
+            "metadata": "/data/urbano/11/villa-angelina/metadata.json",
+            "recorrido": "/data/urbano/11/villa-angelina/recorrido.geojson",
+            "paradas": "/data/urbano/11/villa-angelina/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/11/villa-angelina/img/landscape.png",
+              "square": "/data/urbano/11/villa-angelina/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 11"
+      },
+      "12": {
+        "routes": [
+          {
+            "direction": "municipal",
+            "url": "/data/urbano/12/municipal",
+            "metadata": "/data/urbano/12/municipal/metadata.json",
+            "recorrido": "/data/urbano/12/municipal/recorrido.geojson",
+            "paradas": "/data/urbano/12/municipal/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/12/municipal/img/landscape.png",
+              "square": "/data/urbano/12/municipal/img/square.png"
+            }
+          },
+          {
+            "direction": "smat",
+            "url": "/data/urbano/12/smat",
+            "metadata": "/data/urbano/12/smat/metadata.json",
+            "recorrido": "/data/urbano/12/smat/recorrido.geojson",
+            "paradas": "/data/urbano/12/smat/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/12/smat/img/landscape.png",
+              "square": "/data/urbano/12/smat/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 12"
+      },
+      "17": {
+        "routes": [
+          {
+            "direction": "alem",
+            "url": "/data/urbano/17/alem",
+            "metadata": "/data/urbano/17/alem/metadata.json",
+            "recorrido": "/data/urbano/17/alem/recorrido.geojson",
+            "paradas": "/data/urbano/17/alem/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/17/alem/img/landscape.png",
+              "square": "/data/urbano/17/alem/img/square.png"
+            }
+          },
+          {
+            "direction": "brigido-teran",
+            "url": "/data/urbano/17/brigido-teran",
+            "metadata": "/data/urbano/17/brigido-teran/metadata.json",
+            "recorrido": "/data/urbano/17/brigido-teran/recorrido.geojson",
+            "paradas": "/data/urbano/17/brigido-teran/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/17/brigido-teran/img/landscape.png",
+              "square": "/data/urbano/17/brigido-teran/img/square.png"
+            }
+          },
+          {
+            "direction": "ejercito-argentino",
+            "url": "/data/urbano/17/ejercito-argentino",
+            "metadata": "/data/urbano/17/ejercito-argentino/metadata.json",
+            "recorrido": "/data/urbano/17/ejercito-argentino/recorrido.geojson",
+            "paradas": "/data/urbano/17/ejercito-argentino/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/17/ejercito-argentino/img/landscape.png",
+              "square": "/data/urbano/17/ejercito-argentino/img/square.png"
+            }
+          },
+          {
+            "direction": "los-chacaritos",
+            "url": "/data/urbano/17/los-chacaritos",
+            "metadata": "/data/urbano/17/los-chacaritos/metadata.json",
+            "recorrido": "/data/urbano/17/los-chacaritos/recorrido.geojson",
+            "paradas": "/data/urbano/17/los-chacaritos/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/17/los-chacaritos/img/landscape.png",
+              "square": "/data/urbano/17/los-chacaritos/img/square.png"
+            }
+          },
+          {
+            "direction": "roca",
+            "url": "/data/urbano/17/roca",
+            "metadata": "/data/urbano/17/roca/metadata.json",
+            "recorrido": "/data/urbano/17/roca/recorrido.geojson",
+            "paradas": "/data/urbano/17/roca/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/17/roca/img/landscape.png",
+              "square": "/data/urbano/17/roca/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 17"
+      },
+      "18": {
+        "routes": [
+          {
+            "direction": "antihorario",
+            "url": "/data/urbano/18/antihorario",
+            "metadata": "/data/urbano/18/antihorario/metadata.json",
+            "recorrido": "/data/urbano/18/antihorario/recorrido.geojson",
+            "paradas": "/data/urbano/18/antihorario/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/18/antihorario/img/landscape.png",
+              "square": "/data/urbano/18/antihorario/img/square.png"
+            }
+          },
+          {
+            "direction": "horario",
+            "url": "/data/urbano/18/horario",
+            "metadata": "/data/urbano/18/horario/metadata.json",
+            "recorrido": "/data/urbano/18/horario/recorrido.geojson",
+            "paradas": "/data/urbano/18/horario/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/18/horario/img/landscape.png",
+              "square": "/data/urbano/18/horario/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 18"
+      },
+      "19": {
+        "routes": [
+          {
+            "direction": "antihorario",
+            "url": "/data/urbano/19/antihorario",
+            "metadata": "/data/urbano/19/antihorario/metadata.json",
+            "recorrido": "/data/urbano/19/antihorario/recorrido.geojson",
+            "paradas": "/data/urbano/19/antihorario/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/19/antihorario/img/landscape.png",
+              "square": "/data/urbano/19/antihorario/img/square.png"
+            }
+          },
+          {
+            "direction": "horario",
+            "url": "/data/urbano/19/horario",
+            "metadata": "/data/urbano/19/horario/metadata.json",
+            "recorrido": "/data/urbano/19/horario/recorrido.geojson",
+            "paradas": "/data/urbano/19/horario/paradas.geojson",
+            "images": {
+              "landscape": "/data/urbano/19/horario/img/landscape.png",
+              "square": "/data/urbano/19/horario/img/square.png"
+            }
+          }
+        ],
+        "name": "Linea 19"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Linea 9",
+  "direction": "Viamonte",
+  "length_km": 33.9,
+  "category": "urbano",
+  "provider": {
+    "name": "Gral. Belgrano S.R.L.",
+    "contact": {
+      "phone": "381 232-1227",
+      "email": "",
+      "address": "Av. Independencia 2513, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "id": "9/viamonte",
+  "bus_path": "/data/urbano/9/viamonte/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/9/img/landscape.webp",
+    "square": "/data/urbano/9/img/square.webp"
+  }
+}

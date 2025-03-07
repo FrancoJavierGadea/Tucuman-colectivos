@@ -1,0 +1,38 @@
+---
+const TILES_URL = import.meta.env.PUBLIC_TILES_URL;
+
+console.log(TILES_URL);
+---
+
+
+<div class="Map">
+
+    <custom-map tiles-url={TILES_URL} zoom-min="12" zoom-max="18" zoom="13">
+    
+    
+    
+    </custom-map>
+
+</div>
+
+<script>
+
+    import { CustomMap } from "./custom-map.js";
+
+    customElements.define("custom-map", CustomMap);
+
+    window.mapa = document.querySelector('custom-map');
+
+</script>
+
+<style>
+    .Map {
+        /* width: 400px;
+        height: 300px;
+        margin: 100px auto; */
+        width: 100dvw;
+        height: 100dvh;
+        margin: auto;
+    }
+
+</style>

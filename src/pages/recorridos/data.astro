@@ -1,0 +1,49 @@
+---
+import BusCard from "@/components/recorridos/BusCard/index.astro";
+import Layout from "@/layouts/Layout.astro";
+
+
+const FILES = (await Promise.all(
+    Object.values(import.meta.glob('/public/data/**/*.json'))
+    .map(async (file) => {
+
+        return await file();
+    })
+))
+
+const LINES = Object.groupBy(FILES, (file) => file.category);
+
+for (const key in LINES) {
+
+    LINES[key] = Object.groupBy(LINES[key], (line) => line.name);
+}
+---
+
+
+<Layout>
+    {
+        Object.entries(LINES).map(([category, lines]) => {
+
+            return <section>
+                <h2>{category}</h2>
+                <div>
+                    {
+                        Object.entries(lines).map(([line, buses]) => (
+                            <div>
+                                <h3>{line}</h3>
+                                <div>
+                                    {
+                                        buses.map((bus) => (
+                                            <BusCard {...bus} />
+                                        ))
+                                    }
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </section>
+        })
+    }
+
+</Layout>

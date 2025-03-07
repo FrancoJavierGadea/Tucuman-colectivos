@@ -1,0 +1,19 @@
+{
+  "name": "Linea 100",
+  "direction": "Castillo",
+  "length_km": 32.3,
+  "category": "interurbano",
+  "provider": {
+    "name": "El Ceibo S.R.L.",
+    "contact": {
+      "phone": "381 434-6969",
+      "email": "",
+      "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://www.facebook.com/Linea7107ElCeiboSrl"
+    }
+  },
+  "image": {
+    "landscape": "/data/interurbano/100/img/landscape.webp",
+    "square": "/data/interurbano/100/img/square.webp"
+  }
+}

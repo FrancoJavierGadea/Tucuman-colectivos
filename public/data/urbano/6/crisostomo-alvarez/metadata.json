@@ -1,0 +1,21 @@
+{
+  "name": "Linea 6",
+  "direction": "Crisostomo alvarez",
+  "length_km": 23.73,
+  "category": "urbano",
+  "provider": {
+    "name": "TCP Tucman U.T.E.",
+    "contact": {
+      "phone": "381 434-6186",
+      "email": "",
+      "address": "Av Belgrano 2526, San Miguel de Tucumán, Tucumán",
+      "website": ""
+    }
+  },
+  "id": "6/crisostomo-alvarez",
+  "bus_path": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/6/img/landscape.webp",
+    "square": "/data/urbano/6/img/square.webp"
+  }
+}

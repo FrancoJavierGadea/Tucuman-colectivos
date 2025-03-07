@@ -1,0 +1,333 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 106 - P. Me"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19399669798023,
+          -26.83720866006129
+        ]
+      },
+      "properties": {
+        "name": "TERMINAL DE  COLECTIVOS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20144622913766,
+          -26.84162706645861
+        ]
+      },
+      "properties": {
+        "name": "106pm1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20525119287194,
+          -26.84008087335128
+        ]
+      },
+      "properties": {
+        "name": "1066pm1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20471667516131,
+          -26.837823553465093
+        ]
+      },
+      "properties": {
+        "name": "1066pm2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20143351073006,
+          -26.837006374120026
+        ]
+      },
+      "properties": {
+        "name": "106103mp1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20048653460154,
+          -26.832577079906013
+        ]
+      },
+      "properties": {
+        "name": "1066pm3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19985042721727,
+          -26.829869325113272
+        ]
+      },
+      "properties": {
+        "name": "1066pm4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19907157886877,
+          -26.826977277479646
+        ]
+      },
+      "properties": {
+        "name": "106pm2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1997009118052,
+          -26.82492308634759
+        ]
+      },
+      "properties": {
+        "name": " Santiago del Estero y V. de la Merced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20219854359668,
+          -26.824432220406898
+        ]
+      },
+      "properties": {
+        "name": "1066pm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20495343524456,
+          -26.823813467687767
+        ]
+      },
+      "properties": {
+        "name": "1066pm6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20997447309115,
+          -26.822738684290588
+        ]
+      },
+      "properties": {
+        "name": "1066pm7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21275374900223,
+          -26.82209910764215
+        ]
+      },
+      "properties": {
+        "name": "1066pm8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2156378288269,
+          -26.821468110123895
+        ]
+      },
+      "properties": {
+        "name": "Santiago del Estero y Av. Mitre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21603599985453,
+          -26.818170413044516
+        ]
+      },
+      "properties": {
+        "name": "1066pm9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21650478616314,
+          -26.82041030233427
+        ]
+      },
+      "properties": {
+        "name": "1066pm10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21740427555996,
+          -26.82345528313782
+        ]
+      },
+      "properties": {
+        "name": "1066pm11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2179673631763,
+          -26.82577598422203
+        ]
+      },
+      "properties": {
+        "name": "1066pm12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21803073312125,
+          -26.828394936159068
+        ]
+      },
+      "properties": {
+        "name": "1066pm13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21768969679654,
+          -26.833892287829137
+        ]
+      },
+      "properties": {
+        "name": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21484006762935,
+          -26.834595644459064
+        ]
+      },
+      "properties": {
+        "name": "1066pm15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21142265581368,
+          -26.835124726629182
+        ]
+      },
+      "properties": {
+        "name": "1066pm16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.208550483114,
+          -26.835834424635877
+        ]
+      },
+      "properties": {
+        "name": "1066pm17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20523962849154,
+          -26.83653072736655
+        ]
+      },
+      "properties": {
+        "name": "1066pm18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20209289682289,
+          -26.837292384386306
+        ]
+      },
+      "properties": {
+        "name": "1024c6"
+      }
+    }
+  ]
+}

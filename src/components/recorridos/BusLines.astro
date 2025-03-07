@@ -1,0 +1,120 @@
+---
+import BusCard from "./BusCard/index.astro";
+import API from "@/../public/api.json";
+
+const {category = 'urbano'} = Astro.props;
+
+const FILES = (await Promise.all(
+    Object.values(import.meta.glob('/public/data/**/*.json'))
+    .map(async (file) => {
+
+        return await file();
+    })
+))
+.filter(metadata => metadata.category === category);
+
+
+const LINES = Object.entries(
+    Object.groupBy(FILES, (metadata) => {
+
+        return metadata.name;
+    })
+)
+.toSorted(([a], [b]) => {
+
+    const numA = a.match(/\d+/);
+    const numB = b.match(/\d+/);
+
+    if (numA && numB) return parseInt(numA[0], 10) - parseInt(numB[0], 10);
+
+    if (numA) return -1;
+    if (numB) return 1; 
+
+    return a.localeCompare(b);
+})
+.map(([line, routes]) => {
+
+    return [line, routes?.filter(route => route.id)]
+});
+---
+
+<div class="Bus-lines" slot="urbano">
+    {
+        LINES.map(([line, routes], index) => {
+
+            return <details open>
+                <summary>{line}</summary>
+                <div class="Bus-lines-routes">
+                    {
+                        routes.map((route, index) => {
+
+                            return <BusCard 
+                                title={route.name} 
+                                direction={route.direction} 
+                                image={route.image?.square}
+                                length={route.length_km}
+                                provider={route.provider?.name}
+                                id={route.id}
+                            />
+                        })
+                    }
+                </div>
+            </details>
+        })
+    }
+</div>
+
+<style>
+
+    .Bus-lines {
+
+        --bus-lines-hover-bg: color-mix(in srgb, var(--bs-body-bg), black 25%);
+    }
+    :global([data-bs-theme="dark"]) .Bus-lines {
+
+        --bus-lines-hover-bg: color-mix(in srgb, var(--bs-body-bg), white 25%);
+    }
+
+	.Bus-lines {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 5px;
+
+		.Bus-lines-routes {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+        details {
+            
+            summary {
+                position: relative;
+                list-style-type: none;
+                padding: 10px;
+                cursor: pointer;
+                font-weight: bold;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: var(--bus-lines-hover-bg);
+                }
+    
+                &::after {
+                    content: '\F284';
+                    font-family: "bootstrap-icons";
+                    font-size: 0.8em;
+                    position: absolute;
+                    right: 10px;
+                    transition: rotate 0.5s;
+                }
+            }
+            &[open] summary::after {
+                 
+                rotate: -90deg;
+            }
+        }
+	}
+</style>
+

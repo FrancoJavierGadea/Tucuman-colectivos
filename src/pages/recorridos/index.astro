@@ -1,0 +1,111 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import Map from "@/components/recorridos/Map/index.astro";
+import MapOffcanvas from "@/components/recorridos/MapOffcanvas.astro";
+import VerticalTabsMenu from "@/components/recorridos/VerticalTabsMenu.astro";
+import HorizontalTabsMenu from "@/components/recorridos/HorizontalTabsMenu.astro";
+import BusLines from "@/components/recorridos/BusLines.astro";
+import SavedBusLines from "@/components/recorridos/SavedBusPaths.astro";
+import About from "@/components/recorridos/About.astro";
+import Donations from "@/components/Donations.astro";
+import Tab from "@/components/recorridos/Tab.astro";
+import PlayButton from "@/components/recorridos/Map/PlayButton.astro";
+
+
+
+const ASIDE_TABS = [
+    {name: 'Recorridos', id: 'recorridos', icon: 'bi-shuffle', active: true},
+    {name: 'Guardados', id: 'guardados', icon: 'bi-bookmarks'},
+    {name: 'Acerca de', id: 'acerca-de', icon: 'bi-info-circle'},
+];
+
+const RECORRIDOS_TABS = [
+	{name: 'Urbano', id: 'urbano', label: 'Urbano', active: true},
+	{name: 'Interurbano', id: 'interurbano', label: 'Interurbano'},
+	{name: 'Otros', id: 'otros', label: 'Otros'}
+]
+---
+
+<Layout title="Recorridos">
+
+	<main>
+
+		<Map />
+	
+		<MapOffcanvas show>
+	
+			<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
+		
+				<Tab slot="recorridos" title="Recorridos">
+		
+					<HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
+						
+						<BusLines category="urbano", slot="urbano" />
+		
+						<BusLines category="interurbano", slot="interurbano" />
+		
+						<Fragment slot="otros">
+		
+							<p>Otros</p>
+		
+						</Fragment>
+		
+					</HorizontalTabsMenu>
+		
+				</Tab>
+	
+				<Tab slot="guardados" title="Guardados">
+					
+					<SavedBusLines />
+				</Tab>
+		
+				<Tab slot="acerca-de" title="Acerca de">
+					<About>
+		
+						<Donations />
+		
+					</About>
+				</Tab>
+		
+			</VerticalTabsMenu>
+
+			<Fragment slot="controls">
+				<PlayButton />
+			</Fragment>
+			
+		</MapOffcanvas>
+
+	</main>
+
+</Layout>
+
+<script>
+	import URLParams from "@/scripts/URLParams.js";
+
+	URLParams.on((params) => {
+
+		
+
+		
+	});
+</script>
+
+<style is:global>
+
+	body {
+		overflow: hidden;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+		& > * {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
+	}
+</style>
+

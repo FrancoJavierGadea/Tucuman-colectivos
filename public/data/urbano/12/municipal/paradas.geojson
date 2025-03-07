@@ -1,0 +1,1218 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 12 - Municipal"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25369980486184, -26.839022632814466]
+      },
+      "properties": {
+        "name": "Gorriti y Pje Moreno"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25234787417544, -26.839829922161393]
+      },
+      "properties": {
+        "name": "Florida y Lidoro Quinteros"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25007818589775, -26.840242301159293]
+      },
+      "properties": {
+        "name": "Florida y Diego Rojas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25063377477892, -26.842575933511004]
+      },
+      "properties": {
+        "name": "Diego de Rojas y Matheu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25098826374959, -26.844070431469056]
+      },
+      "properties": {
+        "name": "Diego de Rojas y Fortunata Garcia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2514057603289, -26.84566608293731]
+      },
+      "properties": {
+        "name": "Diego de Rojas y Malabia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24933074001672, -26.846094180724165]
+      },
+      "properties": {
+        "name": "Malabia y Lincoln"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24881354276171, -26.844643089461467]
+      },
+      "properties": {
+        "name": "Lincoln y Fortunata Garcia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24817447614936, -26.842429880162985]
+      },
+      "properties": {
+        "name": "Lincoln y Larrea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24685975816149, -26.837404553434325]
+      },
+      "properties": {
+        "name": "Lincoln y Alsina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24665047525632, -26.83597165887323]
+      },
+      "properties": {
+        "name": "Lincoln y Av.Kirchner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24399273977279, -26.83601425029207]
+      },
+      "properties": {
+        "name": "Av.Kirchner y Juan B.Teran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24047650467061, -26.836716766984477]
+      },
+      "properties": {
+        "name": "Av.Kirchner y Constitucion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23984916566934, -26.835669987533052]
+      },
+      "properties": {
+        "name": "Constitucion y Rondeau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23913950141505, -26.8333187391663]
+      },
+      "properties": {
+        "name": "Constitucion y Lavalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23849800271627, -26.831162008721588]
+      },
+      "properties": {
+        "name": "Constitucion y Lamadrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23815457411999, -26.829826318605896]
+      },
+      "properties": {
+        "name": "Constitucion y Gral Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23718896600346, -26.82990198410916]
+      },
+      "properties": {
+        "name": "Gral Paz y Pueyrredon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23601612494816, -26.83012749118703]
+      },
+      "properties": {
+        "name": "Gral Paz y Guemes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23495063700761, -26.830368642368096]
+      },
+      "properties": {
+        "name": "Gral Paz y Baltazar Aguirre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23385275014289, -26.830604010921473]
+      },
+      "properties": {
+        "name": "Gral Paz y Av.Col�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23229112199742, -26.83088733849876]
+      },
+      "properties": {
+        "name": "Gral Paz y Chiclana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23105348309375, -26.83118222971432]
+      },
+      "properties": {
+        "name": "Gral Paz y Amador Lucero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2293492996819, -26.831581198960464]
+      },
+      "properties": {
+        "name": "Gral Paz y Matienzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22807278206922, -26.831910781190825]
+      },
+      "properties": {
+        "name": "Gral Paz y Pellegrini"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22491712685411, -26.832621981683616]
+      },
+      "properties": {
+        "name": "Gral Paz y Libertad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22205230880266, -26.833278264710334]
+      },
+      "properties": {
+        "name": "Gral Paz y Miguel Lillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22024431380733, -26.833171979971265]
+      },
+      "properties": {
+        "name": "Gral Paz y Av.Alem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2156632344647, -26.83445081416625]
+      },
+      "properties": {
+        "name": "Gral Paz y Alberdi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21082931497713, -26.835375931397824]
+      },
+      "properties": {
+        "name": "Gral Paz y Ayacucho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20723671095055, -26.83488853941551]
+      },
+      "properties": {
+        "name": "Buenos Aires y Piedras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20532292994606, -26.83363710150752]
+      },
+      "properties": {
+        "name": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2037966002309, -26.8340030944677]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20024860353975, -26.83210601775288]
+      },
+      "properties": {
+        "name": "Entre Rios y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19961358462581, -26.829388385926123]
+      },
+      "properties": {
+        "name": "Monteagudo y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19926367624468, -26.827965939870477]
+      },
+      "properties": {
+        "name": "Monteagudo y Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19882492349628, -26.826392055340524]
+      },
+      "properties": {
+        "name": "Monteagudo y San Juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20013885120099, -26.824770473211384]
+      },
+      "properties": {
+        "name": "Santiago del Estero y Virgen de la Merced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20122164299289, -26.823414231339655]
+      },
+      "properties": {
+        "name": "Laprida y Corrientes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20056718472448, -26.820655912047982]
+      },
+      "properties": {
+        "name": "Laprida y Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19989976688639, -26.817839697091117]
+      },
+      "properties": {
+        "name": "Laprida y Espana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19927122775731, -26.815104374095917]
+      },
+      "properties": {
+        "name": "Laprida y Uruguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19903775617017, -26.813784421980994]
+      },
+      "properties": {
+        "name": "Laprida y Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20024219552668, -26.813273507428953]
+      },
+      "properties": {
+        "name": "Chile y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2015930848297, -26.812940861052372]
+      },
+      "properties": {
+        "name": "Chile y Mu�ecas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20323247039319, -26.81265748860066]
+      },
+      "properties": {
+        "name": "Chile y Maipu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20610627530334, -26.812141164424908]
+      },
+      "properties": {
+        "name": "Chile y Av.Siria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20592484132794, -26.81108862718046]
+      },
+      "properties": {
+        "name": "Av.Siria y Bolivia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20558072225916, -26.810065767883877]
+      },
+      "properties": {
+        "name": "Av.Siria y Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20510769796614, -26.808417529455422]
+      },
+      "properties": {
+        "name": "Av.Siria y Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20441436098871, -26.805658845213188]
+      },
+      "properties": {
+        "name": "Av.Siria y Colombia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20404501325308, -26.804299720332928]
+      },
+      "properties": {
+        "name": "Av.Siria y Venezuela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20494331637646, -26.802354069692907]
+      },
+      "properties": {
+        "name": "Mexico y Pje Catamarca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20839704169401, -26.80171208339095]
+      },
+      "properties": {
+        "name": "Mexico y Marco Avellaneda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21011418467555, -26.801359278560653]
+      },
+      "properties": {
+        "name": "Mexico y Suipacha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21163649587271, -26.801115391102748]
+      },
+      "properties": {
+        "name": "Mexico y Av.Rep�blica del Libano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21147493949108, -26.800098426099666]
+      },
+      "properties": {
+        "name": "Av.Rep�blica del Libano y Delfin Gallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21366899341892, -26.796926196254113]
+      },
+      "properties": {
+        "name": "Ramirez de Velazco y Lucas Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21513312279644, -26.796663768436257]
+      },
+      "properties": {
+        "name": "Ramirez de Velazco y Asunci�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21490633032721, -26.795350807784097]
+      },
+      "properties": {
+        "name": "Asunci�n y Isabel la Catolica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21463153673733, -26.793972595323467]
+      },
+      "properties": {
+        "name": "Asunci�n y Emilio Castelar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21755864623152, -26.793176074933722]
+      },
+      "properties": {
+        "name": "Emilio Castelar y Paso de los Andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21884100605673, -26.79294132033777]
+      },
+      "properties": {
+        "name": "Emilio Castelar y Alberti (Vial)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21922502674595, -26.794063221577538]
+      },
+      "properties": {
+        "name": "Alberti y Isabel la Catolica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2183606773963, -26.794502507680782]
+      },
+      "properties": {
+        "name": "Isabel la Catolica y Paso de los Andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21664353441477, -26.794855333837457]
+      },
+      "properties": {
+        "name": "Isabel la Catolica y San Miguel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21538509811866, -26.796127416498535]
+      },
+      "properties": {
+        "name": "Chazarrtea y Asunci�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21400490394859, -26.796352990773027]
+      },
+      "properties": {
+        "name": "Chazarrtea y Lucas Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21254695236051, -26.79662483609757]
+      },
+      "properties": {
+        "name": "Chazarrtea y 12 de Octubre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21108416746512, -26.79692024500395]
+      },
+      "properties": {
+        "name": "Chazarrtea y Av.Rep�blica del Libano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21193301927866, -26.800789622214204]
+      },
+      "properties": {
+        "name": "Av.Rep�blica del Libano y Mexico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21223756916595, -26.802218192992804]
+      },
+      "properties": {
+        "name": "Av.Rep�blica del Libano y Venezuela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21099676119319, -26.802781609571742]
+      },
+      "properties": {
+        "name": "Venezuela y Suipacha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20931849692069, -26.80309970834698]
+      },
+      "properties": {
+        "name": "Venezuela y Marco Avellaneda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20473728904166, -26.80397302948809]
+      },
+      "properties": {
+        "name": "Venezuela y Av.Siria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20535154282113, -26.80788888194306]
+      },
+      "properties": {
+        "name": "Av.Siria y Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2056172139994, -26.80917856427454]
+      },
+      "properties": {
+        "name": "Av.Siria y Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20493772626132, -26.81100026431712]
+      },
+      "properties": {
+        "name": "Bolivia y Junin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20341408715524, -26.811329929956347]
+      },
+      "properties": {
+        "name": "Bolivia y Maipu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20193915269749, -26.811552250799906]
+      },
+      "properties": {
+        "name": "Bolivia y Mu�ecas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20055987637096, -26.811833246602305]
+      },
+      "properties": {
+        "name": "Bolivia y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20044385143407, -26.812873238801338]
+      },
+      "properties": {
+        "name": "25 de Mayo y Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20084138865195, -26.81435311208791]
+      },
+      "properties": {
+        "name": "25 de Mayo y Uruguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2018198361622, -26.81823346013018]
+      },
+      "properties": {
+        "name": "25 de Mayo y Av.Sarmiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20212438604949, -26.81976590078227]
+      },
+      "properties": {
+        "name": "25 de Mayo y Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20650922479865, -26.820556021221904]
+      },
+      "properties": {
+        "name": "Marcos Paz y Junin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20798013595642, -26.820226405959094]
+      },
+      "properties": {
+        "name": "Marcos Paz y Av.Salta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20954120592499, -26.823906200293127]
+      },
+      "properties": {
+        "name": "Av.Salta y San Juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21029934075081, -26.826756958887298]
+      },
+      "properties": {
+        "name": "Av.Salta y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21075940547418, -26.828960031503467]
+      },
+      "properties": {
+        "name": "Av.Salta y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21155243137665, -26.83211090920632]
+      },
+      "properties": {
+        "name": "Jujuy y San Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21258745464023, -26.833710294135965]
+      },
+      "properties": {
+        "name": "Piedras y La Rioja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21620965436351, -26.832987536315322]
+      },
+      "properties": {
+        "name": "Piedras y Bernabe Araoz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2191838756032, -26.832426673068408]
+      },
+      "properties": {
+        "name": "Piedras y Av.Alem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2208621398757, -26.832120220842675]
+      },
+      "properties": {
+        "name": "Piedras y Miguel Lillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22248299112952, -26.831564278623752]
+      },
+      "properties": {
+        "name": "Piedras y Prospero Mena"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22404461927499, -26.831211566700837]
+      },
+      "properties": {
+        "name": "Piedras y Libertad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22559328785077, -26.830870418058407]
+      },
+      "properties": {
+        "name": "Piedras y Frias Silva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22711603728723, -26.83051770397496]
+      },
+      "properties": {
+        "name": "Piedras y Pellegrini"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22845735274826, -26.83018811769125]
+      },
+      "properties": {
+        "name": "Piedras y Matienzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2299930617544, -26.829893223887737]
+      },
+      "properties": {
+        "name": "Piedras y Amador Lucero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23137325592444, -26.829563635787096]
+      },
+      "properties": {
+        "name": "Piedras y Chiclana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23285712665188, -26.82919935308653]
+      },
+      "properties": {
+        "name": "Piedras y Av.Col�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23406884641619, -26.828950715015086]
+      },
+      "properties": {
+        "name": "Piedras y Baltazar Aguirre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23513801091413, -26.828736770191238]
+      },
+      "properties": {
+        "name": "Piedras y Guemes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23634973067847, -26.828488131104535]
+      },
+      "properties": {
+        "name": "Piedras y Pueyrred�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23753553130344, -26.828181668223564]
+      },
+      "properties": {
+        "name": "Piedras y Constituci�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23911547022752, -26.827937435627568]
+      },
+      "properties": {
+        "name": "Piedras y Coronel  Zelaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23979778027706, -26.828912136671548]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Gral Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24015416844303, -26.830259402007677]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Lamadrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2407438288631, -26.832369892747572]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Lavalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24100950004137, -26.833404886164093]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Bolivar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24166395830979, -26.83575816001697]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Av.Kirchner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24220178045117, -26.837614147409514]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Alsina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24244077329675, -26.83898831226475]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Plata"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24259303678689, -26.84038384119628]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Florida"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24285484842359, -26.842092041981402]
+      },
+      "properties": {
+        "name": "Coronel Zelaya y Av.Independencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24455903183544, -26.841889685234957]
+      },
+      "properties": {
+        "name": "Av.Independencia y Juan B.Teran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24755269242965, -26.84135777434808]
+      },
+      "properties": {
+        "name": "Av.Independencia y Lincoln"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24980117776772, -26.841236359556223]
+      },
+      "properties": {
+        "name": "Av.Independencia y Diego de Rojas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25221763532235, -26.841113136133373]
+      },
+      "properties": {
+        "name": "Av.Independencia y Lidoro Quinteros"
+      }
+    }
+  ]
+}
