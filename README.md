@@ -1,10 +1,9 @@
 # Tucumapp
 
-Recorridos de colectivos de San Miguel de Tucumán, Tucumán, Argentina
+Recorridos de colectivos de Tucumán, Argentina
 
 
 
 
-## Data
 
-Web Mercator `EPSG:3857`
+

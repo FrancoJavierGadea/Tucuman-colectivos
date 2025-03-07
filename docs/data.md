@@ -28,11 +28,11 @@
 
 ```json
 {
-  "name": "Linea 19",
-  "direction": "Anti horario",
-  "length_km": 25.07,
-  "category": "urbano",
-  "provider": {
+   "name": "Linea 19",
+   "direction": "Anti horario",
+   "length_km": 25.07,
+   "category": "urbano",
+   "provider": {
       "name": "B y V Transportes S.R.L.",
       "contact": {
          "phone": "381 661-6612",
@@ -40,11 +40,26 @@
          "address": "Av. Independencia 2365, San Miguel de Tucumán, Tucumán, Argentina",
          "website": "https://byvtransportes.com.ar/"
       }
+   },
+   "id": "19/antihorario",
+   "image": {
+      "landscape": "/data/urbano/19/img/landscape.webp",
+      "square": "/data/urbano/19/img/square.webp"
    }
 }
 ```
 
-## Recorrido GEOJSON
+## GEOJSON
+
+Utiliza coordenadas `WGS 84 (EPSG:4326)` en forma `[longitud, latitud]`
+
+- El eje X representa la longitud (este-oeste)
+
+- El eje Y representa la latitud (norte-sur)
+
+<br>
+
+### Recorrido
 
 ```json
 {
@@ -66,7 +81,7 @@
 }
 ```
 
-## Paradas GEOJSON
+### Paradas 
 
 ```json
 {
