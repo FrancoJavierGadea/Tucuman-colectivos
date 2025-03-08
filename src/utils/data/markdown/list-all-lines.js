@@ -1,20 +1,13 @@
-import { DATA_FOLDER, PUBLIC_FOLDER } from "./constants.js";
+import { DATA_FOLDER, PUBLIC_FOLDER } from "../constants.js";
 import fs from "node:fs";
 import path from "node:path";
+import { transformText } from "./utils.js";
 
-function transformText(string = ''){
-
-    const text = string.replaceAll('-', ' ');
-
-    return {
-        text,
-        capitalize: text.at(0).toUpperCase() + text.slice(1)
-    }
-}
 
 function generateMarkdown(){
 
     let TEXT = '';
+
     const COUNTER = {
         lines: 0,
         directions: 0
