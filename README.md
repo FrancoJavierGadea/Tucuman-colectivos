@@ -1,6 +1,8 @@
 # Tucumapp
 
-<img src="./public/logo-light.svg" style="display: block; width: 180px; margin: auto" />
+<p align="center">
+    <img src="./public/logo-light.svg" width="180px" />
+</p>
 
 Recorridos de colectivos de Tucumán, Argentina
 

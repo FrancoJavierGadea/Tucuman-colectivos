@@ -34,7 +34,7 @@ function generateMarkdown(){
 
                 `## Linea ${transformText(line).capitalize} - ${transformText(direction).capitalize}`,
 
-                `<img src="../img/landscape.webp" style="display: block;"  />`,
+                `<p align="center"><img src="../img/landscape.webp" width="300px" /></p>`,
             
                 `### Editar en [\`geojson.io\`](https://geojson.io/#map=11/-26.8139/-65.2008)`,
             ]
