@@ -33,6 +33,8 @@ function generateMarkdown(){
             let TEXT = [
 
                 `## Linea ${transformText(line).capitalize} - ${transformText(direction).capitalize}`,
+
+                `<img src="../img/landscape.webp" style="display: block;"  />`,
             
                 `### Editar en [\`geojson.io\`](https://geojson.io/#map=11/-26.8139/-65.2008)`,
             ]
