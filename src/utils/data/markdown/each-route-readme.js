@@ -2,55 +2,46 @@ import { CATEGORIES } from "../constants.js";
 import { exploreDataFolder } from "../update/utils.js";
 import fs from "node:fs";
 import path from "node:path";
-import { transformText } from "./utils.js";
+import { transformText, URL_UTILS } from "./utils.js";
 
-'https://raw.githubusercontent.com/FrancoJavierGadea/Tucuman-colectivos/refs/heads/main'
 
-const REPOSITORY = 'https://github.com/FrancoJavierGadea/Tucuman-colectivos';
+
+
 
 function generateMarkdown(){
-
-    const rawURL = (path) => {
-
-        return [
-            'https://raw.githubusercontent.com',
-            new URL(REPOSITORY).pathname,
-            '/refs/heads/main/public',
-            path
-        ].join('');
-    }
-
-    const geojsonEditUrl = (url) => {
-
-        return `https://geojson.io/#data=data:text/x-url,${encodeURIComponent(url)}`;
-    }
 
     exploreDataFolder(({folder, url, line, direction, category}) => {
 
 
         if(folder !== 'img'){
 
-            let TEXT = [
 
+            const text = [
                 `## Linea ${transformText(line).capitalize} - ${transformText(direction).capitalize}`,
-
-                `<p align="center"><img src="../img/landscape.webp" width="300px" /></p>`,
-            
+                
+                `<p align="center"><img src="../img/landscape.webp" width="500px" /></p>`,
+                
                 `### Editar en [\`geojson.io\`](https://geojson.io/#map=11/-26.8139/-65.2008)`,
+                
+                [
+                    'recorrido.v2.geojson', 
+                    'recorrido.geojson', 
+                    'paradas.geojson'
+                ]
+                .map(file => {
+
+                    const rawUrl = URL_UTILS.github.raw('/public' + `${url}/${file}`);
+
+                    return `- [${file}](${URL_UTILS.geojsonIo.data(rawUrl)})`
+                })
+                .join('\n\n')
             ]
             .join('\n\n');
 
-            TEXT += [
-                'recorrido.v2.geojson',
-                'recorrido.geojson',
-                'paradas.geojson'
-            ].
-            map(file => `\n\n- [${file}](${ geojsonEditUrl(rawURL(url + '/' + file)) })`)
-            .join('');
 
             fs.writeFileSync(
                 path.join(folder, 'readme.md'),
-                TEXT,
+                text,
                 { encoding: 'utf-8' }
             );
         }

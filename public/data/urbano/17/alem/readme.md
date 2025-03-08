@@ -1,6 +1,6 @@
 ## Linea 17 - Alem
 
-<p align="center"><img src="../img/landscape.webp" width="300px" /></p>
+<p align="center"><img src="../img/landscape.webp" width="500px" /></p>
 
 ### Editar en [`geojson.io`](https://geojson.io/#map=11/-26.8139/-65.2008)
 
