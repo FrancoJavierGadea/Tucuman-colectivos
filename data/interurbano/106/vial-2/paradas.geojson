@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 106 - Vial 2"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20151824305266,
+          -26.841533907042738
+        ]
+      },
+      "properties": {
+        "name": "106pm1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20531786261253,
+          -26.840066478590188
+        ]
+      },
+      "properties": {
+        "name": "1066pm1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2046527266512,
+          -26.837393975060667
+        ]
+      },
+      "properties": {
+        "name": "1066pm2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20145991200613,
+          -26.836986985624357
+        ]
+      },
+      "properties": {
+        "name": "106103mp1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20032650736556,
+          -26.832274331796302
+        ]
+      },
+      "properties": {
+        "name": "1066pm3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19984284577126,
+          -26.830022396220876
+        ]
+      },
+      "properties": {
+        "name": "1066pm4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19909477270855,
+          -26.827059428070815
+        ]
+      },
+      "properties": {
+        "name": "106pm2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19934623399345,
+          -26.82497588973693
+        ]
+      },
+      "properties": {
+        "name": " Santiago del Estero y V. de la Merced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20229543032944,
+          -26.824273671253685
+        ]
+      },
+      "properties": {
+        "name": "1066pm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20509335180276,
+          -26.823769208071965
+        ]
+      },
+      "properties": {
+        "name": "1066pm6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20972647621541,
+          -26.822749025079197
+        ]
+      },
+      "properties": {
+        "name": "1066pm7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21277320502864,
+          -26.822032582316286
+        ]
+      },
+      "properties": {
+        "name": "1066pm8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.216091299714,
+          -26.821409687902488
+        ]
+      },
+      "properties": {
+        "name": "Santiago del Estero y Av. Mitre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21604371558722,
+          -26.818091918456176
+        ]
+      },
+      "properties": {
+        "name": "1066pm9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21732492084492,
+          -26.823297950869154
+        ]
+      },
+      "properties": {
+        "name": "1066pm11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21816905152654,
+          -26.826266769522512
+        ]
+      },
+      "properties": {
+        "name": "1066pm12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21782581578854,
+          -26.828456187792302
+        ]
+      },
+      "properties": {
+        "name": "1066pm13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21770182725021,
+          -26.83393124738734
+        ]
+      },
+      "properties": {
+        "name": "1066pm14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2146845679733,
+          -26.834566827048132
+        ]
+      },
+      "properties": {
+        "name": "1066pm15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21149508176981,
+          -26.835215135235526
+        ]
+      },
+      "properties": {
+        "name": "1066pm16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20829832623197,
+          -26.835810628273574
+        ]
+      },
+      "properties": {
+        "name": "1066pm17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20528185921836,
+          -26.83653294257065
+        ]
+      },
+      "properties": {
+        "name": "1066pm18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20227763993131,
+          -26.837261120327554
+        ]
+      },
+      "properties": {
+        "name": "1024c6"
+      }
+    }
+  ]
+}

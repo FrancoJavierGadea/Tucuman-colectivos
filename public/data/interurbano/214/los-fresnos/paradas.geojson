@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 214 - Los Fresnos"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 214 - Los Fresnos"},"features":[]}

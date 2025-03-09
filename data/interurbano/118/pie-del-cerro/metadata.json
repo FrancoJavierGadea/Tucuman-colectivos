@@ -1,0 +1,20 @@
+{
+  "name": "Linea 118",
+  "direction": "Pie del cerro",
+  "length_km": 27.57,
+  "category": "interurbano",
+  "provider": {
+    "name": "El Portezuelo S.R.L.",
+    "contact": {
+      "phone": "381 230-2070",
+      "email": "",
+      "address": "Anta Muerta 2120, Yerba Buena, Tucumán, Argentina",
+      "website": "https://www.instagram.com/linea118.tucuman/"
+    }
+  },
+  "image": {
+    "landscape": "/data/interurbano/118/img/landscape.webp",
+    "square": "/data/interurbano/118/img/square.webp"
+  },
+  "id": "118/pie-del-cerro"
+}

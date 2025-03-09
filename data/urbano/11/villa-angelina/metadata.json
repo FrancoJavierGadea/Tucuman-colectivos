@@ -1,0 +1,21 @@
+{
+  "name": "Linea 11",
+  "direction": "Villa Angelina",
+  "length_km": 35.49,
+  "category": "urbano",
+  "provider": {
+    "name": "TCM Bus S.R.L",
+    "contact": {
+      "phone": "381 429-9266",
+      "email": "",
+      "address": "Pcia de Jujuy 3500, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "id": "11/villa-angelina",
+  "bus_path": "/data/urbano/11/villa-angelina/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/11/img/landscape.webp",
+    "square": "/data/urbano/11/img/square.webp"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 118 - Zona Sur - Los Pinos"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19768279887916,
+          -26.82530039197988
+        ]
+      },
+      "properties": {
+        "name": "118ep1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2021731139963,
+          -26.824446076042566
+        ]
+      },
+      "properties": {
+        "name": "1066pm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20702747797013,
+          -26.82336484699393
+        ]
+      },
+      "properties": {
+        "name": "118ep2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20977092740135,
+          -26.822785649161265
+        ]
+      },
+      "properties": {
+        "name": "118ep3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21275214624207,
+          -26.822059744103907
+        ]
+      },
+      "properties": {
+        "name": "118ep4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21697966359076,
+          -26.822088678870006
+        ]
+      },
+      "properties": {
+        "name": "118ep5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2181334015099,
+          -26.826098235877062
+        ]
+      },
+      "properties": {
+        "name": "1187ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21842039035103,
+          -26.829516444946528
+        ]
+      },
+      "properties": {
+        "name": "11817ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21802236388275,
+          -26.832285215856803
+        ]
+      },
+      "properties": {
+        "name": "118ep6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21596621426883,
+          -26.834277247754628
+        ]
+      },
+      "properties": {
+        "name": "11812ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21150844601291,
+          -26.835126553026782
+        ]
+      },
+      "properties": {
+        "name": "118ep7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2065783017391,
+          -26.836284686315583
+        ]
+      },
+      "properties": {
+        "name": "1189ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20196157927364,
+          -26.837354161846577
+        ]
+      },
+      "properties": {
+        "name": "118ep8"
+      }
+    }
+  ]
+}

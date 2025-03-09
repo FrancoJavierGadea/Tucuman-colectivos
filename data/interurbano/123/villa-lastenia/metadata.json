@@ -1,0 +1,20 @@
+{
+  "name": "Linea 123",
+  "direction": "Villa Lastenia",
+  "length_km": 36.38,
+  "category": "interurbano",
+  "provider": {
+    "name": "Tandilense S.R.L",
+    "contact": {
+      "phone": "381 472-0206",
+      "email": "",
+      "address": "Terminal Ómnibus Tucumán: Av. Brígido Terán 250 - Local 520, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "image": {
+    "landscape": "/data/interurbano/123/img/landscape.webp",
+    "square": "/data/interurbano/123/img/square.webp"
+  },
+  "id": "123/villa-lastenia"
+}

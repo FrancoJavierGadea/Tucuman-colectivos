@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 129 - Hospital oeste"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 129 - Hospital oeste"},"features":[]}

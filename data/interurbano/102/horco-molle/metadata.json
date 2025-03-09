@@ -1,0 +1,19 @@
+{
+  "name": "Linea 102",
+  "direction": "Horco molle",
+  "length_km": 40.17,
+  "category": "interurbano",
+  "provider": {
+    "name": "El Corcel S.A.",
+    "contact": {
+      "phone": "381 435-2223",
+      "email": "",
+      "address": "Av. Aconquija 294, Yerba Buena, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "image": {
+    "landscape": "/data/interurbano/102/img/landscape.webp",
+    "square": "/data/interurbano/102/img/square.webp"
+  }
+}

@@ -1,0 +1,1594 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 130 - San Jose"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19325204425637,
+          -26.836957648962425
+        ]
+      },
+      "properties": {
+        "name": "Terminal San Miguel de Tucum�n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1989189405706,
+          -26.839878669645493
+        ]
+      },
+      "properties": {
+        "name": "Saen Pe�a y Lamadrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1993986605182,
+          -26.841485881555336
+        ]
+      },
+      "properties": {
+        "name": "Saenz Pe�a y Bolivar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20173845587554,
+          -26.841480358529434
+        ]
+      },
+      "properties": {
+        "name": "Bolivar, Moreno y Entre R�os"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20494174713859,
+          -26.8408645394499
+        ]
+      },
+      "properties": {
+        "name": "Bolivar, Heras y Congreso de tucuman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20740224622466,
+          -26.840428217177966
+        ]
+      },
+      "properties": {
+        "name": "Bolivar y 9 de Julio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21054363813964,
+          -26.839812392376004
+        ]
+      },
+      "properties": {
+        "name": "Bolivar y Chacabuco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21163793725624,
+          -26.83662831956179
+        ]
+      },
+      "properties": {
+        "name": "Lamadrid, Jujuy y Ayacucho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21431274400524,
+          -26.836044209969295
+        ]
+      },
+      "properties": {
+        "name": "tuc 11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21672208550862,
+          -26.835485646772405
+        ]
+      },
+      "properties": {
+        "name": "tuc 12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21659944126607,
+          -26.83377881427529
+        ]
+      },
+      "properties": {
+        "name": "B. Araoz y Gral.Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22162403121466,
+          -26.827472441348515
+        ]
+      },
+      "properties": {
+        "name": "Av. M. de Luna y L. Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22645383767053,
+          -26.826311867142515
+        ]
+      },
+      "properties": {
+        "name": "Av. M. de Luna y P. de los Andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22885379857249,
+          -26.825785362341882
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de L y Thames"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23084358006467,
+          -26.825364786032182
+        ]
+      },
+      "properties": {
+        "name": "Av. M. de Luna y J.J Paso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23432097437603,
+          -26.824606324688684
+        ]
+      },
+      "properties": {
+        "name": "Av . Mate de Luna y Saavedra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23919963312308,
+          -26.823489094497095
+        ]
+      },
+      "properties": {
+        "name": "tuc 22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24129600935414,
+          -26.823056542607166
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Av. E. Padilla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24497174904721,
+          -26.822172284789943
+        ]
+      },
+      "properties": {
+        "name": "Av. M. de Luna y Bulnes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24802800045532,
+          -26.821528672031913
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Gorriti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24994796626069,
+          -26.821074302435797
+        ]
+      },
+      "properties": {
+        "name": "Le�n  Gallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25261603297365,
+          -26.820589707770385
+        ]
+      },
+      "properties": {
+        "name": " F. Mamerto Esqui�"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25502195601491,
+          -26.82014619571307
+        ]
+      },
+      "properties": {
+        "name": "Rojas Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25700316700406,
+          -26.819777286226838
+        ]
+      },
+      "properties": {
+        "name": "Parque Guillermina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25922117488541,
+          -26.81940810243998
+        ]
+      },
+      "properties": {
+        "name": "Mansilla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26198455866023,
+          -26.818874293942475
+        ]
+      },
+      "properties": {
+        "name": "Boyaca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26414528087825,
+          -26.8172448728496
+        ]
+      },
+      "properties": {
+        "name": "San Martin - Camino del Per�"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26346332165177,
+          -26.81373660748999
+        ]
+      },
+      "properties": {
+        "name": "tuc 34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26147420773542,
+          -26.805686787641037
+        ]
+      },
+      "properties": {
+        "name": "Av. Belgrano V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26118252440791,
+          -26.804815741623162
+        ]
+      },
+      "properties": {
+        "name": "Walmart"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26088807460268,
+          -26.803986326277684
+        ]
+      },
+      "properties": {
+        "name": "Complejo Natalio Mirkin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2600812189913,
+          -26.801154466000746
+        ]
+      },
+      "properties": {
+        "name": "Italia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2595394941089,
+          -26.799523850165432
+        ]
+      },
+      "properties": {
+        "name": "Bolivia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25863177703961,
+          -26.797084890036125
+        ]
+      },
+      "properties": {
+        "name": "Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25821457378001,
+          -26.796020772791127
+        ]
+      },
+      "properties": {
+        "name": "Ecuador"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25784755580382,
+          -26.794909532940903
+        ]
+      },
+      "properties": {
+        "name": "Independencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25734691840874,
+          -26.79386680373442
+        ]
+      },
+      "properties": {
+        "name": "Venezuela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25675421814788,
+          -26.792182430334535
+        ]
+      },
+      "properties": {
+        "name": " Martin Rodriguez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27023919926656,
+          -26.778407508611785
+        ]
+      },
+      "properties": {
+        "name": "Escuela 113 Joaquin V. Gonzales"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27122295710451,
+          -26.774570695378152
+        ]
+      },
+      "properties": {
+        "name": "Villa Carmela "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27164548756392,
+          -26.771465766341805
+        ]
+      },
+      "properties": {
+        "name": "Los Sauces V. Carmela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27177368698014,
+          -26.770473787125
+        ]
+      },
+      "properties": {
+        "name": "Los Pinos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27187248296123,
+          -26.767878488511112
+        ]
+      },
+      "properties": {
+        "name": "Los Ceibos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27201916983624,
+          -26.766738945657572
+        ]
+      },
+      "properties": {
+        "name": "Colegio Presentacion de Mar�a (V. Carmela)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27238602699987,
+          -26.762209620239506
+        ]
+      },
+      "properties": {
+        "name": "Soldado Tucumano (V. Carmela)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2723699221008,
+          -26.75984715625953
+        ]
+      },
+      "properties": {
+        "name": "Tercer Mileno (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27201423719481,
+          -26.757908982778762
+        ]
+      },
+      "properties": {
+        "name": "Av. Crazy Skydiver (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27180439932073,
+          -26.755595467228243
+        ]
+      },
+      "properties": {
+        "name": "Esc. Nueva B� Malvinas (V. Carmela)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27054378795006,
+          -26.746521240787303
+        ]
+      },
+      "properties": {
+        "name": "ECO S.A (V. Carmela)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26975808753699,
+          -26.74269658851232
+        ]
+      },
+      "properties": {
+        "name": "Juan Domingo Per�n y RP 315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26466893807871,
+          -26.743291793880367
+        ]
+      },
+      "properties": {
+        "name": "Catamarca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26270006639783,
+          -26.743600343929433
+        ]
+      },
+      "properties": {
+        "name": "Salta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26206375679871,
+          -26.742223753389084
+        ]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25954040337638,
+          -26.74259918986488
+        ]
+      },
+      "properties": {
+        "name": "Rotonda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25897243854394,
+          -26.740645380616442
+        ]
+      },
+      "properties": {
+        "name": "Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25872214613379,
+          -26.739547190993306
+        ]
+      },
+      "properties": {
+        "name": "San Juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25843545998119,
+          -26.73855070018935
+        ]
+      },
+      "properties": {
+        "name": "Entre R�os"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25790828173484,
+          -26.736472406883433
+        ]
+      },
+      "properties": {
+        "name": "Buenos Aires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25809655967994,
+          -26.732887429829784
+        ]
+      },
+      "properties": {
+        "name": "Monteagudo y San Martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26040781729536,
+          -26.732409478834292
+        ]
+      },
+      "properties": {
+        "name": "Monteagudo y Moreno"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26267617694968,
+          -26.730816601051718
+        ]
+      },
+      "properties": {
+        "name": "Peru Sud  y Uttinger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26332559017943,
+          -26.729727965515824
+        ]
+      },
+      "properties": {
+        "name": "Peru Sud  Y Av. Alem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26378213565998,
+          -26.72856424547736
+        ]
+      },
+      "properties": {
+        "name": "Paisandu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26457055275773,
+          -26.725409214045687
+        ]
+      },
+      "properties": {
+        "name": "Reconquista"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26197187679611,
+          -26.722954648792108
+        ]
+      },
+      "properties": {
+        "name": "Av H Yrigoyen y La Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25907583492598,
+          -26.723508577535522
+        ]
+      },
+      "properties": {
+        "name": "Av H Yrigoyen y Chacabuco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25752526584641,
+          -26.727683843583545
+        ]
+      },
+      "properties": {
+        "name": "Sgo.Cabral y Bolivar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25776513364967,
+          -26.728694318285097
+        ]
+      },
+      "properties": {
+        "name": "Sgo. cabral y Bolivar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25792647383082,
+          -26.730459980395192
+        ]
+      },
+      "properties": {
+        "name": "Sgo. Cabral y Av.Alem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25705560191534,
+          -26.732045129589014
+        ]
+      },
+      "properties": {
+        "name": "Uttinger y 9 de Julio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25576092913775,
+          -26.732306817801625
+        ]
+      },
+      "properties": {
+        "name": "Uttinger y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25468089947857,
+          -26.732531990898096
+        ]
+      },
+      "properties": {
+        "name": "Uttinger y Saenz Pe�a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25427546247717,
+          -26.731713454129007
+        ]
+      },
+      "properties": {
+        "name": "Saenz Pe�a y Av. Alem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25331083202303,
+          -26.72980385191147
+        ]
+      },
+      "properties": {
+        "name": "Alsina y Rivadavia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25212550716172,
+          -26.730112374720793
+        ]
+      },
+      "properties": {
+        "name": "Psje. Sin Nombre y Rivadavia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25106079382846,
+          -26.732646682538842
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind. y Maip�"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25146024780203,
+          -26.733666809354563
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind. y Callao"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2518120044133,
+          -26.734698054024335
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind. y SanTiago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25223076162895,
+          -26.73573043687341
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25270206853052,
+          -26.73707119717771
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind y Osvaldo Costello"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25343359507274,
+          -26.73890435659726
+        ]
+      },
+      "properties": {
+        "name": "Av. Ind y Primero de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25398951435575,
+          -26.74130328442151
+        ]
+      },
+      "properties": {
+        "name": "taf71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25896443051123,
+          -26.74257900883399
+        ]
+      },
+      "properties": {
+        "name": "Rotonda V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26203599686147,
+          -26.742045259957127
+        ]
+      },
+      "properties": {
+        "name": "Av. Roca y Salta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26468282867707,
+          -26.743182632083016
+        ]
+      },
+      "properties": {
+        "name": "Catamarca V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26994301068036,
+          -26.74264201948098
+        ]
+      },
+      "properties": {
+        "name": "Juan Domingo Per�n y RP315 V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27070702213062,
+          -26.746502290796666
+        ]
+      },
+      "properties": {
+        "name": "ECO S.A (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27195111381667,
+          -26.75555918849775
+        ]
+      },
+      "properties": {
+        "name": "Esc. Nueva B� Malvinas (V. Carmela)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27229360067828,
+          -26.757864849600775
+        ]
+      },
+      "properties": {
+        "name": "Av. Crazy Skydiver (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27248316848825,
+          -26.759837044471308
+        ]
+      },
+      "properties": {
+        "name": "Tercer Mileno (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27252667916075,
+          -26.762204910767256
+        ]
+      },
+      "properties": {
+        "name": "Soldado Tucumano (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27222694201848,
+          -26.766748934595466
+        ]
+      },
+      "properties": {
+        "name": "Colegio Presentacion de Mar�a (V. Carmela) V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27221833220676,
+          -26.767830156543525
+        ]
+      },
+      "properties": {
+        "name": "Los Ceibos V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27198258949161,
+          -26.770448264436563
+        ]
+      },
+      "properties": {
+        "name": "Los Pinos V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27182050018023,
+          -26.771436747913025
+        ]
+      },
+      "properties": {
+        "name": "Los Sauces Villa carmela V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27144797332551,
+          -26.774586320255654
+        ]
+      },
+      "properties": {
+        "name": "Villa Carmela  V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.27035825489881,
+          -26.778476595524964
+        ]
+      },
+      "properties": {
+        "name": "Escuela 113 Joaquin V. Gonzales"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25701852832725,
+          -26.792206460534118
+        ]
+      },
+      "properties": {
+        "name": " Martin Rodriguez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25756224554938,
+          -26.79385096589496
+        ]
+      },
+      "properties": {
+        "name": "Venezuela V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25801726339539,
+          -26.794901958671293
+        ]
+      },
+      "properties": {
+        "name": "Independencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25837526868315,
+          -26.795983888464878
+        ]
+      },
+      "properties": {
+        "name": "Ecuador"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25874356868671,
+          -26.797030007611117
+        ]
+      },
+      "properties": {
+        "name": "Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25966084430564,
+          -26.799518850969047
+        ]
+      },
+      "properties": {
+        "name": "Bolivia V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26010169519546,
+          -26.800834016118902
+        ]
+      },
+      "properties": {
+        "name": "Italia V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26100485638985,
+          -26.803952472461262
+        ]
+      },
+      "properties": {
+        "name": "Complejo Natalio Mirkin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26154407718073,
+          -26.80568411501178
+        ]
+      },
+      "properties": {
+        "name": "Av. Belgrano V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.26264221653264,
+          -26.81889063505624
+        ]
+      },
+      "properties": {
+        "name": "Boyaca V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25948057590237,
+          -26.819492531104707
+        ]
+      },
+      "properties": {
+        "name": "Mansilla V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25706099694645,
+          -26.819978561862236
+        ]
+      },
+      "properties": {
+        "name": "Parque Guillermina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2553646519698,
+          -26.820236033592664
+        ]
+      },
+      "properties": {
+        "name": "Rojas Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.25333585901056,
+          -26.820647391741335
+        ]
+      },
+      "properties": {
+        "name": "J. Helguera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2500754287922,
+          -26.821324552383782
+        ]
+      },
+      "properties": {
+        "name": "Le�n  Gallo V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24808711556959,
+          -26.821705402128735
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Gorriti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24498652782577,
+          -26.822375391335918
+        ]
+      },
+      "properties": {
+        "name": "Av. M. de Luna y Bulnes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.24099191926014,
+          -26.823284494278038
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y E. Padilla V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23949374290163,
+          -26.823601856679606
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23342150526186,
+          -26.824895242512156
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Psje Rep�blica "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.23077893861038,
+          -26.825469668051067
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Chiclana "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22929453576067,
+          -26.825792704059122
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y A. Lucero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22650084963726,
+          -26.8264293340152
+        ]
+      },
+      "properties": {
+        "name": " Av. Mate de Luna y Pellegrini"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22334047017333,
+          -26.827171889642003
+        ]
+      },
+      "properties": {
+        "name": "AV. Mate de Luna y  Libertad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.22195526193062,
+          -26.827544538457982
+        ]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Prospero Mena"
+      }
+    }
+  ]
+}

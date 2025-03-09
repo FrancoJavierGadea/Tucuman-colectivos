@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 107 - El Grafico"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19663417278889,
+          -26.830792867177966
+        ]
+      },
+      "properties": {
+        "name": "  Av. Saenz Pe�a y A. Jacques"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19586986633648,
+          -26.827384398004153
+        ]
+      },
+      "properties": {
+        "name": " Av. Saenz Pe�a y Guatemala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19511454696459,
+          -26.824628556512202
+        ]
+      },
+      "properties": {
+        "name": "  Av. Saenz Pe�a y Honduras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19451609199527,
+          -26.821908407758837
+        ]
+      },
+      "properties": {
+        "name": "  Av. Saenz Pe�a y  y P. Garcia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19931846790891,
+          -26.821255707973876
+        ]
+      },
+      "properties": {
+        "name": "V. de la Merced y Marcos Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20005206819879,
+          -26.824163481544844
+        ]
+      },
+      "properties": {
+        "name": " V. de la Merced y Santiago "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.200600538622,
+          -26.826754371968313
+        ]
+      },
+      "properties": {
+        "name": " V. de la Merced y Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20284742600802,
+          -26.827197926933195
+        ]
+      },
+      "properties": {
+        "name": " Cordoba y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20593778976044,
+          -26.826516083473454
+        ]
+      },
+      "properties": {
+        "name": " Cordoba y Maipu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20886281843966,
+          -26.825935414215383
+        ]
+      },
+      "properties": {
+        "name": "107ec01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21309982936717,
+          -26.825853585826696
+        ]
+      },
+      "properties": {
+        "name": "107ec02"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21391901306134,
+          -26.828778708219925
+        ]
+      },
+      "properties": {
+        "name": "107ec03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21340867523521,
+          -26.83051722648831
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y La Rioja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21039515709518,
+          -26.831147190491755
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y Jujuy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20723414334965,
+          -26.831803338952668
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y Mu�ecas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20420722330354,
+          -26.832468842261616
+        ]
+      },
+      "properties": {
+        "name": "Crisostomo y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1999897828938,
+          -26.83339363742002
+        ]
+      },
+      "properties": {
+        "name": " Crisostomo y Entre Rios"
+      }
+    }
+  ]
+}

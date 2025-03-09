@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 118 - 200 Viviendas"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1976950418261,
+          -26.825220712423757
+        ]
+      },
+      "properties": {
+        "name": "118ep1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20219800236785,
+          -26.82439447408616
+        ]
+      },
+      "properties": {
+        "name": "1066pm5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20666593819115,
+          -26.8234173851188
+        ]
+      },
+      "properties": {
+        "name": "118ep2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2097130886964,
+          -26.822803132942862
+        ]
+      },
+      "properties": {
+        "name": "118ep3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21272673729706,
+          -26.822067928504993
+        ]
+      },
+      "properties": {
+        "name": "118ep4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21699213887888,
+          -26.8220869541883
+        ]
+      },
+      "properties": {
+        "name": "118ep5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21805368936509,
+          -26.826094788267614
+        ]
+      },
+      "properties": {
+        "name": "1187ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21806437913015,
+          -26.829544992928653
+        ]
+      },
+      "properties": {
+        "name": "11817ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21788980131912,
+          -26.831830373256203
+        ]
+      },
+      "properties": {
+        "name": "118ep6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21602847772418,
+          -26.834304889284546
+        ]
+      },
+      "properties": {
+        "name": "11812ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2113787528002,
+          -26.835210165718426
+        ]
+      },
+      "properties": {
+        "name": "118ep7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20663557964919,
+          -26.836236797448578
+        ]
+      },
+      "properties": {
+        "name": "1189ep01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20231296854297,
+          -26.837316691927743
+        ]
+      },
+      "properties": {
+        "name": "118ep8"
+      }
+    }
+  ]
+}

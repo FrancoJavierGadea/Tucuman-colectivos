@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 102 - La rinconada"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.257291,
+          -26.819861
+        ]
+      },
+      "properties": {
+        "name": "Parque Guillermina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21811,
+          -26.829525
+        ]
+      },
+      "properties": {
+        "name": "1024c1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21777647482287,
+          -26.83402728039399
+        ]
+      },
+      "properties": {
+        "name": "1024c2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2114594649326,
+          -26.835062570933687
+        ]
+      },
+      "properties": {
+        "name": "1024c3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20824516887119,
+          -26.835948993020306
+        ]
+      },
+      "properties": {
+        "name": "1024c4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20516615169608,
+          -26.83656841535579
+        ]
+      },
+      "properties": {
+        "name": "1024c5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20250913068854,
+          -26.837355886659548
+        ]
+      },
+      "properties": {
+        "name": "1024c6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.197648,
+          -26.834606
+        ]
+      },
+      "properties": {
+        "name": "Av. S. Pe�a y S. Lorenzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2017515411127,
+          -26.83441123151135
+        ]
+      },
+      "properties": {
+        "name": "1021c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20453189044268,
+          -26.833744934895403
+        ]
+      },
+      "properties": {
+        "name": "1021c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20788300431714,
+          -26.833112774079428
+        ]
+      },
+      "properties": {
+        "name": "102clr2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21060649467864,
+          -26.832639871910732
+        ]
+      },
+      "properties": {
+        "name": "10211c9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21382851770082,
+          -26.83203006525152
+        ]
+      },
+      "properties": {
+        "name": "10217c10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21867099685701,
+          -26.831172259343642
+        ]
+      },
+      "properties": {
+        "name": "10217c11"
+      }
+    }
+  ]
+}

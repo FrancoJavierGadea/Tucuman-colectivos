@@ -1,0 +1,320 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 103 - Manantial Expedicion"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21848007223481,
+          -26.836789985940946
+        ]
+      },
+      "properties": {
+        "name": "Lavalle y B. Araoz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2148875023464,
+          -26.83731451837576
+        ]
+      },
+      "properties": {
+        "name": "Lavalle y J. B. Alberti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21035653440435,
+          -26.8383924489636
+        ]
+      },
+      "properties": {
+        "name": "Lavalle y Chacabuco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20772239405511,
+          -26.838857853322658
+        ]
+      },
+      "properties": {
+        "name": "1011mseg9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20504742029304,
+          -26.838777421686853
+        ]
+      },
+      "properties": {
+        "name": "103me1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20141990252722,
+          -26.83687728180287
+        ]
+      },
+      "properties": {
+        "name": "106103mp1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20039092378781,
+          -26.832427778926608
+        ]
+      },
+      "properties": {
+        "name": "Entre Rios y 24 de Septiembre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1998066083794,
+          -26.829911255648188
+        ]
+      },
+      "properties": {
+        "name": "Monteagudo y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19917435270561,
+          -26.827237814663434
+        ]
+      },
+      "properties": {
+        "name": "1011mseg15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.199329290085,
+          -26.825000805360194
+        ]
+      },
+      "properties": {
+        "name": "1011mseg16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20146853757902,
+          -26.823848182715672
+        ]
+      },
+      "properties": {
+        "name": "Laprida y Corrientes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20079320514508,
+          -26.82092782218528
+        ]
+      },
+      "properties": {
+        "name": "Laprida y Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19456617896533,
+          -26.82201500114636
+        ]
+      },
+      "properties": {
+        "name": "1033m4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19532806025317,
+          -26.824759063778085
+        ]
+      },
+      "properties": {
+        "name": "1033m5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19601032922668,
+          -26.827580978697345
+        ]
+      },
+      "properties": {
+        "name": "1033m6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.19660100123635,
+          -26.830273725852877
+        ]
+      },
+      "properties": {
+        "name": "1033m7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2000114987463,
+          -26.834900114501924
+        ]
+      },
+      "properties": {
+        "name": "1033m8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20303026611491,
+          -26.834134677573203
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo y Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20622595387518,
+          -26.83345899589133
+        ]
+      },
+      "properties": {
+        "name": "1033m10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20865585212634,
+          -26.833907485326375
+        ]
+      },
+      "properties": {
+        "name": "1033m11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.20915734346593,
+          -26.836066474280805
+        ]
+      },
+      "properties": {
+        "name": "1033m12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21161212541385,
+          -26.83667145393393
+        ]
+      },
+      "properties": {
+        "name": "1033m13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21530058906396,
+          -26.83583383691469
+        ]
+      },
+      "properties": {
+        "name": "1033m14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.21938816447154,
+          -26.834837794316766
+        ]
+      },
+      "properties": {
+        "name": "Lamadrid y Av. Alem"
+      }
+    }
+  ]
+}

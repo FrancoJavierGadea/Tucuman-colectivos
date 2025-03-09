@@ -12,7 +12,8 @@ export const CATEGORIES = {
     OTROS: 'otros'
 }
 
-export const PUBLIC_FOLDER = path.join(import.meta.dirname, '../../../public');
+export const PUBLIC_FOLDER = path.resolve('public');
 
-export const DATA_FOLDER = path.join(import.meta.dirname, '../../../public/data');
+export const DATA_FOLDER = path.resolve('data');
+
 

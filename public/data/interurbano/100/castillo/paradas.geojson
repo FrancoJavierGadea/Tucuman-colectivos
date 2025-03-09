@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 100 - Castillo - Santa Fe"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 100 - Castillo - Santa Fe"},"features":[]}

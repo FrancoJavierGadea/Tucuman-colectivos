@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 122 - Rincon del Este"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 122 - Rincon del Este"},"features":[]}

@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 142 - Lomas de Tafi"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 142 - Lomas de Tafi"},"features":[]}

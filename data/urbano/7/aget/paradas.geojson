@@ -1,0 +1,1248 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 7 - AGET"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.1934880998488, -26.796774433403858]
+      },
+      "properties": {
+        "name": "*"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19379757290272, -26.798187647894427]
+      },
+      "properties": {
+        "name": "Rivadavia y Emilio Castelar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19409807572319, -26.799464730264493]
+      },
+      "properties": {
+        "name": "Rivadavia e I Catolica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19455107251224, -26.801334288867817]
+      },
+      "properties": {
+        "name": "Rivadavia y Delfin Gallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19491436696681, -26.802667381427433]
+      },
+      "properties": {
+        "name": "Rivadavia y M. Estrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19518795908694, -26.804072516081543]
+      },
+      "properties": {
+        "name": "Rivadavia y Mejico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19549743214085, -26.805493645957682]
+      },
+      "properties": {
+        "name": "Rivadavia y Venezuela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19581587542821, -26.80673862115761]
+      },
+      "properties": {
+        "name": "Rivadavia y Colombia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19603564614765, -26.807623305837637]
+      },
+      "properties": {
+        "name": "Rivadavia y Ecuador"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19653349410392, -26.809532760104222]
+      },
+      "properties": {
+        "name": "Rivadavia y Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19682502669093, -26.810905785959285]
+      },
+      "properties": {
+        "name": "Rivadavia y Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.1971883211455, -26.812254777674976]
+      },
+      "properties": {
+        "name": "Rivadavia y Bolivia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19743500256529, -26.813571730363503]
+      },
+      "properties": {
+        "name": "Rivadavia y Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19778932678642, -26.815016758110726]
+      },
+      "properties": {
+        "name": "Rivadavia y Uruguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19808982960689, -26.816205589841594]
+      },
+      "properties": {
+        "name": "Rivadavia e Italia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19842621336113, -26.817682605834708]
+      },
+      "properties": {
+        "name": "Rivadavia y Espa�a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19916625762048, -26.820456461900157]
+      },
+      "properties": {
+        "name": "Virgen de la Merced y Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20004085538152, -26.82416683853652]
+      },
+      "properties": {
+        "name": "Virgen de la Merced y Santiago del Estero "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2007539889405, -26.826732410876534]
+      },
+      "properties": {
+        "name": "Virgen de la Merced y Cordoba "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20311764545363, -26.82703259105131]
+      },
+      "properties": {
+        "name": "Cordoba y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20594775410598, -26.826476256498474]
+      },
+      "properties": {
+        "name": "Cordoba y Maipu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20808715478296, -26.825311547257453]
+      },
+      "properties": {
+        "name": "Junin y San Juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20687168815098, -26.820800687499023]
+      },
+      "properties": {
+        "name": "Junin y Marcos Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20616752482542, -26.81811489955746]
+      },
+      "properties": {
+        "name": "Junin y Av Sarmiento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.208540151572, -26.817246307720637]
+      },
+      "properties": {
+        "name": "Av Sarmiento 950"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21279652734233, -26.816417736953976]
+      },
+      "properties": {
+        "name": "Av Sarmiento 1200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21805756925866, -26.815188879301733]
+      },
+      "properties": {
+        "name": "Av Belgrano y Lucas Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21952420242714, -26.814952712949882]
+      },
+      "properties": {
+        "name": "Av Belgrano y Asuncion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22269517995046, -26.814348284960758]
+      },
+      "properties": {
+        "name": "Av Belgrano y Paso de los Andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22580336583965, -26.813751859481197]
+      },
+      "properties": {
+        "name": "Av Belgrano y Thames"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22728793947503, -26.81349167288624]
+      },
+      "properties": {
+        "name": "Av Belgrano y J J Passo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2305845002666, -26.813023335510408]
+      },
+      "properties": {
+        "name": "Av Belgrano y Saavedra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23219465717024, -26.812683089194874]
+      },
+      "properties": {
+        "name": "Av Belgrano y Castelli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23367026057218, -26.812398882666187]
+      },
+      "properties": {
+        "name": "Av Belgrano y Sargento Cabral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23503822117276, -26.81208265202923]
+      },
+      "properties": {
+        "name": "Av Belgrano y Necochea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23645103294058, -26.811750408764212]
+      },
+      "properties": {
+        "name": "Av Belgrano y Azcuenaga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24160443205558, -26.810665607709595]
+      },
+      "properties": {
+        "name": "Av Belgrano y Bulnes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24174347067401, -26.809676868555393]
+      },
+      "properties": {
+        "name": "Bulnes y Espana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24161340228905, -26.808135699238072]
+      },
+      "properties": {
+        "name": "Bulnes e Italia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24137569110272, -26.80691475802462]
+      },
+      "properties": {
+        "name": "Bulnes y Uruguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24111106921605, -26.805581715392464]
+      },
+      "properties": {
+        "name": "Bulnes y Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24093614966385, -26.804224637877514]
+      },
+      "properties": {
+        "name": "Bulnes y Bolivia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24068946824406, -26.802811498603816]
+      },
+      "properties": {
+        "name": "Bulnes y Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24048763799152, -26.80150242753204]
+      },
+      "properties": {
+        "name": "Bulnes y Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2400814509581, -26.799394409358513]
+      },
+      "properties": {
+        "name": "Bulnes y Colombia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24334561824108, -26.798555860127397]
+      },
+      "properties": {
+        "name": "Colombia y Castro Barros"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24338451569301, -26.797946769540733]
+      },
+      "properties": {
+        "name": "Castro Barros y Pje Holmberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24319187395969, -26.797328914990118]
+      },
+      "properties": {
+        "name": "Catro Barros y Venezuela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24218838474744, -26.79530840609117]
+      },
+      "properties": {
+        "name": "Catro Barros y Mejico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24439882821052, -26.79467750658761]
+      },
+      "properties": {
+        "name": "Mejico y Av America"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24433490968988, -26.793281540657233]
+      },
+      "properties": {
+        "name": "Inicio del recorrido"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24568375422106, -26.79267206333962]
+      },
+      "properties": {
+        "name": "Bioquimicos y F Esquiu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24729818810141, -26.792368193075635]
+      },
+      "properties": {
+        "name": "Bioquimicos y Diagonal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25014677382778, -26.792436993517477]
+      },
+      "properties": {
+        "name": "Mejico y Mansilla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25110883527013, -26.791768906118712]
+      },
+      "properties": {
+        "name": "Mejico y E Echeverria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25229233084403, -26.790876913459545]
+      },
+      "properties": {
+        "name": "Mejico y O Andrade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25354117696601, -26.78990596145081]
+      },
+      "properties": {
+        "name": "Mejico y M Rodriguez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25414503698245, -26.789484632283163]
+      },
+      "properties": {
+        "name": "Mejico y Camino del Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25342203193851, -26.789355637848164]
+      },
+      "properties": {
+        "name": "Calle SN y Martin Rodriguez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25266971590382, -26.790763903305038]
+      },
+      "properties": {
+        "name": "Mejico y O Andrade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25139661664268, -26.791694757952204]
+      },
+      "properties": {
+        "name": "Mejico y E Echeverria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.250422705141, -26.792433887595475]
+      },
+      "properties": {
+        "name": "Mejico y Felix Olazabal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24758060830167, -26.794196516337674]
+      },
+      "properties": {
+        "name": "Mejico y Godoy Cruz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24649290361478, -26.79438430718659]
+      },
+      "properties": {
+        "name": "Mejico y F Esquiu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24500234534014, -26.794683972791127]
+      },
+      "properties": {
+        "name": "Mejico y Av America"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24273139245544, -26.797108836468837]
+      },
+      "properties": {
+        "name": "Castro Barros y Pje Tagle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24339862128774, -26.797696166203536]
+      },
+      "properties": {
+        "name": "Castro Barros y Pje Holmberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24359062342694, -26.79838979041886]
+      },
+      "properties": {
+        "name": "Castro Barros y Colombia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24050653209797, -26.801033762065735]
+      },
+      "properties": {
+        "name": "Bulnes y Paraguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24070398087298, -26.802341280190767]
+      },
+      "properties": {
+        "name": "Bulnes y Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24095446548611, -26.803836201992922]
+      },
+      "properties": {
+        "name": "Bulnes y Bolivia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24120180454469, -26.80512087787785]
+      },
+      "properties": {
+        "name": "Bulnes y Chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24148380205611, -26.806339397719572]
+      },
+      "properties": {
+        "name": "Bulnes y Uruguay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24171208575581, -26.80778162887382]
+      },
+      "properties": {
+        "name": "Bulnes e Italia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2419135125497, -26.809503493013995]
+      },
+      "properties": {
+        "name": "Bulnes y Espana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24162672787006, -26.810841784437404]
+      },
+      "properties": {
+        "name": "Bulnes y Av Belgrano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2389129300295, -26.811495126837208]
+      },
+      "properties": {
+        "name": "Av Belgrano y Viamonte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23693191323869, -26.811917710959523]
+      },
+      "properties": {
+        "name": "Av Belgrano y Azcuenaga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23551734555556, -26.812164553146975]
+      },
+      "properties": {
+        "name": "Av Belgrano y Necochea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23410735799848, -26.812536080126584]
+      },
+      "properties": {
+        "name": "Av Belgrano y Sgto Cabral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23265260893163, -26.812779769204663]
+      },
+      "properties": {
+        "name": "Av Belgrano y Castelli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23111728914726, -26.813143304396686]
+      },
+      "properties": {
+        "name": "Av Belgrano y Saavedra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22980677897749, -26.81440255036831]
+      },
+      "properties": {
+        "name": "Av Ejercito del Norte y Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23015144260255, -26.81531736536601]
+      },
+      "properties": {
+        "name": "Av Ejercito del Norte y Marcos Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23090839612367, -26.818015521298662]
+      },
+      "properties": {
+        "name": "Av Ejercito del Norte y Santiago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23218284342886, -26.81808388896184]
+      },
+      "properties": {
+        "name": "Santiago y Saavedra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.230879646069, -26.817195158381843]
+      },
+      "properties": {
+        "name": "Corrientes y Av Ejercito del Norte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22757403202506, -26.81743532478473]
+      },
+      "properties": {
+        "name": "Corrientes y Thames"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2259232653671, -26.81785558863887]
+      },
+      "properties": {
+        "name": "Corrientes y M Alberti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22421785184568, -26.818283022844973]
+      },
+      "properties": {
+        "name": "Corrientes y Paso de los Andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22259678786344, -26.81864226813143]
+      },
+      "properties": {
+        "name": "Corrientes y San Miguel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22122260951416, -26.81893388027313]
+      },
+      "properties": {
+        "name": "Corrientes y Asuncion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21969487068039, -26.81931596045899]
+      },
+      "properties": {
+        "name": "Corrientes y Lucas Cordoba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21811928256376, -26.819560488446513]
+      },
+      "properties": {
+        "name": "Corrientes y 12 de Octubre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21667796194986, -26.81984810357613]
+      },
+      "properties": {
+        "name": "Corrientes y Av Mitre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21678986572424, -26.82107445433993]
+      },
+      "properties": {
+        "name": "Av Mitre 520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21749057068101, -26.823776010203837]
+      },
+      "properties": {
+        "name": "Av Mitre y Don Bosco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21832729989605, -26.826552783651895]
+      },
+      "properties": {
+        "name": "Av Mitre y San Martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21746101768709, -26.828583958127652]
+      },
+      "properties": {
+        "name": "Av Mate de Luna y San Luis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21640532175557, -26.83167689098799]
+      },
+      "properties": {
+        "name": "CB Araoz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21316601240501, -26.832240795522463]
+      },
+      "properties": {
+        "name": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21068442675394, -26.8325910369511]
+      },
+      "properties": {
+        "name": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20430728880633, -26.8339126971981]
+      },
+      "properties": {
+        "name": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19644943885505, -26.83017281590716]
+      },
+      "properties": {
+        "name": "Av Avellaneda y Pje Rio de Janeiro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19606555557822, -26.828559344213353]
+      },
+      "properties": {
+        "name": "Av Avellaneda y Cuba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19501793458079, -26.824383786149063]
+      },
+      "properties": {
+        "name": "Av Avellaneda y Honduras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19450863840892, -26.822314600833113]
+      },
+      "properties": {
+        "name": "Av Avellaneda y Pje Enzo Bordabehere"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19366822806651, -26.81891279660957]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Diego Villarroel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19337497385004, -26.81756658541486]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Juramento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19276462727026, -26.814695906058226]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y R Colombres"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19244016099852, -26.813391938169193]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Lopez y Planes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.192176068091, -26.812365250117523]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Blas Parera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19174188144643, -26.810931067195277]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Av Martin Berho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.1911844939886, -26.808241683919537]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Nicaragua"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19081297345767, -26.806791468397865]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y San Salvador"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19055827652461, -26.805274704559476]
+      },
+      "properties": {
+        "name": "Av Juan B Justo y Mejico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19199512098756, -26.804791288797954]
+      },
+      "properties": {
+        "name": "Mejico y Balcarce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19353044077195, -26.804531601794242]
+      },
+      "properties": {
+        "name": "Mejico y Monteagudo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19332006167613, -26.803345024380256]
+      },
+      "properties": {
+        "name": "Monteagudo y Manuel Estrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19305596876862, -26.802022595193066]
+      },
+      "properties": {
+        "name": "Monteagudo y Delfin Gallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19280082816304, -26.800620244073727]
+      },
+      "properties": {
+        "name": "Monteagudo e I Catolica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19232188000875, -26.798770392572795]
+      },
+      "properties": {
+        "name": "Monteagudo y E Castelar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19203093019539, -26.797487864428707]
+      },
+      "properties": {
+        "name": "Monteagudo y Madrid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19175257980982, -26.795849523983673]
+      },
+      "properties": {
+        "name": "*"
+      }
+    }
+  ]
+}

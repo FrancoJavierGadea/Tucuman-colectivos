@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 101 - Lomas de Tafi 2"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 101 - Lomas de Tafi 2"},"features":[]}

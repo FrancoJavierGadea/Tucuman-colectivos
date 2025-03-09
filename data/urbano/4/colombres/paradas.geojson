@@ -1,0 +1,758 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 4 - Colombres"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.26413859106627, -26.816348919335105]
+      },
+      "properties": {
+        "name": "Camino del Peru y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.26349849047133, -26.81377627726499]
+      },
+      "properties": {
+        "name": "Camino del Peru y San Juan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25992196358753, -26.814255217203048]
+      },
+      "properties": {
+        "name": "San Juan y Echeverria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.26049153326842, -26.81765052275358]
+      },
+      "properties": {
+        "name": "Echeverria y San Martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.26214547599561, -26.81859871371707]
+      },
+      "properties": {
+        "name": "Boyac� y Av.Mate de Luna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25714591586114, -26.819992358805298]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Rufino Cossio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25344908458841, -26.820636454760447]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Ger�nimo Helguera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25023676780715, -26.821324745423755]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Pedro Leon Gallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24554548085969, -26.822286736491016]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Bulnes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24291002865779, -26.822888348983543]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Juan Luis Nougues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23959080604351, -26.82363870542463]
+      },
+      "properties": {
+        "name": "Av Mate de Luna y Pje. Benjamin Paz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23770847400327, -26.824072992432807]
+      },
+      "properties": {
+        "name": "Av Mate de Luna y Pje. Republica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23472428906142, -26.824703934743017]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Guemes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23129118403408, -26.825398753873447]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna  y Chiclana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2294639446389, -26.82583303413559]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Amador Lucero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22646139548203, -26.826513130069408]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Pellegrini"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22356903161531, -26.827193221920766]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Libertad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22122153602851, -26.827768915007404]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Pje Centenario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21753248094791, -26.828647340840888]
+      },
+      "properties": {
+        "name": "24 de Septiembre y San Luis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21673582635596, -26.831655021056356]
+      },
+      "properties": {
+        "name": "Bernab� Araoz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21501349148382, -26.831869945625925]
+      },
+      "properties": {
+        "name": "Alberdi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21187703758436, -26.832404367145674]
+      },
+      "properties": {
+        "name": "Av.Jujuy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20857049642382, -26.832958953963004]
+      },
+      "properties": {
+        "name": "Chacabuco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20403582014224, -26.83394076377178]
+      },
+      "properties": {
+        "name": "Congreso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20112333752594, -26.834592079713072]
+      },
+      "properties": {
+        "name": "Entre Rios"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19809730420775, -26.835305746306542]
+      },
+      "properties": {
+        "name": "Av Saenz Pena"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19532626947162, -26.834541534535447]
+      },
+      "properties": {
+        "name": "Charcas y Av.Brigido Teran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.18946685841162, -26.83415330881193]
+      },
+      "properties": {
+        "name": "Av. Benjamin Araoz y Av. Leguizamo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.18550596433924, -26.83492471706151]
+      },
+      "properties": {
+        "name": "Av. Benjamin Araoz 750"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.18065333171268, -26.834558796194656]
+      },
+      "properties": {
+        "name": "Av.Coronel Suarez y Francia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.18035693486716, -26.833254998842055]
+      },
+      "properties": {
+        "name": "Av.Coronel Suarez y Jacques"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17773882331726, -26.833500137524265]
+      },
+      "properties": {
+        "name": "Jacques y Mario Bravo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17674255078059, -26.83139429034271]
+      },
+      "properties": {
+        "name": "Mario Bravo y Luis Borges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17624275957446, -26.828644520711272]
+      },
+      "properties": {
+        "name": "Mario Bravo y Haiti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17574958811943, -26.826786690128433]
+      },
+      "properties": {
+        "name": "Mario Bravo y Estados Unidos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17836224011384, -26.82593347125498]
+      },
+      "properties": {
+        "name": "Estados Unidos y Av.Coronel Suarez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17815296795911, -26.824215352427785]
+      },
+      "properties": {
+        "name": "Av.Coronel Suarez y Prospero Garcia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.1678916566394, -26.821955613000473]
+      },
+      "properties": {
+        "name": "Calle Sin Nombre y Diego de Villaroel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.16722896148279, -26.820654530463777]
+      },
+      "properties": {
+        "name": "Calle Sin Nombre y Juramento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.16824044356396, -26.820299687179396]
+      },
+      "properties": {
+        "name": "Juramento y Calle 36 Noroeste"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.16770331170018, -26.81888652833958]
+      },
+      "properties": {
+        "name": "Calle 36 Noroeste y Raul Colombres ( 4 de Agosto )"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.16897987184397, -26.81834491653625]
+      },
+      "properties": {
+        "name": " Raul Colombres ( 4 de Agosto ) y J.Moreno"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17003320835606, -26.820168955163002]
+      },
+      "properties": {
+        "name": "J.Moreno y Juramento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17044477692701, -26.821108977257957]
+      },
+      "properties": {
+        "name": "J.Moreno y Diego de Villaroel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17476275905271, -26.824414555945957]
+      },
+      "properties": {
+        "name": "Alfredo Palacios y Prospero Garcia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17553725116781, -26.826516024674465]
+      },
+      "properties": {
+        "name": "Estados Unidos y Mario Bravo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17634801437298, -26.828332815282348]
+      },
+      "properties": {
+        "name": "Mario Bravo y Haiti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17681945816264, -26.83104186928626]
+      },
+      "properties": {
+        "name": "Mario Bravo y Luis Borges"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17738699240626, -26.833322140488654]
+      },
+      "properties": {
+        "name": "Mario Bravo y Jacques"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.17767826659477, -26.83458417449787]
+      },
+      "properties": {
+        "name": "Mario Bravo y Francia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.18462800225309, -26.834831297834295]
+      },
+      "properties": {
+        "name": "Av. Benjamin Araoz 750"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.18843009232997, -26.834026330951502]
+      },
+      "properties": {
+        "name": "Av. Benjamin Araoz y Av. Leguizamo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19418045253525, -26.83182567767921]
+      },
+      "properties": {
+        "name": "Av.Soldati y Francia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19731816985247, -26.827974386219218]
+      },
+      "properties": {
+        "name": "Cordoba y Balcarce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.19897872234239, -26.827670118796373]
+      },
+      "properties": {
+        "name": "Cordoba y Monteagudo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2035042813949, -26.826943034891993]
+      },
+      "properties": {
+        "name": "Cordoba y 25 de Mayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20658183867623, -26.8263068326479]
+      },
+      "properties": {
+        "name": "Cordoba 650"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20965939595754, -26.82561530441753]
+      },
+      "properties": {
+        "name": "Cordoba y Av Salta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21323733305583, -26.826097398829443]
+      },
+      "properties": {
+        "name": "Jose Colombres y Mendoza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21366349794536, -26.827673988595752]
+      },
+      "properties": {
+        "name": "Jose Colombres y San Martin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.21686504314593, -26.828531467391826]
+      },
+      "properties": {
+        "name": "24 de Septiembre y Suipacha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22002230694676, -26.82776882527953]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y 12 de Octubre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22450801273949, -26.826697956445976]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Frias Silva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.2259914396305, -26.826369976143763]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Paso de los Andes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22875017083376, -26.825725867485808]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Thames"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23071183684186, -26.825287239248652]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Juan Jose Passo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23407279508143, -26.824571994967673]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Saavedra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.23646841880688, -26.824038522536686]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Sgto Cabral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24071500504111, -26.8230861692121]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Viamonte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24226928217166, -26.822758178454738]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Juan Luis Nougues"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24475346869657, -26.822216794043513]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Bulnes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24871665397251, -26.821343460454145]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y L. Borda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25250271364952, -26.820564962847666]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y F.M Esqiu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25638864559548, -26.819847673339524]
+      },
+      "properties": {
+        "name": "Av. Mate de Luna y Patricias Argentinas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.25921900313844, -26.81935722843292]
+      },
+      "properties": {
+        "name": "Av.Mate de Luna y Mansilla"
+      }
+    }
+  ]
+}

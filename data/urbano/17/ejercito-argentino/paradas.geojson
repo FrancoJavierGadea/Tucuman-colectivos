@@ -1,0 +1,819 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Linea 17",
+    "direction": "Ejercito Argentino"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.240501, -26.854069]
+      },
+      "properties": {
+        "name": "Av. Colon 2200 y Olleros"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.242071, -26.854294]
+      },
+      "properties": {
+        "name": "Olleros 2376"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24485, -26.85379]
+      },
+      "properties": {
+        "name": "Olleros 2566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.249291, -26.869926]
+      },
+      "properties": {
+        "name": "Constitución 2102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.249291, -26.869926]
+      },
+      "properties": {
+        "name": "Constitución 2010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.242611, -26.85145]
+      },
+      "properties": {
+        "name": "Américo Vespucio 2502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.247642, -26.850857]
+      },
+      "properties": {
+        "name": "Américo Vespucio 2804 y Juan B. Terán"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.247141, -26.849321]
+      },
+      "properties": {
+        "name": "Juan B. Teran 1802"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.246794, -26.848]
+      },
+      "properties": {
+        "name": "Juan B.Teran 1702"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.245161, -26.847027]
+      },
+      "properties": {
+        "name": "Malabia 2899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.241612, -26.846994]
+      },
+      "properties": {
+        "name": "Malabia 2901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.243346, -26.846666]
+      },
+      "properties": {
+        "name": "Malabia 3099"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.238759, -26.849016]
+      },
+      "properties": {
+        "name": "Av. Colon 1752"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.239189, -26.850607]
+      },
+      "properties": {
+        "name": "Av. Colon 1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.240124, -26.852218]
+      },
+      "properties": {
+        "name": "Av. Colon 1994"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.238323, -26.852976]
+      },
+      "properties": {
+        "name": "Av. Americo Vespucio 2214"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.236374, -26.853189]
+      },
+      "properties": {
+        "name": "Av. Americo Vespucio 2102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.235984, -26.851893]
+      },
+      "properties": {
+        "name": "Amador lucero 1902"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.234884, -26.852201]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 2010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.233712, -26.852468]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1908"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.230397, -26.853095]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1712"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.228849, -26.853201]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1608"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.226587, -26.853789]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1522"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.224261, -26.854253]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1412"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.223491, -26.854386]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1308"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.224315, -26.853182]
+      },
+      "properties": {
+        "name": "Av. Alem 1830"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.223552, -26.850216]
+      },
+      "properties": {
+        "name": "Av. Alem 1604"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.223201, -26.848825]
+      },
+      "properties": {
+        "name": "Av. Alem 1502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.222895, -26.84664]
+      },
+      "properties": {
+        "name": "Av. Alem 1352"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.222263, -26.844778]
+      },
+      "properties": {
+        "name": "Av. Alem 1204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.221957, -26.843367]
+      },
+      "properties": {
+        "name": "Av. Alem 1106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.221535, -26.842013]
+      },
+      "properties": {
+        "name": "Av. Alem 1002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.221064, -26.840069]
+      },
+      "properties": {
+        "name": "Av. Alem 870"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.220452, -26.837034]
+      },
+      "properties": {
+        "name": "Av. Alem 650"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.22011, -26.834389]
+      },
+      "properties": {
+        "name": "Av. Alem 490"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.219428, -26.831455]
+      },
+      "properties": {
+        "name": "Av. Alem 230"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.217347, -26.831544]
+      },
+      "properties": {
+        "name": "San Lorenzo 1270"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.213692, -26.832254]
+      },
+      "properties": {
+        "name": "San Lorenzo 1028"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.210977, -26.832739]
+      },
+      "properties": {
+        "name": "San Lorenzo 860"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20768, -26.833358]
+      },
+      "properties": {
+        "name": "San Lorenzo 640"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.204292, -26.833909]
+      },
+      "properties": {
+        "name": "San Lorenzo 418"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20127, -26.834588]
+      },
+      "properties": {
+        "name": "San Lorenzo 220"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.198715, -26.835222]
+      },
+      "properties": {
+        "name": "San Lorenzo 46"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.200137, -26.836439]
+      },
+      "properties": {
+        "name": "Las Piedras 112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.20323, -26.836644]
+      },
+      "properties": {
+        "name": "Las Heras 371"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.203891, -26.839447]
+      },
+      "properties": {
+        "name": "Las Heras 589"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.204482, -26.842239]
+      },
+      "properties": {
+        "name": "Las Heras 793"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.205265, -26.843464]
+      },
+      "properties": {
+        "name": "Av. Roca 339"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.208049, -26.842825]
+      },
+      "properties": {
+        "name": "Av. Roca 529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.211717, -26.842207]
+      },
+      "properties": {
+        "name": "Av. Roca 767"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.217463, -26.84107]
+      },
+      "properties": {
+        "name": "Av. Roca 1129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.218925, -26.840814]
+      },
+      "properties": {
+        "name": "Av. Roca 1209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.222003, -26.841673]
+      },
+      "properties": {
+        "name": "Alem 997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.222185, -26.843185]
+      },
+      "properties": {
+        "name": "Av. Alem 1099"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.222655, -26.844478]
+      },
+      "properties": {
+        "name": "Av. Alem 1197"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.223272, -26.847015]
+      },
+      "properties": {
+        "name": "Av. Alem 1389"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.223662, -26.848424]
+      },
+      "properties": {
+        "name": "Av. Alem 1497"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.223937, -26.849935]
+      },
+      "properties": {
+        "name": "Av. Alem 1597"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.224305, -26.851284]
+      },
+      "properties": {
+        "name": "Av. Alem 1697"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.224602, -26.852537]
+      },
+      "properties": {
+        "name": "Av. Alem 1789"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.225694, -26.852451]
+      },
+      "properties": {
+        "name": "Lavaisee 1498"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.228077, -26.852239]
+      },
+      "properties": {
+        "name": "Lavaisse 1588"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.229774, -26.851844]
+      },
+      "properties": {
+        "name": "Lavaisee 1696"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.230425, -26.851778]
+      },
+      "properties": {
+        "name": "Lavaisse 1746"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.233276, -26.85109]
+      },
+      "properties": {
+        "name": "Lavaisse 1898"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.231814, -26.852596]
+      },
+      "properties": {
+        "name": "Frias Silva 1897"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.233238, -26.852557]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1888"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.234422, -26.852327]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 1984"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.237552, -26.851574]
+      },
+      "properties": {
+        "name": "Inca Garcilazo 2182"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.236349, -26.853082]
+      },
+      "properties": {
+        "name": "Amador Lucero 1999"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.237982, -26.853046]
+      },
+      "properties": {
+        "name": "Av. Américo Vespucio 2198"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.240957, -26.852023]
+      },
+      "properties": {
+        "name": "Av. Américo Vespucio 2398"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.242499, -26.851892]
+      },
+      "properties": {
+        "name": "Av. Américo Vespucio 2488"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.244021, -26.851582]
+      },
+      "properties": {
+        "name": "Av. Américo Vespucio 2586"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.245832, -26.851172]
+      },
+      "properties": {
+        "name": "Av. Américo Vespucio 2688"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.245999, -26.852109]
+      },
+      "properties": {
+        "name": "Coronel Zelaya 2080"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.246261, -26.852486]
+      },
+      "properties": {
+        "name": "Coronel Zelaya 2188"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.24417, -26.853917]
+      },
+      "properties": {
+        "name": "Olleros 2523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.242773, -26.854168]
+      },
+      "properties": {
+        "name": "Olleros 2433"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.241135, -26.854472]
+      },
+      "properties": {
+        "name": "Olleros 2323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.240779, -26.854529]
+      },
+      "properties": {
+        "name": "Olleros y Av. Colon"
+      }
+    }
+  ]
+}

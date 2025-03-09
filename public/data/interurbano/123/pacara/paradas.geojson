@@ -1,7 +1,1 @@
-{
-  "type": "FeatureCollection",
-  "properties": {
-    "name": "Linea 123 - Pascar"
-  },
-  "features": []
-}
+{"type":"FeatureCollection","properties":{"name":"Linea 123 - Pascar"},"features":[]}

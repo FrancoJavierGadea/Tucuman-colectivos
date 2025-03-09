@@ -1,0 +1,21 @@
+{
+  "name": "Linea 131",
+  "direction": "Lomas de tafi",
+  "length_km": 27.75,
+  "category": "interurbano",
+  "provider": {
+    "name": "Libertad U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  },
+  "id": "131/lomas-de-tafi",
+  "bus_path": "public/data/interurbano/131/lomas-de-tafi/recorrido.geojson",
+  "image": {
+    "landscape": "/data/interurbano/131/img/landscape.webp",
+    "square": "/data/interurbano/131/img/square.webp"
+  }
+}
