@@ -1,8 +1,9 @@
 import { CATEGORIES } from "../constants.js";
-import { exploreDataFolder, readJSON } from "../update/utils.js";
-import fs from "node:fs";
+
+import fs from "node:fs/promises";
 import path from "node:path";
 import { transformText, URL_UTILS } from "./utils.js";
+import { exploreDataFolder, readJSON } from "../file-utils.js";
 
 
 
@@ -10,23 +11,13 @@ import { transformText, URL_UTILS } from "./utils.js";
 
 function generateMarkdown(){
 
-    exploreDataFolder(({folder, url, line, direction, category}) => {
-
+    exploreDataFolder(async ({folder, url, line, direction, category}) => {
 
         if(direction !== 'img'){
 
-            const recorrido = (() => {
+            const recorrido = await readJSON(path.join(folder, 'recorrido.v2.geojson')) || await readJSON(path.join(folder, 'recorrido.geojson'));
 
-                if(fs.existsSync(path.join(folder, 'recorrido.v2.geojson'))){
-
-                    return readJSON(path.join(folder, 'recorrido.v2.geojson'));
-                } 
-                else {
-
-                    return readJSON(path.join(folder, 'recorrido.geojson'));
-                }
-
-            })()
+            const paradas = await readJSON(path.join(folder, 'paradas.geojson'));
 
             const text = [
                 `## Linea ${transformText(line).capitalize} - ${transformText(direction).capitalize}`,
@@ -34,8 +25,10 @@ function generateMarkdown(){
                 `<p align="center"><img src="../img/landscape.webp" width="500px" /></p>`,
 
                 `### Recorrido`,
-
                 '```geojson\n' + JSON.stringify(recorrido)  + '\n```',
+
+                `### Paradas`,
+                '```geojson\n' + JSON.stringify(paradas)  + '\n```',
                 
                 `### Editar en [\`geojson.io\`](https://geojson.io/#map=11/-26.8139/-65.2008)`,
                 
@@ -46,7 +39,9 @@ function generateMarkdown(){
                 ]
                 .map(file => {
 
-                    const rawUrl = URL_UTILS.github.raw('/public' + `${url}/${file}`);
+                    const rawUrl = URL_UTILS.github.raw(`${url}/${file}`);
+
+                    console.log(rawUrl);
 
                     return `- [${file}](${URL_UTILS.geojsonIo.data(rawUrl)})`
                 })
@@ -54,8 +49,7 @@ function generateMarkdown(){
             ]
             .join('\n\n');
 
-
-            fs.writeFileSync(
+            await fs.writeFile(
                 path.join(folder, 'readme.md'),
                 text,
                 { encoding: 'utf-8' }
