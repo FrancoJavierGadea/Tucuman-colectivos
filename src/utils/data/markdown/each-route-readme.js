@@ -1,5 +1,5 @@
 import { CATEGORIES } from "../constants.js";
-import { exploreDataFolder } from "../update/utils.js";
+import { exploreDataFolder, readJSON } from "../update/utils.js";
 import fs from "node:fs";
 import path from "node:path";
 import { transformText, URL_UTILS } from "./utils.js";
@@ -13,13 +13,18 @@ function generateMarkdown(){
     exploreDataFolder(({folder, url, line, direction, category}) => {
 
 
-        if(folder !== 'img'){
+        if(direction !== 'img'){
 
+            const recorrido = readJSON(path.join(folder, 'recorrido.geojson'));
 
             const text = [
                 `## Linea ${transformText(line).capitalize} - ${transformText(direction).capitalize}`,
                 
                 `<p align="center"><img src="../img/landscape.webp" width="500px" /></p>`,
+
+                `### Recorrido`,
+
+                '```geojson\n' + JSON.stringify(recorrido)  + '\n```',
                 
                 `### Editar en [\`geojson.io\`](https://geojson.io/#map=11/-26.8139/-65.2008)`,
                 
