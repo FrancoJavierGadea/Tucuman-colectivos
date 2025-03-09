@@ -15,7 +15,18 @@ function generateMarkdown(){
 
         if(direction !== 'img'){
 
-            const recorrido = readJSON(path.join(folder, 'recorrido.geojson'));
+            const recorrido = (() => {
+
+                if(fs.existsSync(path.join(folder, 'recorrido.v2.geojson'))){
+
+                    return readJSON(path.join(folder, 'recorrido.v2.geojson'));
+                } 
+                else {
+
+                    return readJSON(path.join(folder, 'recorrido.geojson'));
+                }
+
+            })()
 
             const text = [
                 `## Linea ${transformText(line).capitalize} - ${transformText(direction).capitalize}`,
