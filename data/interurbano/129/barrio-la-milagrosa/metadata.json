@@ -1,7 +1,7 @@
 {
   "name": "Linea 129",
-  "direction": "Hospital oeste",
-  "length_km": 24.51,
+  "direction": "Barrio La Milagrosa",
+  "length_km": 21.85,
   "category": "interurbano",
   "provider": {
     "name": "Tandilense S.R.L",
@@ -15,5 +15,6 @@
   "image": {
     "landscape": "/data/interurbano/129/img/landscape.webp",
     "square": "/data/interurbano/129/img/square.webp"
-  }
+  },
+  "id": "129/barrio-la-milagrosa"
 }
