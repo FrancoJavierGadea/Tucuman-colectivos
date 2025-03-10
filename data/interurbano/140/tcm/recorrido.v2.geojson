@@ -3,7 +3,25 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 140 - TCM - Las Cantinas" },
+      "properties": {
+        "name": "Linea 140",
+        "direction": "Tcm",
+        "length_km": 42.26,
+        "category": "interurbano",
+        "provider": {
+          "name": "T.A. Colombres S.R.L.",
+          "contact": {
+            "phone": "",
+            "email": "",
+            "address": "",
+            "website": ""
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/140/img/landscape.webp",
+          "square": "/data/interurbano/140/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.1930236293639, -26.83562096852704],

@@ -3,7 +3,25 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 121 - Alderetes - Casco Urbano" },
+      "properties": {
+        "name": "Linea 121",
+        "direction": "Alderetes",
+        "length_km": 28.67,
+        "category": "interurbano",
+        "provider": {
+          "name": "T.A. Ciudad de Alderetes S.R.L.",
+          "contact": {
+            "phone": "",
+            "email": "",
+            "address": "",
+            "website": ""
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/121/img/landscape.webp",
+          "square": "/data/interurbano/121/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.14137821384352, -26.81212083685132],

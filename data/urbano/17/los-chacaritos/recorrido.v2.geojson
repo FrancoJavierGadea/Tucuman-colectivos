@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 17 - Los chacaritos" },
+      "properties": {
+        "name": "Linea 17",
+        "direction": "Los chacaritos",
+        "length_km": 18.89,
+        "category": "urbano",
+        "provider": {
+          "name": "El Condor S.R.L.",
+          "contact": {
+            "phone": "381 436-4674",
+            "email": "",
+            "address": "Av. Independencia 2601, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "17/los-chacaritos",
+        "image": {
+          "landscape": "/data/urbano/17/img/landscape.webp",
+          "square": "/data/urbano/17/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.25703961210931, -26.862885652977003],

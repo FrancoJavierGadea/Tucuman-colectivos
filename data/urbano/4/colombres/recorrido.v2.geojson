@@ -6,8 +6,22 @@
       "properties": {
         "name": "Linea 4",
         "direction": "Colombres",
+        "length_km": 26.71,
         "category": "urbano",
-        "length_km": 27.17
+        "provider": {
+          "name": "El Corcel S.A.",
+          "contact": {
+            "phone": "381 435-2223",
+            "email": "",
+            "address": "Av. Aconquija 294, Yerba Buena, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "4/colombres",
+        "image": {
+          "landscape": "/data/urbano/4/img/landscape.webp",
+          "square": "/data/urbano/4/img/square.webp"
+        }
       },
       "geometry": {
         "coordinates": [

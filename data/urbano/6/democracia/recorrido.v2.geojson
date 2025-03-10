@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 6 - Democracia" },
+      "properties": {
+        "name": "Linea 6",
+        "direction": "Democracia",
+        "length_km": 46.23,
+        "category": "urbano",
+        "provider": {
+          "name": "TCP Tucman U.T.E.",
+          "contact": {
+            "phone": "381 434-6186",
+            "email": "",
+            "address": "Av Belgrano 2526, San Miguel de Tucumán, Tucumán",
+            "website": ""
+          }
+        },
+        "id": "6/democracia",
+        "image": {
+          "landscape": "/data/urbano/6/img/landscape.webp",
+          "square": "/data/urbano/6/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.25632845811784, -26.790637990983367],

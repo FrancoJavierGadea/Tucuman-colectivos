@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 101 - Los Pocitos" },
+      "properties": {
+        "name": "Linea 101",
+        "direction": "Los pocitos",
+        "length_km": 18.97,
+        "category": "interurbano",
+        "provider": {
+          "name": "El Galgo S.R.L.",
+          "contact": {
+            "phone": "381 427-6867",
+            "email": "",
+            "address": "Av. República del Líbano 2488, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": "https://www.facebook.com/elgalgosrl"
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/101/img/landscape.webp",
+          "square": "/data/interurbano/101/img/square.webp"
+        },
+        "id": "101/los-pocitos"
+      },
       "geometry": {
         "coordinates": [
           [-65.21827298461388, -26.780062586112674],

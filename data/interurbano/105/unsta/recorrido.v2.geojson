@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 105 - UNSTA - Las Talitas" },
+      "properties": {
+        "name": "Linea 105",
+        "direction": "Unsta",
+        "length_km": 56.27,
+        "category": "interurbano",
+        "provider": {
+          "name": "Transportes Asociados U.T.E.",
+          "contact": {
+            "phone": "381 434-6969",
+            "email": "",
+            "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/105/img/landscape.webp",
+          "square": "/data/interurbano/105/img/square.webp"
+        },
+        "id": "105/unsta"
+      },
       "geometry": {
         "coordinates": [
           [-65.17027373850254, -26.771484845582524],

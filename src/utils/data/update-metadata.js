@@ -11,19 +11,22 @@ export async function updateMetadata(){
 
         if(direction === 'img') return;
 
-        if(category === CATEGORIES.INTERURBANO){
+        if(category === CATEGORIES.URBANO){
 
             const metadata = await readJSON(path.join(folder, 'metadata.json'));
 
             const recorrido = await readJSON(path.join(folder, 'recorrido.v2.geojson'));
 
-            const length = +turf.length(recorrido.features.at(0), {units: "kilometers"}).toFixed(2)
+            //Update Length km
+            // const length = +turf.length(recorrido.features.at(0), {units: "kilometers"}).toFixed(2)
     
-            metadata.length_km = length;
+            // metadata.length_km = length;
 
-            delete metadata.bus_path;
+            recorrido.features.at(0).properties = metadata;
 
-            await writeJSON(path.join(folder, 'metadata.json'), metadata);
+            //await writeJSON(path.join(folder, 'metadata.json'), metadata);
+
+            await writeJSON(path.join(folder, 'recorrido.v2.geojson'), recorrido);
         }
 
     });

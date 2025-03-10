@@ -3,7 +3,25 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 124 - Alderetes - Santa Ines" },
+      "properties": {
+        "name": "Linea 124",
+        "direction": "Alderetes",
+        "length_km": 28.08,
+        "category": "interurbano",
+        "provider": {
+          "name": "T.A. Cruz Alta S.R.L.",
+          "contact": {
+            "phone": "381 421-0649",
+            "email": "",
+            "address": "Terminal Tucumán: Av. Brígido Terán 250 - Local 74, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/124/img/landscape.webp",
+          "square": "/data/interurbano/124/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.13958425526873, -26.805812627016415],

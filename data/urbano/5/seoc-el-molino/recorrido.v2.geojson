@@ -5,9 +5,23 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 5",
-        "direction": "SEOC - El Molino",
-        "length_km": 15.88,
-        "category": "urbano"
+        "direction": "SEOC - El molino",
+        "length_km": 15.78,
+        "category": "urbano",
+        "provider": {
+          "name": "Transportes Asociados U.T.E.",
+          "contact": {
+            "phone": "381 434-6969",
+            "email": "",
+            "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "5/seoc-el-molino",
+        "image": {
+          "landscape": "/data/urbano/5/img/landscape.webp",
+          "square": "/data/urbano/5/img/square.webp"
+        }
       },
       "geometry": {
         "coordinates": [

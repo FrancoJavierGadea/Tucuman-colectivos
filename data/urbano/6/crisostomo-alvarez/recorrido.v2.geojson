@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 6 - Crisostomo Alvarez - San Alberto" },
+      "properties": {
+        "name": "Linea 6",
+        "direction": "Crisostomo alvarez",
+        "length_km": 23.83,
+        "category": "urbano",
+        "provider": {
+          "name": "TCP Tucman U.T.E.",
+          "contact": {
+            "phone": "381 434-6186",
+            "email": "",
+            "address": "Av Belgrano 2526, San Miguel de Tucumán, Tucumán",
+            "website": ""
+          }
+        },
+        "id": "6/crisostomo-alvarez",
+        "image": {
+          "landscape": "/data/urbano/6/img/landscape.webp",
+          "square": "/data/urbano/6/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.24314280109078, -26.867123504562343],

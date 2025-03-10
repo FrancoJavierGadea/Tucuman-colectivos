@@ -6,8 +6,22 @@
       "properties": {
         "name": "Linea 3",
         "direction": "Lavalle",
+        "length_km": 37.21,
         "category": "urbano",
-        "length_km": 36.93
+        "provider": {
+          "name": "Cerro Pozo U.T.E.",
+          "contact": {
+            "phone": "",
+            "email": "",
+            "address": "",
+            "website": ""
+          }
+        },
+        "id": "3/lavalle",
+        "image": {
+          "landscape": "/data/urbano/3/img/landscape.webp",
+          "square": "/data/urbano/3/img/square.webp"
+        }
       },
       "geometry": {
         "coordinates": [

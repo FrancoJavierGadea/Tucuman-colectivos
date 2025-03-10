@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 106 - Prospero Mena" },
+      "properties": {
+        "name": "Linea 106",
+        "direction": "P. me",
+        "length_km": 41.71,
+        "category": "interurbano",
+        "provider": {
+          "name": "TCP Tucman U.T.E.",
+          "contact": {
+            "phone": "381 434-6186",
+            "email": "",
+            "address": "Av Belgrano 2526, San Miguel de Tucumán, Tucumán",
+            "website": ""
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/106/img/landscape.webp",
+          "square": "/data/interurbano/106/img/square.webp"
+        },
+        "id": "106/prospero-mena"
+      },
       "geometry": {
         "coordinates": [
           [-65.19306266944524, -26.834406454957456],

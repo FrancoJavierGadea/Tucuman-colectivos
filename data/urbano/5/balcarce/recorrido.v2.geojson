@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 5", "direction": "Balcarce" },
+      "properties": {
+        "name": "Linea 5",
+        "direction": "Balcarce",
+        "length_km": 30.89,
+        "category": "urbano",
+        "provider": {
+          "name": "Transportes Asociados U.T.E.",
+          "contact": {
+            "phone": "381 434-6969",
+            "email": "",
+            "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "5/balcarce",
+        "image": {
+          "landscape": "/data/urbano/5/img/landscape.webp",
+          "square": "/data/urbano/5/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.25369393909881, -26.8137029548742],

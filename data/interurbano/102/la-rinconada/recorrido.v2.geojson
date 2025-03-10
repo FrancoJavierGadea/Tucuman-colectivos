@@ -3,7 +3,25 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 102 - La rinconada" },
+      "properties": {
+        "name": "Linea 102",
+        "direction": "La rinconada",
+        "length_km": 50.07,
+        "category": "interurbano",
+        "provider": {
+          "name": "El Corcel S.A.",
+          "contact": {
+            "phone": "381 435-2223",
+            "email": "",
+            "address": "Av. Aconquija 294, Yerba Buena, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/102/img/landscape.webp",
+          "square": "/data/interurbano/102/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.29308457000691, -26.828744411704662],

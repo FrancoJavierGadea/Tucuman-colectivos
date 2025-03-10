@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { DATA_FOLDER } from "./constants.js";
 import { error } from "node:console";
-
+import * as prettier from "prettier";
 
 /**
  * 
@@ -47,7 +47,14 @@ export async function readJSON(path){
 
 export async function writeJSON(path, json, {minify = false} = {}){
 
-    const data = minify ? JSON.stringify(json) : JSON.stringify(json, null, 2);
+    let data = minify ? JSON.stringify(json) : (
+        await prettier.format(
+            JSON.stringify(json, null, 2),
+            {
+                parser: 'json'
+            }
+        )
+    );
 
     await fs.writeFile(path, data, {encoding: 'utf-8'});
 

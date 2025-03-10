@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 8 - Muñecas - Kennedy" },
+      "properties": {
+        "name": "Linea 8",
+        "direction": "Muñecas",
+        "length_km": 30.2,
+        "category": "urbano",
+        "provider": {
+          "name": "Libertad U.T.E.",
+          "contact": {
+            "phone": "",
+            "email": "",
+            "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "8/muñecas",
+        "image": {
+          "landscape": "/data/urbano/8/img/landscape.webp",
+          "square": "/data/urbano/8/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.23790227965941, -26.795231843166825],

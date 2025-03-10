@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 17 - Alem - Universidad" },
+      "properties": {
+        "name": "Linea 17",
+        "direction": "Alem",
+        "length_km": 28.43,
+        "category": "urbano",
+        "provider": {
+          "name": "El Condor S.R.L.",
+          "contact": {
+            "phone": "381 436-4674",
+            "email": "",
+            "address": "Av. Independencia 2601, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "17/alem",
+        "image": {
+          "landscape": "/data/urbano/17/img/landscape.webp",
+          "square": "/data/urbano/17/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.24115559237576, -26.856564894566304],

@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 118 - La Rinconada" },
+      "properties": {
+        "name": "Linea 118",
+        "direction": "La rinconada",
+        "length_km": 34.01,
+        "category": "interurbano",
+        "provider": {
+          "name": "El Portezuelo S.R.L.",
+          "contact": {
+            "phone": "381 230-2070",
+            "email": "",
+            "address": "Anta Muerta 2120, Yerba Buena, Tucumán, Argentina",
+            "website": "https://www.instagram.com/linea118.tucuman/"
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/118/img/landscape.webp",
+          "square": "/data/interurbano/118/img/square.webp"
+        },
+        "id": "118/la-rinconada"
+      },
       "geometry": {
         "coordinates": [
           [-65.1954933695605, -26.836875618320228],

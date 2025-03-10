@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 12 - Municipal" },
+      "properties": {
+        "name": "Linea 12",
+        "direction": "Municipal",
+        "length_km": 28.2,
+        "category": "urbano",
+        "provider": {
+          "name": "Cerro Pozo U.T.E.",
+          "contact": {
+            "phone": "",
+            "email": "",
+            "address": "",
+            "website": ""
+          }
+        },
+        "id": "12/municipal",
+        "image": {
+          "landscape": "/data/urbano/12/img/landscape.webp",
+          "square": "/data/urbano/12/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.25362789043244, -26.838784450692206],

@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 10 - Villa Amalia" },
+      "properties": {
+        "name": "Linea 10",
+        "direction": "Villa amalia",
+        "length_km": 43.53,
+        "category": "urbano",
+        "provider": {
+          "name": "Santa Fe U.T.E.",
+          "contact": {
+            "phone": "",
+            "email": "",
+            "address": "Av. Brígido Terán 250, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "10/villa-amalia",
+        "image": {
+          "landscape": "/data/urbano/10/img/landscape.webp",
+          "square": "/data/urbano/10/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.26182299339827, -26.85953079851046],

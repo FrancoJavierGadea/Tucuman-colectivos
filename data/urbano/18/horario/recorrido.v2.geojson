@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 18 - Horario" },
+      "properties": {
+        "name": "Linea 18",
+        "direction": "Horario",
+        "length_km": 14.48,
+        "category": "urbano",
+        "provider": {
+          "name": "Colón U.T.E.",
+          "contact": {
+            "phone": "381 436-7427",
+            "email": "",
+            "address": "Av. Colón 1256, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "18/horario",
+        "image": {
+          "landscape": "/data/urbano/18/img/landscape.webp",
+          "square": "/data/urbano/18/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.23672580849555, -26.843196640015545],

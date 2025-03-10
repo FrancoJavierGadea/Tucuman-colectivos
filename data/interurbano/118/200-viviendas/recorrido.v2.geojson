@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 118 - 200 Viviendas" },
+      "properties": {
+        "name": "Linea 118",
+        "direction": "200 viviendas",
+        "length_km": 34.11,
+        "category": "interurbano",
+        "provider": {
+          "name": "El Portezuelo S.R.L.",
+          "contact": {
+            "phone": "381 230-2070",
+            "email": "",
+            "address": "Anta Muerta 2120, Yerba Buena, Tucumán, Argentina",
+            "website": "https://www.instagram.com/linea118.tucuman/"
+          }
+        },
+        "image": {
+          "landscape": "/data/interurbano/118/img/landscape.webp",
+          "square": "/data/interurbano/118/img/square.webp"
+        },
+        "id": "118/200-viviendas"
+      },
       "geometry": {
         "coordinates": [
           [-65.1955343426628, -26.837076886123693],

@@ -3,7 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "Linea 109 - Lomas de Tafi" },
+      "properties": {
+        "name": "Linea 109",
+        "direction": "Lomas de tafi",
+        "length_km": 33.22,
+        "category": "interurbano",
+        "provider": {
+          "name": "Gral. Belgrano S.R.L.",
+          "contact": {
+            "phone": "381 232-1227",
+            "email": "",
+            "address": "Av. Independencia 2513, San Miguel de Tucumán, Tucumán, Argentina",
+            "website": ""
+          }
+        },
+        "id": "109/lomas-de-tafi",
+        "image": {
+          "landscape": "/data/interurbano/109/img/landscape.webp",
+          "square": "/data/interurbano/109/img/square.webp"
+        }
+      },
       "geometry": {
         "coordinates": [
           [-65.2427722748089, -26.766501246277816],
