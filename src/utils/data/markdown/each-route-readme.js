@@ -6,14 +6,11 @@ import { transformText, URL_UTILS } from "./utils.js";
 import { exploreDataFolder, readJSON } from "../file-utils.js";
 
 
-
-
-
 function generateMarkdown(){
 
     exploreDataFolder(async ({folder, url, line, direction, category}) => {
 
-        if(direction !== 'img'){
+        if(direction !== 'img' && category === CATEGORIES.INTERURBANO){
 
             const recorrido = await readJSON(path.join(folder, 'recorrido.v2.geojson')) || await readJSON(path.join(folder, 'recorrido.geojson'));
 
@@ -41,7 +38,6 @@ function generateMarkdown(){
 
                     const rawUrl = URL_UTILS.github.raw(`${url}/${file}`);
 
-                    console.log(rawUrl);
 
                     return `- [${file}](${URL_UTILS.geojsonIo.data(rawUrl)})`
                 })
