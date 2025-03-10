@@ -1,7 +1,7 @@
 {
   "name": "Linea 5",
   "direction": "Balcarce",
-  "length_km": 30.78,
+  "length_km": 30.89,
   "category": "urbano",
   "provider": {
     "name": "Transportes Asociados U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "5/balcarce",
-  "bus_path": "/data/urbano/5/balcarce/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/5/img/landscape.webp",
     "square": "/data/urbano/5/img/square.webp"

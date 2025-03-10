@@ -1,7 +1,7 @@
 {
   "name": "Linea 11",
   "direction": "11 de Marzo",
-  "length_km": 33.58,
+  "length_km": 31.15,
   "category": "urbano",
   "provider": {
     "name": "TCM Bus S.R.L",
@@ -13,7 +13,6 @@
     }
   },
   "id": "11/11-de-marzo",
-  "bus_path": "/data/urbano/11/11-de-marzo/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/11/img/landscape.webp",
     "square": "/data/urbano/11/img/square.webp"

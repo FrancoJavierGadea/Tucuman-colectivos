@@ -1,7 +1,7 @@
 {
   "name": "Linea 18",
   "direction": "Antihorario",
-  "length_km": 14.64,
+  "length_km": 14.59,
   "category": "urbano",
   "provider": {
     "name": "Colón U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "18/antihorario",
-  "bus_path": "/data/urbano/18/antihorario/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/18/img/landscape.webp",
     "square": "/data/urbano/18/img/square.webp"

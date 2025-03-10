@@ -1,7 +1,7 @@
 {
   "name": "Linea 19",
   "direction": "Anti horario",
-  "length_km": 25.07,
+  "length_km": 25.11,
   "category": "urbano",
   "provider": {
     "name": "B y V Transportes S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "19/antihorario",
-  "bus_path": "/data/urbano/19/anti-horario/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/19/img/landscape.webp",
     "square": "/data/urbano/19/img/square.webp"

@@ -1,7 +1,7 @@
 {
   "name": "Linea 17",
   "direction": "Alem",
-  "length_km": 28.54,
+  "length_km": 28.43,
   "category": "urbano",
   "provider": {
     "name": "El Condor S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "17/alem",
-  "bus_path": "/data/urbano/17/alem/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/17/img/landscape.webp",
     "square": "/data/urbano/17/img/square.webp"

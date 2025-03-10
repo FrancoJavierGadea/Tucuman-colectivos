@@ -1,7 +1,7 @@
 {
   "name": "Linea 125",
   "direction": "Aereopuerto",
-  "length_km": 27.45,
+  "length_km": 28.17,
   "category": "interurbano",
   "provider": {
     "name": "Tandilense S.R.L",

@@ -1,7 +1,7 @@
 {
   "name": "Linea 5",
   "direction": "Barrio oeste",
-  "length_km": 30.78,
+  "length_km": 30.61,
   "category": "urbano",
   "provider": {
     "name": "Transportes Asociados U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "5/barrio-oeste",
-  "bus_path": "/data/urbano/5/barrio-oeste/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/5/img/landscape.webp",
     "square": "/data/urbano/5/img/square.webp"

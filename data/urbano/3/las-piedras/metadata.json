@@ -1,7 +1,7 @@
 {
   "name": "Linea 3",
   "direction": "Las piedras",
-  "length_km": 37.23,
+  "length_km": 37.21,
   "category": "urbano",
   "provider": {
     "name": "Cerro Pozo U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "3/las-piedras",
-  "bus_path": "/data/urbano/3/las-piedras/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/3/img/landscape.webp",
     "square": "/data/urbano/3/img/square.webp"

@@ -1,7 +1,7 @@
 {
   "name": "Linea 6",
   "direction": "Crisostomo alvarez",
-  "length_km": 23.73,
+  "length_km": 23.83,
   "category": "urbano",
   "provider": {
     "name": "TCP Tucman U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "6/crisostomo-alvarez",
-  "bus_path": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/6/img/landscape.webp",
     "square": "/data/urbano/6/img/square.webp"

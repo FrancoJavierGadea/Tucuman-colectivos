@@ -16,8 +16,7 @@
     "astro": "^5.3.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "ol": "^10.4.0",
-    "proj4": "^2.15.0"
+    "ol": "^10.4.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.10"

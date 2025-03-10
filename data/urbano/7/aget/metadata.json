@@ -1,7 +1,7 @@
 {
   "name": "Linea 7",
   "direction": "Aget",
-  "length_km": 40.94,
+  "length_km": 41.13,
   "category": "urbano",
   "provider": {
     "name": "El Ceibo S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "7/aget",
-  "bus_path": "/data/urbano/7/aget/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/7/img/landscape.webp",
     "square": "/data/urbano/7/img/square.webp"

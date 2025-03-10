@@ -1,7 +1,7 @@
 {
   "name": "Linea 11",
   "direction": "Villa Angelina",
-  "length_km": 35.49,
+  "length_km": 35.59,
   "category": "urbano",
   "provider": {
     "name": "TCM Bus S.R.L",
@@ -13,7 +13,6 @@
     }
   },
   "id": "11/villa-angelina",
-  "bus_path": "/data/urbano/11/villa-angelina/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/11/img/landscape.webp",
     "square": "/data/urbano/11/img/square.webp"

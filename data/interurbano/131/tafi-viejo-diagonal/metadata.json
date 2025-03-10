@@ -1,7 +1,7 @@
 {
   "name": "Linea 131",
   "direction": "Tafi Viejo por diagonal",
-  "length_km": 39.99,
+  "length_km": 40.44,
   "category": "interurbano",
   "provider": {
     "name": "Libertad U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "131/tafi-viejo-diagonal",
-  "bus_path": "public/data/interurbano/131/tafi-viejo-diagonal/recorrido.geojson",
   "image": {
     "landscape": "/data/interurbano/131/img/landscape.webp",
     "square": "/data/interurbano/131/img/square.webp"

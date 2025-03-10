@@ -1,7 +1,7 @@
 {
   "name": "Linea 107",
   "direction": "El grafico",
-  "length_km": 30.97,
+  "length_km": 31.64,
   "category": "interurbano",
   "provider": {
     "name": "El Ceibo S.R.L.",
@@ -16,6 +16,5 @@
     "landscape": "/data/interurbano/107/img/landscape.webp",
     "square": "/data/interurbano/107/img/square.webp"
   },
-  "id": "107/el-grafico",
-  "bus_path": "/data/interurbano/107/el-grafico/recorrido.geojson"
+  "id": "107/el-grafico"
 }

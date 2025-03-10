@@ -1,7 +1,7 @@
 {
   "name": "Linea 19",
   "direction": "Horario",
-  "length_km": 25.03,
+  "length_km": 25.15,
   "category": "urbano",
   "provider": {
     "name": "B y V Transportes S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "19/horario",
-  "bus_path": "/data/urbano/19/horario/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/19/img/landscape.webp",
     "square": "/data/urbano/19/img/square.webp"

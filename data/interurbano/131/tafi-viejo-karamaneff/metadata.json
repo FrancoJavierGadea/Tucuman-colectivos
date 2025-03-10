@@ -1,7 +1,7 @@
 {
   "name": "Linea 131",
   "direction": "Tafi Viejo - Karamaneff",
-  "length_km": 36.79,
+  "length_km": 36.94,
   "category": "interurbano",
   "provider": {
     "name": "Libertad U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "131/tafi-viejo-karamaneff",
-  "bus_path": "public/data/interurbano/131/tafi-viejo-karamaneff/recorrido.geojson",
   "image": {
     "landscape": "/data/interurbano/131/img/landscape.webp",
     "square": "/data/interurbano/131/img/square.webp"

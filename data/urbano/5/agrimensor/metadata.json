@@ -1,7 +1,7 @@
 {
   "name": "Linea 5",
   "direction": "Agrimensor",
-  "length_km": 32.27,
+  "length_km": 32.31,
   "category": "urbano",
   "provider": {
     "name": "Transportes Asociados U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "5/agrimensor",
-  "bus_path": "/data/urbano/5/agrimensor/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/5/img/landscape.webp",
     "square": "/data/urbano/5/img/square.webp"

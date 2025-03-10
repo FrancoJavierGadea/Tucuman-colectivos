@@ -1,45 +1,33 @@
-import { DATA_TYPES } from "./constants.js";
-import { eachFile, readJSON, writeJSON } from "./update-data.js";
+import { CATEGORIES, DATA_TYPES } from "./constants.js";
+import { exploreDataFolder, readJSON, writeJSON } from "./file-utils.js";
+import path from "node:path";
+import * as turf from "@turf/turf";
 
 
-const DATA = [
-    {
-        data: {
-            provider: {
-                name: 'T.A. Cruz Alta S.R.L.',
-                contact: {
-                    phone: '381 421-0649',
-                    email: '',
-                    address: 'Terminal Tucumán: Av. Brígido Terán 250 - Local 74, San Miguel de Tucumán, Tucumán, Argentina',
-                    website: ''
-                }
-            }
-        },
-        targets: ['/data/interurbano/124/']
-    },
-]
+export async function updateMetadata(){
 
-export function addMetadata(folderPath, data = {}){
+    
+    exploreDataFolder(async ({folder, direction, line, category, url}) => {
 
-    eachFile(folderPath, ({dataType, file, folder}) => {
+        if(direction === 'img') return;
 
-        if(dataType === DATA_TYPES.METADATA){
+        if(category === CATEGORIES.INTERURBANO){
 
-            DATA.forEach(({data, targets}) => {
+            const metadata = await readJSON(path.join(folder, 'metadata.json'));
 
-                if(targets.some(target => file.replaceAll('\\', '/').includes(target))){
+            const recorrido = await readJSON(path.join(folder, 'recorrido.v2.geojson'));
 
-                    console.log('Update: ', file.replace(folderPath, ''));
-                    console.log(data.provider.name);
+            const length = +turf.length(recorrido.features.at(0), {units: "kilometers"}).toFixed(2)
+    
+            metadata.length_km = length;
 
-                    const metadata = readJSON(file);
+            delete metadata.bus_path;
 
-                    writeJSON(file, {...metadata, ...data});
-                }
-
-            })
+            await writeJSON(path.join(folder, 'metadata.json'), metadata);
         }
-    })
+
+    });
 }
 
 
+updateMetadata();

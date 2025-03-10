@@ -1,7 +1,7 @@
 {
   "name": "Linea 131",
   "direction": "Lomas de tafi",
-  "length_km": 27.75,
+  "length_km": 28.45,
   "category": "interurbano",
   "provider": {
     "name": "Libertad U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "131/lomas-de-tafi",
-  "bus_path": "public/data/interurbano/131/lomas-de-tafi/recorrido.geojson",
   "image": {
     "landscape": "/data/interurbano/131/img/landscape.webp",
     "square": "/data/interurbano/131/img/square.webp"

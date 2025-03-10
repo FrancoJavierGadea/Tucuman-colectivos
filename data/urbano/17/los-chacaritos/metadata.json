@@ -1,7 +1,7 @@
 {
   "name": "Linea 17",
   "direction": "Los chacaritos",
-  "length_km": 19.02,
+  "length_km": 18.89,
   "category": "urbano",
   "provider": {
     "name": "El Condor S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "17/los-chacaritos",
-  "bus_path": "/data/urbano/17/los-chacaritos/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/17/img/landscape.webp",
     "square": "/data/urbano/17/img/square.webp"

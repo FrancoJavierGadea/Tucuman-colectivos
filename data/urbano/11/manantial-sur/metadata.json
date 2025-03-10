@@ -1,7 +1,7 @@
 {
   "name": "Linea 11",
   "direction": "Manantial sur",
-  "length_km": 34.69,
+  "length_km": 24.58,
   "category": "urbano",
   "provider": {
     "name": "TCM Bus S.R.L",
@@ -13,7 +13,6 @@
     }
   },
   "id": "11/manantial-sur",
-  "bus_path": "/data/urbano/11/manantial-sur/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/11/img/landscape.webp",
     "square": "/data/urbano/11/img/square.webp"

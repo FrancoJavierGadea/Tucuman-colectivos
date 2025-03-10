@@ -1,7 +1,7 @@
 {
   "name": "Linea 10",
   "direction": "Villa amalia",
-  "length_km": 43.5,
+  "length_km": 43.53,
   "category": "urbano",
   "provider": {
     "name": "Santa Fe U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "10/villa-amalia",
-  "bus_path": "/data/urbano/10/villa-amalia/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/10/img/landscape.webp",
     "square": "/data/urbano/10/img/square.webp"

@@ -1,7 +1,7 @@
 {
   "name": "Linea 107",
   "direction": "El sol",
-  "length_km": 30.73,
+  "length_km": 31.66,
   "category": "interurbano",
   "provider": {
     "name": "El Ceibo S.R.L.",
@@ -16,6 +16,5 @@
     "landscape": "/data/interurbano/107/img/landscape.webp",
     "square": "/data/interurbano/107/img/square.webp"
   },
-  "id": "107/el-sol",
-  "bus_path": "/data/interurbano/107/el-sol/recorrido.geojson"
+  "id": "107/el-sol"
 }

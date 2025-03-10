@@ -1,7 +1,7 @@
 {
   "name": "Linea 8",
   "direction": "Muñecas",
-  "length_km": 30.16,
+  "length_km": 30.2,
   "category": "urbano",
   "provider": {
     "name": "Libertad U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "8/muñecas",
-  "bus_path": "/data/urbano/8/muñecas/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/8/img/landscape.webp",
     "square": "/data/urbano/8/img/square.webp"

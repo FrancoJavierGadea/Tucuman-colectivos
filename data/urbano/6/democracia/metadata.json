@@ -1,7 +1,7 @@
 {
   "name": "Linea 6",
   "direction": "Democracia",
-  "length_km": 46.21,
+  "length_km": 46.23,
   "category": "urbano",
   "provider": {
     "name": "TCP Tucman U.T.E.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "6/democracia",
-  "bus_path": "/data/urbano/6/democracia/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/6/img/landscape.webp",
     "square": "/data/urbano/6/img/square.webp"

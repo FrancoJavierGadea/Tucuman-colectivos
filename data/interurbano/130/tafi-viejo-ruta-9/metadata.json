@@ -1,7 +1,7 @@
 {
   "name": "Linea 130",
   "direction": "Ruta 9",
-  "length_km": 41.91,
+  "length_km": 42.41,
   "category": "interurbano",
   "provider": {
     "name": "El Limón S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "130/tafi-viejo-ruta-9",
-  "bus_path": "public/data/interurbano/130/ruta-9/recorrido.geojson",
   "image": {
     "landscape": "/data/interurbano/130/img/landscape.webp",
     "square": "/data/interurbano/130/img/square.webp"

@@ -1,7 +1,7 @@
 {
   "name": "Linea 100",
   "direction": "Castillo",
-  "length_km": 32.3,
+  "length_km": 33.35,
   "category": "interurbano",
   "provider": {
     "name": "El Ceibo S.R.L.",

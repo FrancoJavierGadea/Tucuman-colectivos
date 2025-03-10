@@ -1,7 +1,7 @@
 {
   "name": "Linea 9",
   "direction": "Bulnes",
-  "length_km": 33.17,
+  "length_km": 33.56,
   "category": "urbano",
   "provider": {
     "name": "Gral. Belgrano S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "9/bulnes",
-  "bus_path": "/data/urbano/9/bulnes/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/9/img/landscape.webp",
     "square": "/data/urbano/9/img/square.webp"

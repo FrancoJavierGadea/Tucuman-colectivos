@@ -1,7 +1,7 @@
 {
   "name": "Linea 1",
   "direction": "Salta",
-  "length_km": 25.84,
+  "length_km": 25.89,
   "category": "urbano",
   "provider": {
     "name": "El Galgo S.R.L.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "1/salta",
-  "bus_path": "/data/urbano/1/salta/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/1/img/landscape.webp",
     "square": "/data/urbano/1/img/square.webp"

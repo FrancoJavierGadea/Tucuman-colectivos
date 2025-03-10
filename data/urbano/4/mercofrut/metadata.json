@@ -1,7 +1,7 @@
 {
   "name": "Linea 4",
   "direction": "Mercofrut",
-  "length_km": 33.88,
+  "length_km": 33.94,
   "category": "urbano",
   "provider": {
     "name": "El Corcel S.A.",
@@ -13,7 +13,6 @@
     }
   },
   "id": "4/mercofrut",
-  "bus_path": "/data/urbano/4/mercofrut/recorrido.geojson",
   "image": {
     "landscape": "/data/urbano/4/img/landscape.webp",
     "square": "/data/urbano/4/img/square.webp"
