@@ -13,12 +13,23 @@ import { DEFAULT_CONTROLS, PlayButton, CustomControls } from "./MapControls.js";
 
 useGeographic();
 
+const TUCUMAN =  {
+    north: -26.4,
+    south: -27.5,
+    west: -65.9,
+    east: -64.5
+}
 
 //MARK: Class OpenMap
 /**
  * @typedef {Object} MapConfig
- *  @property {number[]} center center the map `[LONGITUDE, LATITUDE]`, default: Tucuman
- * 
+ *  @property {number[]} center center the map `[lng, lat]`, default: Tucuman `[-65.2087, -26.83]`
+ *  @property {number} zoom
+ *  @property {number} minZoom
+ *  @property {number} maxZoom
+ *  @property {number} rotate
+ *  @property {String} tilesURL
+ *  @property {{west:number, south:number, east:number, north:number}} bounds
  */
 
 export default class OpenMap {
@@ -26,11 +37,12 @@ export default class OpenMap {
     /** @type {MapConfig} */
     static defaultValues = {
         zoom: 12,
-        zoomMin: 1,
-        zoomMax: 18,
+        minZoom: 1,
+        maxZoom: 18,
         tilesURL: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
         center: [-65.2087, -26.83,],
         rotate: 0,
+        bounds: TUCUMAN
     }
 
     #tilesLayer = null;
@@ -66,9 +78,10 @@ export default class OpenMap {
             view: new View({
                 center: params.center,
                 zoom: params.zoom,
-                maxZoom: params.zoomMax,
-                minZoom: params.zoomMin,
-                rotation: params.rotate
+                maxZoom: params.maxZoom,
+                minZoom: params.minZoom,
+                rotation: params.rotate,
+                extent: [params.bounds.west, params.bounds.south, params.bounds.east, params.bounds.north]
             }),
 
             controls: [
@@ -110,13 +123,13 @@ export default class OpenMap {
         this.map.getView().setCenter(center);
     }
 
-    changeZoom({zoom, zoomMin, zoomMax}){
+    changeZoom({zoom, minZoom, maxZoom}){
 
         if(zoom != null) this.map.getView().setZoom(zoom);
 
-        if(zoomMin != null) this.map.getView().setMinZoom(zoomMin);
+        if(minZoom != null) this.map.getView().setMinZoom(minZoom);
 
-        if(zoomMax != null) this.map.getView().setMaxZoom(this.zoomMax);
+        if(maxZoom != null) this.map.getView().setMaxZoom(maxZoom);
     }
 
 

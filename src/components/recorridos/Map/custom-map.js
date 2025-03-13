@@ -6,7 +6,7 @@ import bootstrapIcons_css from "bootstrap-icons/font/bootstrap-icons.css?url";
 export class CustomMap extends HTMLElement {
 
     static get observedAttributes() {
-        return ['zoom', 'zoom-min', 'zoom-max', 'tiles-url', 'center', 'rotate'];
+        return ['zoom', 'min-zoom', 'max-zoom', 'tiles-url', 'center', 'rotate'];
     }
 
     attributeChangedCallback(name){
@@ -17,12 +17,12 @@ export class CustomMap extends HTMLElement {
                 this.map.changeZoom({zoom: this.zoom})
                 break;
 
-            case 'zoom-min':
-                this.map.changeZoom({zoomMin: this.zoomMin})
+            case 'max-zoom':
+                this.map.changeZoom({maxZoom: this.maxZoom})
                 break;
-
-            case 'zoom-max':
-                this.map.changeZoom({zoomMax: this.zoomMax})
+                
+            case 'min-zoom':
+                this.map.changeZoom({minZoom: this.minZoom})
                 break;
 
             case 'center':
@@ -71,8 +71,8 @@ export class CustomMap extends HTMLElement {
         this.map = new Map({
             element: this.shadowRoot.querySelector('.Map-container'),
             zoom: this.zoom,
-            zoomMax: this.zoomMax,
-            zoomMin: this.zoomMin,
+            maxZoom: this.maxZoom,
+            minZoom: this.minZoom,
             rotate: this.rotate,
             tilesURL: this.tilesURL,
         });
@@ -93,26 +93,26 @@ export class CustomMap extends HTMLElement {
         value ? this.setAttribute('zoom', value) : this.removeAttribute('zoom');
     }
 
-    get zoomMin(){ 
+    get minZoom(){ 
 
-        const attr = this.getAttribute('zoom-min');
+        const attr = this.getAttribute('min-zoom');
 
-        return Number(attr ?? Map.defaultValues.zoomMin); 
+        return Number(attr ?? Map.defaultValues.minZoom); 
     }
-    set zoomMin(value){ 
+    set minZoom(value){ 
 
-        value ? this.setAttribute('zoom-min', value) : this.removeAttribute('zoom-min'); 
+        value ? this.setAttribute('min-zoom', value) : this.removeAttribute('min-zoom'); 
     }
 
-    get zoomMax(){ 
+    get maxZoom(){ 
 
-        const attr = this.getAttribute('zoom-max');
+        const attr = this.getAttribute('max-zoom');
 
-        return Number(attr ?? Map.defaultValues.zoomMax); 
+        return Number(attr ?? Map.defaultValues.maxZoom); 
     }
-    set zoomMax(value){ 
+    set maxZoom(value){ 
 
-        value ? this.setAttribute('zoom-max', value) : this.removeAttribute('zoom-max');
+        value ? this.setAttribute('max-zoom', value) : this.removeAttribute('max-zoom');
     }
 
     get center(){ 
