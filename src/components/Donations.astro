@@ -17,10 +17,16 @@ const MP_URL = import.meta.env.PUBLIC_MERCADO_PAGO_DONATION_URL;
 <style>
 
     .Donations {
+        --donations-link-bg: #bfbfbf;
+    }
+    :global([data-bs-theme="dark"]) .Donations {
+        --donations-link-bg: #484848;
+    }
+
+    .Donations {
         padding: 20px;
         background-color: var(--color-primary);
         border-radius: 5px;
-        margin-top: 20px;
 
         h2 {
             font-size: 20px;
@@ -28,7 +34,7 @@ const MP_URL = import.meta.env.PUBLIC_MERCADO_PAGO_DONATION_URL;
         }
 
         p {
-            font-size: 16px;
+            font-size: clamp(16px, 3vw, 18px);
             margin-bottom: 10px;
         }
 
@@ -39,7 +45,7 @@ const MP_URL = import.meta.env.PUBLIC_MERCADO_PAGO_DONATION_URL;
 
             a {
                 padding: 10px 20px;
-                background-color: white;
+                background-color: var(--donations-link-bg);
                 color: var(--color-primary);
                 border-radius: 5px;
                 text-decoration: none;

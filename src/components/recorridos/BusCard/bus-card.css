@@ -28,7 +28,7 @@ custom-bus-card {
 custom-bus-card {
 
     display: flex;
-    height: 100px;
+    height: 120px;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: var(--bus-card-shadow);
@@ -67,15 +67,15 @@ custom-bus-card {
         flex-direction: column;
 
         .Bus-title {
-            font-size: 18px;
+            font-size: clamp(18px, 3vw, 22px);
             letter-spacing: 2px;
         }
         .Bus-direction {
-            font-size: 16px;
+            font-size: clamp(16px, 3vw, 18px);
             letter-spacing: 1px;
         }
         .Bus-footer {
-            font-size: 12px;
+            font-size: clamp(12px, 2vw, 14px);
             margin-top: auto;
             display: flex;
             justify-content: space-between;

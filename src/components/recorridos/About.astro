@@ -21,13 +21,12 @@ const dev = {
 <style>
 
     .About {
-
-        min-height: 100dvh;
         display: flex;
         flex-direction: column;
 
         footer {
             margin-top: auto;
+            padding-top: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -35,6 +34,8 @@ const dev = {
 
             .footer-sign {
                 margin-bottom: 10px;
+                font-size: clamp(16px, 3vw, 18px);
+                font-weight: bold;
                 i {
                     color: red;
                 }

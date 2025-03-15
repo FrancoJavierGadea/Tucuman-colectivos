@@ -1,0 +1,41 @@
+---
+
+const {title, description, keywords = []} = Astro.props;
+
+const SEO = {
+    title: title ?? '',
+    author: 'Franco Javier Gadea',
+    keywords: [
+        'Tucuman', 'San Miguel de Tucuman', 'SMT', 'Recorridos Colectivos', 'Tucuman Colectivos',
+        ...keywords
+    ],
+    description: description ?? '',
+    url: 'https://tucuman-colectivos.pages.dev/',
+    image: '/og-image.webp',
+    type: 'website'
+}
+---
+
+<title>{title}</title>
+
+<meta name="robots" content="noindex, nofollow">
+
+<meta name="description" content={SEO.description}>
+<meta name="author" content={SEO.author}>
+<meta name="keywords" content={SEO.keywords.join(',')}>
+
+<meta property="og:title" content={SEO.title}>
+<meta property="og:description" content={SEO.description}>
+
+<meta property="og:image" content={SEO.image}>
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta property="og:type" content={SEO.type}>
+<meta property="og:url" content={SEO.url}>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content={SEO.title}>
+<meta name="twitter:description" content={SEO.description}>
+<meta name="twitter:image" content={SEO.image}>
+<meta name="twitter:url" content={SEO.url}>

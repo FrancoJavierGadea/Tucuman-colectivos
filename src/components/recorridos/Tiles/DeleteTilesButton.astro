@@ -1,0 +1,35 @@
+---
+---
+
+<button class="btn btn-danger Delete-all-tiles-btn">
+    <i class="bi bi-trash"></i> Eliminar todas las Tiles
+</button>
+
+<script>
+import TILES_STORAGE from "@/utils/tiles/TilesStorage.js";
+
+
+    document.querySelectorAll('.Delete-all-tiles-btn').forEach(btn => {
+
+        btn.addEventListener('click', () => {
+
+            (async () => {
+
+                const result = await TILES_STORAGE.deteleTiles();
+
+                console.log(result);
+
+                await document.querySelector('custom-tiles-info')?.updateTilesInfo();
+            })();
+        });
+    })
+    
+</script>
+
+<style>
+.Delete-all-tiles-btn {
+    width: 100%;
+    margin-block: 20px;
+}
+
+</style>

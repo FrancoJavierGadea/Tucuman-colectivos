@@ -1,0 +1,123 @@
+---
+const {minZoom = 10, maxZoom = 17} = Astro.props;
+
+---
+
+<custom-tiles-info class="Tiles-info" data-zoom-range={[minZoom,maxZoom].join(',')}>
+
+    <template>
+        <div class="Tile-info-card" data-zoom="0">
+    
+            <div class="Tile-info-card-header">
+                <h5>Total</h5>
+                <span data-size>0 mb</span>
+            </div>
+    
+            <div class="Tile-info-card-content">
+                <span data-current="0">0</span>
+    
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 25%;"></div>
+                </div>
+                
+                <span data-total="0">0</span>
+            </div>
+        </div>
+    </template>
+
+    <div class="Tiles-info-content"></div>
+
+    <div  class="Tiles-info-footer">
+        <p>Tiles guardados en IndexedDB</p>
+        <button class="btn Update-tiles-info-btn">
+            <i class="bi bi-arrow-counterclockwise"></i>
+        </button>
+    </div>
+
+</custom-tiles-info>
+
+<script src="./TilesInfo.js"></script>
+
+<style>
+
+    :global([data-bs-theme="dark"]) custom-tiles-info {
+        --tiles-info-secondary-color: #888;
+    }
+
+    custom-tiles-info {
+
+        display: block;
+
+        .Tile-info-card {
+
+            h5 {
+                font-size: clamp(12px, 2vw, 18px);
+            }
+            &[data-zoom="total"] h5 {
+                font-size: clamp(22px, 2vw, 30px);
+            }
+
+            span {
+                display: block;
+                letter-spacing: 1px;
+            }
+
+            .Tile-info-card-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span[data-size] {
+                    color: var(--tiles-info-secondary-color);
+                }
+            }
+            .Tile-info-card-content {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-size: 1em;
+
+                .progress {
+                    flex-grow: 1;
+                    --bs-progress-font-size: 0.85em;
+                    height: 1.2em;
+
+                    .progress-bar {
+                        overflow: visible;
+                    }
+                }
+            }
+        }
+
+        .Tiles-info-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            grid-auto-flow: column;
+            gap: 20px;
+
+            .Tile-info-card:first-child {
+
+                grid-column: span 2;
+            }
+        }
+
+        .Tiles-info-footer {
+            position: relative;
+            text-align: center;
+            padding: 10px;
+
+            p {
+                margin: 0;
+                color: var(--tiles-info-secondary-color);
+            }
+
+            button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+            }
+        }
+    }
+</style>

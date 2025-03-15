@@ -9,16 +9,12 @@ import * as Condition from 'ol/events/condition.js'
 import { useGeographic } from "ol/proj.js";
 import BusPath from "./BusPath.js";
 import { DEFAULT_CONTROLS, PlayButton, CustomControls } from "./MapControls.js";
+import { createXYZ } from "ol/tilegrid.js";
+import { countTiles } from "./count-tiles.js";
+import { TUCUMAN } from "./constants.js";
 
 
 useGeographic();
-
-const TUCUMAN =  {
-    north: -26.4,
-    south: -27.5,
-    west: -65.9,
-    east: -64.5
-}
 
 //MARK: Class OpenMap
 /**
@@ -45,7 +41,11 @@ export default class OpenMap {
         bounds: TUCUMAN
     }
 
+    /**@type {TileLayer} */
     #tilesLayer = null;
+
+    /**@type {MapConfig} */
+    #config = null;
 
     /**
      * @constructor
@@ -60,6 +60,8 @@ export default class OpenMap {
         
         if(!params.element) throw new Error('The map need a DOM Element to render');
 
+        this.#config = params;
+
         //MARK: Init Map
         this.#tilesLayer = new TileLayer({
             source: new XYZ({
@@ -71,9 +73,7 @@ export default class OpenMap {
 
             target: params.element,
 
-            layers: [ 
-                this.#tilesLayer 
-            ],
+            layers: [ this.#tilesLayer ],
 
             view: new View({
                 center: params.center,
@@ -89,7 +89,6 @@ export default class OpenMap {
             ],
 
             interactions: InteractionDefaults({
-
                 shiftDragZoom: false,
                 altShiftDragRotate: false,
                 mouseWheelZoom: true
@@ -133,8 +132,21 @@ export default class OpenMap {
     }
 
 
+    getTotalTiles(){
+
+        const [west, south, east, north] = this.map.getView().get('extent');
+        const minZoom = this.map.getView().getMinZoom();
+        const maxZoom = this.map.getView().getMaxZoom();
+
+        return countTiles({
+            minZoom, maxZoom, bounds: this.#config.bounds
+        });
+    }
+
+
     #children = [];
 
+    //MARK: Render Path
     async renderPath(src = '/data/urbano/7/aget/recorrido.v2.geojson'){
 
         const response = await fetch(src);

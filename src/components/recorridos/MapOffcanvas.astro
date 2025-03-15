@@ -7,7 +7,7 @@ const {show, closeBtn} = Astro.props;
 ---
 
 
-<custom-map-offcanvas class="Map-offcanvas" show>
+<custom-map-offcanvas class="Map-offcanvas" show={show}>
 
     <div class="Map-offcanvas-aside collapse collapse-horizontal">
 
@@ -75,7 +75,9 @@ const {show, closeBtn} = Astro.props;
 
             this.$ = (selector) => this.querySelector(selector);
 
-            this.collapse = new Collapse(this.$('.Map-offcanvas-aside'));
+            this.collapse = new Collapse(this.$('.Map-offcanvas-aside'), {
+                toggle: false
+            });
 
             this.$('.Map-offcanvas-btn').addEventListener('click', () => {
 
@@ -122,7 +124,7 @@ const {show, closeBtn} = Astro.props;
         z-index: 1000;
         pointer-events: none;
 
-        --map-offcanvas-width: 500px;
+        --map-offcanvas-width: 550px;
 
         & .Map-offcanvas-aside {
             height: 100%;

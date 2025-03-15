@@ -67,7 +67,7 @@ export class BusCard extends HTMLElement {
             document.querySelectorAll(`${this.tagName}[data-bus-id="${this.id}"]`)
             .forEach((busCard) => {
 
-                busCard.removeAttribute('data-color', index);
+                busCard.removeAttribute('data-color');
             });
         }
     }

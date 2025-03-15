@@ -1,13 +1,11 @@
 ---
 const TILES_URL = import.meta.env.PUBLIC_TILES_URL;
-
-console.log(TILES_URL);
 ---
 
 
 <div class="Map">
 
-    <custom-map tiles-url={TILES_URL} min-zoom="12" max-zoom="18" zoom="13">
+    <custom-map tiles-url="/tiles/{z}/{x}/{y}" min-zoom="12" max-zoom="17" zoom="13">
     
     
     

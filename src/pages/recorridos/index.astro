@@ -11,12 +11,12 @@ import About from "@/components/recorridos/About.astro";
 import Donations from "@/components/Donations.astro";
 import Tab from "@/components/recorridos/Tab.astro";
 import PlayButton from "@/components/recorridos/Map/PlayButton.astro";
-
-
+import Tiles from "@/components/recorridos/Tiles/index.astro";
 
 const ASIDE_TABS = [
     {name: 'Recorridos', id: 'recorridos', icon: 'bi-shuffle', active: true},
     {name: 'Guardados', id: 'guardados', icon: 'bi-bookmarks'},
+	{name: 'Tiles', id: 'tiles', icon: 'bi-stack'},
     {name: 'Acerca de', id: 'acerca-de', icon: 'bi-info-circle'},
 ];
 
@@ -46,9 +46,7 @@ const RECORRIDOS_TABS = [
 						<BusLines category="interurbano", slot="interurbano" />
 		
 						<Fragment slot="otros">
-		
 							<p>Otros</p>
-		
 						</Fragment>
 		
 					</HorizontalTabsMenu>
@@ -58,6 +56,10 @@ const RECORRIDOS_TABS = [
 				<Tab slot="guardados" title="Guardados">
 					
 					<SavedBusLines />
+				</Tab>
+
+				<Tab slot="tiles" title="Tiles">
+					<Tiles />
 				</Tab>
 		
 				<Tab slot="acerca-de" title="Acerca de">

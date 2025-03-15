@@ -1,0 +1,26 @@
+---
+const {
+    title = 'Tucuman Colectivos', 
+    themeColor = '#0d6efd',
+    favicon = '/favicon.svg',
+    faviconType = "image/svg"
+} = Astro.props;
+
+---
+
+<link rel="icon" href={favicon} type={faviconType} />
+
+<link rel="manifest" href="/manifest.webmanifest">
+
+<meta name="theme-color" content={themeColor}>
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="apple-mobile-web-app-title" content={title}>
+
+<link rel="apple-touch-icon" href="/icons/192x192.webp">
+
+<link rel="shortcut icon" href="/icons/48x48.webp" type="image/webp">
+
