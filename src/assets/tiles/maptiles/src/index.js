@@ -1,39 +1,25 @@
-import { downloadTile } from "./downloadTile.js";
-import puppeteer from 'puppeteer';
 import path from "node:path";
+import { TileDownloader } from "./TileDownloader.js";
+import { downloadTilesForBounds } from "./download.js";
 
-const browser = await puppeteer.launch({ headless: false });
-const page = await browser.newPage();
+process.loadEnvFile();
 
-await page.setRequestInterception(true);
+const OUT_FOLDER = path.join(import.meta.dirname, '../tiles');
 
-page.on('request', request => {
+//Tucuman
+const TUCUMAN = {
+    north: -26.4,  
+    south: -27.5,
+    west: -65.9,
+    east: -64.5
+};
 
-    if (request.resourceType() === 'image') {
-
-        const imageUrl = request.url();
-
-        const filename = path.basename(new URL(imageUrl).pathname);
-
-        const result = imageUrl.match(/tile.openstreetmap.org\/([0-9]*)\/([0-9]*)\/([0-9]*).png/);
-
-        if(result){
-
-            const z = parseInt(result[1]);
-            const x = parseInt(result[2]);
-            const y = parseInt(result[3]);
-
-            downloadTile({z, x, y}).then(() => {
-
-                console.log(`Downloaded tile: ${filename}`);
-            });
-        }
-
-        request.continue();
-
-    } else {
-        request.continue();
-    }
+const tileDownloader = new TileDownloader({
+    output: OUT_FOLDER,
+    tilesURL: process.env.TILE_SERVER_URL
 });
 
-await page.goto('https://www.openstreetmap.org/#map=11/-26.8179/-65.2162', { waitUntil: 'networkidle2' });
+downloadTilesForBounds(TUCUMAN, 8, async ({x, y, z}) => {
+
+    await tileDownloader.download({x, y, z});
+});

@@ -123,8 +123,10 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
         display: flex;
         justify-content: start;
 
+        --v-tabs-menu-controls-aside-width: 70px;
+
         & .Tabs-menu {
-            width: 60px;
+            width: var(--v-tabs-menu-controls-aside-width);
             display: flex;
             flex-direction: column;
             flex-shrink: 0;
@@ -142,8 +144,6 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
                 --bs-nav-link-hover-color: var(--v-tabs-menu-hover-color);
                 --bs-nav-tabs-link-active-color: var(--v-tabs-menu-active-color);
                 --bs-nav-tabs-link-active-bg: var(--v-tabs-menu-active-bg);
-
-
             }
 
             & .Tabs-menu-header, & .Tabs-menu-footer {
@@ -167,6 +167,7 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-size: 20px;
 
                 i {
                     display: block;

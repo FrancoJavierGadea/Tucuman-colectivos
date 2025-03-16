@@ -1,4 +1,4 @@
-import { downloadTile } from "./downloadTile.js";
+import { TileDownloader } from "./TileDownloader.js";
 
 
 function latLonToTileBounds(bounds, zoom) {
@@ -21,16 +21,13 @@ function latLonToTileBounds(bounds, zoom) {
     };
 }
 
-
-export async function downloadTiles(zoom = 12){
-
-    //Tucuman
-    const bounds = {
-        north: -26.4,  // Latitud norte
-        south: -27.5,  // Latitud sur
-        west: -65.9,   // Longitud oeste
-        east: -64.5    // Longitud este
-    };
+/**
+ * 
+ * @param {{north:number, south:number, west:number, east:number}} bounds 
+ * @param {number} zoom 
+ * @param {({x:number, y:number, z:number}) => {}} cb 
+ */
+export function downloadTilesForBounds(bounds, zoom = 12, cb = () => {}){
 
     const { minX, minY, maxX, maxY } = latLonToTileBounds(bounds, zoom);
 
@@ -38,9 +35,7 @@ export async function downloadTiles(zoom = 12){
 
         for (let y = minY; y <= maxY; y++) {
 
-            await downloadTile({x, y, z: zoom});
+            cb({x, y, z: zoom});
         }
     }
 }
-
-await downloadTiles(10);

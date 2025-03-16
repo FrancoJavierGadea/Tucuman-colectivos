@@ -65,7 +65,11 @@ export default class OpenMap {
         //MARK: Init Map
         this.#tilesLayer = new TileLayer({
             source: new XYZ({
-                url: params.tilesURL
+                url: params.tilesURL,
+                attributions: [
+                    '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+                    
+                ]
             })
         });
 
