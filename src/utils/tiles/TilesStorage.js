@@ -116,7 +116,8 @@ export class TilesStorage {
 
         const db = await this.openDatabase();
     
-        const promises = Object.values(TilesStorage.STORE_NAMES).map(storeName => {
+        const promises = [TilesStorage.STORE_NAMES.DB_METADATA, TilesStorage.STORE_NAMES.OSM_TILES]
+        .map(storeName => {
 
             const {promise, reject, resolve} = Promise.withResolvers();
 

@@ -43,6 +43,6 @@ export function countTiles(params = {}) {
     return result;
 }
 
-//console.log( countTiles({minZoom: 10, maxZoom: 17, bounds: TUCUMAN }) )
+//console.log( countTiles({minZoom: 10, maxZoom: 18, bounds: TUCUMAN }) )
 
 

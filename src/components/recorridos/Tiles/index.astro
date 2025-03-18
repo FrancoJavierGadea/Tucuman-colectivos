@@ -1,19 +1,25 @@
 ---
 import TilesInfo from "./TilesInfo.astro";
 import DeleteTilesButton from "./DeleteTilesButton.astro";
+import DownloadTiles from "./DownloadTiles.astro";
 ---
 
 
-<section>
+<section class="Tiles">
 
-    <TilesInfo />
+    <div class="Tiles-header">
 
-    <div class="Tiles-controls">
+        <p>Este mapa utiliza datos de <a href="https://www.openstreetmap.org/#map=13/-26.81833/-65.19802" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></p>
 
-        
+        <p>A medida que navegas, las tiles (fragmentos del mapa) se descargan y se almacenan en tu dispositivo para que puedas acceder a ellas sin conexión</p>
     </div>
 
+    <DownloadTiles />
+    
+    <TilesInfo />
+
     <DeleteTilesButton />
+
 
 </section>
 
@@ -23,7 +29,11 @@ import DeleteTilesButton from "./DeleteTilesButton.astro";
 </script>
 
 <style>
-    section {
+    section.Tiles {
         padding: 10px 15px;
+
+        .Tiles-header {
+            font-size: clamp(16px, 3vw, 18px);
+        }
     }
 </style>

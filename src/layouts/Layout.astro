@@ -41,9 +41,16 @@ const {title, description, keywords} = Astro.props;
 
 <script>
     import TILES_STORAGE from "@/utils/tiles/TilesStorage.js";
-
+    import TILES_DOWNLOADER from "@/utils/tiles/TilesDownloader.js";
 
     window.TILES_STORAGE = TILES_STORAGE;
+
+    TILES_DOWNLOADER.on('progress', (e) => {
+
+        console.log(e);
+    });
+
+    window.TILES_DOWNLOADER = TILES_DOWNLOADER;
 </script>
 
 <style>

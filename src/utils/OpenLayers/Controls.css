@@ -2,6 +2,7 @@
 	--ol-button-background: #fff;
 	--ol-button-background-hover: #f1f1f1;
 	--ol-button-color: #333;
+	--ol-attribution-bg: #ffffffbf;
 }
 
 :host-context([data-bs-theme="dark"]) .ol-control {
@@ -9,6 +10,7 @@
 	--ol-button-background: #333;
 	--ol-button-background-hover: #444;
 	--ol-button-color: #ffffff;
+	--ol-attribution-bg: #333333bf;
 }
 
 .ol-control {
@@ -50,14 +52,14 @@
   flex-direction: column;
   gap: 5px;
   position: absolute;
-  bottom: calc(var(--ol-border-gap) + 40px + var(--ol-border-gap));
+  top: calc(var(--ol-border-gap) + 40px + var(--ol-border-gap));
   right: var(--ol-border-gap);
 }
 
 .ol-rotate {
 	position: absolute;
   	right: var(--ol-border-gap);
-  	bottom: var(--ol-border-gap);
+  	top: var(--ol-border-gap);
 }
 
 .ol-full-screen {
@@ -81,5 +83,31 @@
 	}
 	button[data-paused] .play-icon {
 		display: block;
+	}
+}
+
+.ol-attribution {
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+	background-color: var(--ol-attribution-bg);
+	color: var(--ol-button-color);
+	padding: 1px 5px;
+	border-radius: 0;
+	border-top-left-radius: 5px;
+	font-size: clamp(14px, 3vw, 16px);
+
+	button {
+		display: none;
+	}
+	ul {
+		display: flex;
+		gap: 10px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
 	}
 }

@@ -1,4 +1,4 @@
-import { Zoom, ScaleLine, FullScreen, Rotate, Control } from 'ol/control.js';
+import { Zoom, ScaleLine, FullScreen, Rotate, Control, Attribution } from 'ol/control.js';
 
 //MARK: Icons
 import zoomIn_icon from "bootstrap-icons/icons/zoom-in.svg?raw";
@@ -80,4 +80,11 @@ export const DEFAULT_CONTROLS = [
     new Rotate({
         label: parseIcon(rotation_icon)
     }),
+    new Attribution({
+        collapsible: false,
+        attributions: [
+            '<span>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</span>',
+            '<a href="https://www.openstreetmap.org/fixthemap">Corregir el mapa</a>'
+        ],
+    })
 ];

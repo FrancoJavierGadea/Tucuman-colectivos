@@ -1,0 +1,149 @@
+---
+
+const TILES_SOURCES = [
+    {
+        url: import.meta.env.PUBLIC_TILES_MEDIAFIRE,
+        label: 'Mediafire',
+        icon: ''
+    },
+    {
+        url: import.meta.env.PUBLIC_TILES_DRIVE,
+        label: 'Google drive',
+        icon: ''
+    },
+];
+---
+
+<custom-download-tiles>
+
+    <div class="Download-tiles-header">
+
+        <h4>Mapa offline</h4>
+    
+        <p>Descarga los tiles para tener acceso a todo el mapa sin depender del internet:</p>   
+    </div>
+
+    <button class="btn btn-primary Download-tiles-btn">Descargar Tiles</button>
+
+    <div class="Download-tiles-sources">
+        <p>
+            Tambien puedes descargar un paquete de <strong>tiles.zip</strong> desde los siguientes enlaces y cargarlo manualmente:
+        </p>
+        
+        <ul>
+            {
+                TILES_SOURCES.map(({url, label}) => {
+
+                    return <li>
+                        <a href={url} target="_blank">{label} </a>
+                    </li>
+                })  
+            }
+        </ul>
+    </div>
+    
+    <input class="form-control" type="file" accept=".zip" />
+
+    <div class="Download-tiles-progress">
+
+        <div class="Download-tiles-progress-bar" style="display: none;">
+
+            <div class="Download-tiles-progress-info">
+                <p data-message></p>
+                <span data-count></span>
+            </div>
+    
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 0%;"></div>
+            </div>
+        </div>
+
+        <div class="alert alert-success" style="display: none;" role="alert">
+            <span data-alert-message></span>
+            <button class="btn Alert-close-btn">
+                <i class="bi bi-x-lg" />
+            </button>
+        </div>
+    </div>
+
+</custom-download-tiles>
+
+<script src="./DownloadTiles.js"></script>
+
+<style>
+
+    :global([data-bs-theme="dark"]) custom-download-tiles {
+        ---download-tiles-secondary-color: #888;
+    }
+
+    custom-download-tiles {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .Download-tiles-header {
+            h4 {
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: clamp(16px, 3vw, 18px);
+                margin: 0;
+            }
+        }
+
+        .Download-tiles-btn {
+            font-size: clamp(16px, 3vw, 18px);
+            letter-spacing: 1px;
+            margin-block: 5px;
+        }
+
+        .Download-tiles-sources {
+            font-size: clamp(16px, 3vw, 18px);
+
+            ul {
+                display: flex;
+                list-style: none;
+                justify-content: space-around;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .Download-tiles-progress {
+            padding-block: 10px;
+
+            .Download-tiles-progress-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+
+                p[data-message] {
+                    margin: 0;
+                }
+                span[data-count] {
+                    color: var(---download-tiles-secondary-color);
+                }
+            }
+
+            .progress {
+
+                --bs-progress-bar-transition: width 0.2 ease-out;
+            }
+
+            .alert {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+
+</style>
