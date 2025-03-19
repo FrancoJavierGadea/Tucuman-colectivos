@@ -6,20 +6,26 @@
 </button>
 
 <script>
-import TILES_STORAGE from "@/utils/tiles/TilesStorage.js";
-
+    import TILES_STORAGE from "@/utils/tiles/TilesStorage.js";
 
     document.querySelectorAll('.Delete-all-tiles-btn').forEach(btn => {
 
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', (e) => {
+
+            const btn = e.target;
+
+            btn.disabled = true;
 
             (async () => {
 
                 const result = await TILES_STORAGE.deteleTiles();
 
-                console.log(result);
+                //console.log(result);
 
                 await document.querySelector('custom-tiles-info')?.updateTilesInfo();
+
+                btn.disabled = undefined;
+
             })();
         });
     })

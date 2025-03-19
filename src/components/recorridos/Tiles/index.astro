@@ -20,20 +20,21 @@ import DownloadTiles from "./DownloadTiles.astro";
 
     <DeleteTilesButton />
 
-
 </section>
-
-<script>
-
-   
-</script>
 
 <style>
     section.Tiles {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
         padding: 10px 15px;
 
         .Tiles-header {
             font-size: clamp(16px, 3vw, 18px);
+
+            a {
+                text-decoration: none;
+            }
         }
     }
 </style>

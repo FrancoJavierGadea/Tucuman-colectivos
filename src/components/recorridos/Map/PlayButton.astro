@@ -11,11 +11,16 @@ const {} = Astro.props;
 </button>
 
 <script>
+    //@ts-nocheck
     const btn = document.querySelector('.Map-play-btn');
 
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (e) => {
+
+        const btn = e.currentTarget;
 
         btn.toggleAttribute('data-playing');
+
+        document.querySelector('custom-map').map.animations = btn.hasAttribute('data-playing');
     });
 </script>
 

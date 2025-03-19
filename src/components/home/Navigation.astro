@@ -1,0 +1,108 @@
+---
+import Logo from "../Logo.astro";
+import ThemeToggle from "../ThemeToggle.astro";
+
+
+const LINKS = [
+    {
+        url: '/recorridos',
+        label: 'Recorridos' 
+    },
+    {
+        url: '/recorridos',
+        label: 'Recorridos' 
+    },
+    {
+        url: '/recorridos',
+        label: 'Recorridos' 
+    },
+    {
+        url: '/recorridos',
+        label: 'Recorridos' 
+    },
+]
+---
+
+<nav class="Navigation navbar navbar-expand-lg">
+    <div class="container">
+
+        <a class="navbar-brand order-1" href="#">
+            <Logo width="80px" height="80px" />
+        </a>
+
+        <button class="navbar-toggler order-3 order-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="Navigation-links collapse navbar-collapse order-4 order-lg-2" id="navbarNav">
+            <ul class="navbar-nav">
+                {
+                    LINKS.map(link => {
+
+
+                        return <li class="nav-item">
+                            <a class="nav-link" href={link.url}>{link.label}</a>
+                        </li>
+                    })
+                }
+            </ul>
+        </div>
+
+        <div class="Navigations-controls order-2 order-lg-3">
+            <ThemeToggle />
+        </div>
+        
+    </div>
+</nav>
+
+<style>
+
+    .Navigation {
+        --navigation-bg: #fff;
+        --navigation-shadow: 2px 2px 10px #00000029;
+    }
+    :global([data-bs-theme="dark"]) .Navigation {
+        --navigation-bg: #333;
+        --navigation-shadow: 2px 2px 10px #ffffff29;
+    }
+
+    .Navigation {
+
+        background-color: var(--navigation-bg);
+        box-shadow: var(--navigation-shadow);
+
+        .Navigation-links {
+            flex-grow: 10;
+            font-size: clamp(18px, 3vw, 20px);
+
+            ul {
+                width: 100%;
+                justify-content: end;
+                gap: 10px 20px;
+            }
+
+            .nav-item {
+                padding-inline: 5px;
+                border-bottom: 2px solid transparent;
+            }
+            .nav-item:hover {
+                border-bottom: 2px solid red;
+            }
+
+            @media (max-width: 992px) {
+
+                .nav-item:hover {
+                    border-radius: 5px;
+                    background-color: #888;
+                }
+            }
+        }
+
+        .Navigations-controls {
+            flex-grow: 1;
+            display: flex;
+            justify-content: end;
+            padding-inline: 20px;
+        }
+    }
+</style>

@@ -1,18 +1,22 @@
-import { fromLonLat, transform, useGeographic } from "ol/proj";
 import VectorSource from "ol/source/Vector";
 import VectorLayer from "ol/layer/Vector";
 import GeoJSON from "ol/format/GeoJSON.js"
 import Style from "ol/style/Style";
 import Stroke from "ol/style/Stroke";
-import RegularShape from "ol/style/RegularShape.js";
 import {Circle, Fill} from "ol/style";
 import { Point } from "ol/geom";
 import Group from "ol/layer/Group.js";
-import { getLength } from 'ol/sphere';
 import { Feature } from "ol";
 
-export default class BusPath {
 
+/**
+ * @typedef {Object} BusLayers
+ *  @property {Vector} line - Bus line path layer
+ *  @property {Vector} followPoint - Bus point follow path layer
+ *  @property {Group} group - A group with all layers to add to the map
+ */
+
+export default class BusRoute {
 
     constructor(params = {}){
 
@@ -27,10 +31,16 @@ export default class BusPath {
 
         this.style = params.style;
 
-        this.layers = new Group({
+        /**@type {BusLayers} */
+        this.layers = {
+            line: this.#drawLine(),
+            followPoint: this.#drawFollowPoint()
+        };
+
+        this.layers.group = new Group({
             layers: [
-                this.#drawLine(),
-                this.#drawFollowPoint()
+                this.layers.line,
+                this.layers.followPoint
             ]
         });
     }
@@ -90,6 +100,16 @@ export default class BusPath {
         if(this.#followPoint){
 
             const coord = this.geometry.getCoordinateAt(delta);
+    
+            this.#followPoint.getGeometry().setCoordinates(coord);
+        }
+    }
+
+    resetAnimationState(){
+
+        if(this.#followPoint){
+
+            const coord = this.geometry.getCoordinateAt(0);
     
             this.#followPoint.getGeometry().setCoordinates(coord);
         }

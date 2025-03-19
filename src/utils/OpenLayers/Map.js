@@ -7,11 +7,12 @@ import DragRotate from 'ol/interaction/DragRotate.js';
 import * as Condition from 'ol/events/condition.js'
 
 import { useGeographic } from "ol/proj.js";
-import BusPath from "./BusPath.js";
 import { DEFAULT_CONTROLS, PlayButton, CustomControls } from "./MapControls.js";
 import { createXYZ } from "ol/tilegrid.js";
 import { countTiles } from "./count-tiles.js";
 import { TUCUMAN } from "./constants.js";
+import { MapAnimation } from "./Animation.js";
+import BusRoute from "./BusRoute.js";
 
 
 useGeographic();
@@ -69,20 +70,20 @@ export default class OpenMap {
             })
         });
 
+        this.view = new View({
+            center: params.center,
+            zoom: params.zoom,
+            maxZoom: params.maxZoom,
+            minZoom: params.minZoom,
+            rotation: params.rotate,
+            extent: [params.bounds.west, params.bounds.south, params.bounds.east, params.bounds.north]
+        });
+
         this.map = new Map({
 
             target: params.element,
-
             layers: [ this.#tilesLayer ],
-
-            view: new View({
-                center: params.center,
-                zoom: params.zoom,
-                maxZoom: params.maxZoom,
-                minZoom: params.minZoom,
-                rotation: params.rotate,
-                extent: [params.bounds.west, params.bounds.south, params.bounds.east, params.bounds.north]
-            }),
+            view: this.view,
 
             controls: [
                 ...DEFAULT_CONTROLS, 
@@ -98,15 +99,25 @@ export default class OpenMap {
                     condition: (e) => Condition.shiftKeyOnly(e)
                 }),
             ]),
+        });
 
-        })
+        this.map.on('moveend', (e) => {
+
+            //Cambiar la duracion de la animacion segun el nivel zoom, para mantener la misma velocidad
+            if(this.#busAnimations.playing){
+                
+                const zoom = parseInt(this.view.getZoom());
+                const duration = 10 + Math.pow(2, (zoom % 10));
+
+                this.#busAnimations.changeDuration(duration);
+            }
+        });
 
         this.renderPath();
-
-        //this.play();
     }
 
 
+    //MARK: Update Map
     rotate(angle){
 
         this.map.getView().setRotation(angle * (Math.PI / 180));
@@ -132,9 +143,9 @@ export default class OpenMap {
     }
 
 
+    //MARK: getTotalTiles
     getTotalTiles(){
 
-        const [west, south, east, north] = this.map.getView().get('extent');
         const minZoom = this.map.getView().getMinZoom();
         const maxZoom = this.map.getView().getMaxZoom();
 
@@ -144,7 +155,8 @@ export default class OpenMap {
     }
 
 
-    #children = [];
+    /**@type {Array<BusRoute>} */
+    #busRoutes = [];
 
     //MARK: Render Path
     async renderPath(src = '/data/urbano/7/aget/recorrido.v2.geojson'){
@@ -153,57 +165,54 @@ export default class OpenMap {
 
         const json = await response.json();
 
-        const busPath = new BusPath({
+        const busRoute = new BusRoute({
             geojson: json,
             style: {
                 color: '#756'
             }
         });
 
-        this.#children.push(busPath);
+        this.#busRoutes.push(busRoute);
 
-        this.map.addLayer(busPath.layers);
+        this.map.addLayer(busRoute.layers.group);
     }
 
 
 
     //MARK: Animations
-    #animationID = null;
+    #busAnimations = new MapAnimation((delta) => {
 
-    play(){
+        for (let i = 0; i < this.#busRoutes.length; i++) {
 
-        const loopAnimation = () => {
-
-            const duration = 10000;
-    
-            const startTime = window.performance.now();
-    
-            const updateFrame = (currentTime) => {
-    
-                let elapsedTime = currentTime - startTime;
-    
-                let fraction = elapsedTime / duration;
-    
-                if (fraction > 1) fraction = 1;
-                
-                //----> Update Elements
-                for (let i = 0; i < this.#children.length; i++) {
-    
-                    this.#children[i].animate(fraction);   
-                }
-    
-                if (fraction < 1) this.#animationID = requestAnimationFrame(updateFrame); 
-                else loopAnimation(); 
-            }
-    
-            this.#animationID = requestAnimationFrame(updateFrame);  
+            this.#busRoutes[i].animate(delta);
         }
+        
+    }, {loop: true});
 
-        loopAnimation();
+    set animations(value){
+
+        if(value){
+
+            this.#busRoutes.forEach(busRoute => {
+                busRoute.layers.followPoint.setVisible(true)
+            });
+
+            this.#busAnimations.play();
+        }
+        else {
+
+            this.#busAnimations.stop();
+
+            this.#busRoutes.forEach(busRoute => {
+
+                busRoute.layers.followPoint.setVisible(false);
+                busRoute.resetAnimationState();
+            });
+        }
     }
 
-    stop(){
+    get animations(){
 
-        if(this.#animationID) cancelAnimationFrame(this.#animationID);
+        return this.#busAnimations.playing;
     }
 }

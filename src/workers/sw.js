@@ -42,16 +42,12 @@ self.addEventListener('fetch', (e) => {
 
         const [z, x, y] = url.replace(target, '').split('/');
 
-        self.console.log(z, x, y);
-
         e.respondWith(
             (async () => {
 
                 try {
 
                     const tile = await TILES_STORAGE.getTile(`${z}/${x}/${y}`);
-
-                    self.console.log(tile);
 
                     if(tile){
 
@@ -78,8 +74,6 @@ self.addEventListener('fetch', (e) => {
                         });
 
                         await TILES_STORAGE.updateSize({zoom: z, size: blob.size});
-
-                        console.log(result);
 
                         return cloneResponse;
                     }
