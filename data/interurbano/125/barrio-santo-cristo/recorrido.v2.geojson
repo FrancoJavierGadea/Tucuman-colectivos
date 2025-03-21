@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 125",
-        "direction": "Santo cristo",
+        "direction": "Barrio Santo cristo",
         "length_km": 27.78,
         "category": "interurbano",
         "provider": {
@@ -21,7 +21,7 @@
           "landscape": "/data/interurbano/125/img/landscape.webp",
           "square": "/data/interurbano/125/img/square.webp"
         },
-        "id": "125/santo-cristo"
+        "id": "125/barrio-santo-cristo"
       },
       "geometry": {
         "coordinates": [

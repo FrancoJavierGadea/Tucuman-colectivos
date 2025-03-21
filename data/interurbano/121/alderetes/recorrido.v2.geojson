@@ -20,7 +20,8 @@
         "image": {
           "landscape": "/data/interurbano/121/img/landscape.webp",
           "square": "/data/interurbano/121/img/square.webp"
-        }
+        },
+        "id": "121/alderetes"
       },
       "geometry": {
         "coordinates": [

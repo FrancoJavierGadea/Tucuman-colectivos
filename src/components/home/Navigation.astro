@@ -4,22 +4,18 @@ import ThemeToggle from "../ThemeToggle.astro";
 
 
 const LINKS = [
+    { type: 'link', url: '/recorridos', label: 'Recorridos' },
+    { type: 'link', url: '/recorridos', label: 'Recorridos' },
     {
-        url: '/recorridos',
-        label: 'Recorridos' 
-    },
-    {
-        url: '/recorridos',
-        label: 'Recorridos' 
-    },
-    {
-        url: '/recorridos',
-        label: 'Recorridos' 
-    },
-    {
-        url: '/recorridos',
-        label: 'Recorridos' 
-    },
+        type: 'dropdown',
+        links: [
+            { type: 'link', url: '/recorridos', label: 'Recorridos' },
+            { type: 'link', url: '/recorridos', label: 'Recorridos' },
+            { type: 'link', url: '/recorridos', label: 'Recorridos' },
+            { type: 'link', url: '/recorridos', label: 'Recorridos' }
+        ],
+        label: 'drop'
+    }
 ]
 ---
 
@@ -37,11 +33,25 @@ const LINKS = [
         <div class="Navigation-links collapse navbar-collapse order-4 order-lg-2" id="navbarNav">
             <ul class="navbar-nav">
                 {
-                    LINKS.map(link => {
+                    LINKS.map((link) => {
 
 
-                        return <li class="nav-item">
-                            <a class="nav-link" href={link.url}>{link.label}</a>
+                        if(link.type === 'link'){
+
+                            return <li class="nav-item">
+                                <a class="nav-link" href={link.url}>{link.label}</a>
+                            </li>
+                        }
+
+                        return <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
+                                {link.label}
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                     })
                 }
@@ -86,7 +96,7 @@ const LINKS = [
                 border-bottom: 2px solid transparent;
             }
             .nav-item:hover {
-                border-bottom: 2px solid red;
+                border-bottom: 2px solid #0d6efd;
             }
 
             @media (max-width: 992px) {

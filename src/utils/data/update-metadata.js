@@ -11,7 +11,7 @@ export async function updateMetadata(){
 
         if(direction === 'img') return;
 
-        if(category === CATEGORIES.URBANO){
+        if(category === CATEGORIES.INTERURBANO){
 
             const metadata = await readJSON(path.join(folder, 'metadata.json'));
 

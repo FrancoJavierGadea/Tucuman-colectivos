@@ -20,7 +20,8 @@
         "image": {
           "landscape": "/data/interurbano/106/img/landscape.webp",
           "square": "/data/interurbano/106/img/square.webp"
-        }
+        },
+        "id": "106/barrio-vial-2"
       },
       "geometry": {
         "coordinates": [

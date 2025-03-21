@@ -20,7 +20,8 @@
         "image": {
           "landscape": "/data/interurbano/100/img/landscape.webp",
           "square": "/data/interurbano/100/img/square.webp"
-        }
+        },
+        "id": "100/castillo"
       },
       "geometry": {
         "coordinates": [

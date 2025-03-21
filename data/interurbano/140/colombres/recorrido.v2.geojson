@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 140",
-        "direction": "Tcm",
+        "direction": "Colombres",
         "length_km": 42.26,
         "category": "interurbano",
         "provider": {
@@ -20,7 +20,8 @@
         "image": {
           "landscape": "/data/interurbano/140/img/landscape.webp",
           "square": "/data/interurbano/140/img/square.webp"
-        }
+        },
+        "id": "140/colombres"
       },
       "geometry": {
         "coordinates": [

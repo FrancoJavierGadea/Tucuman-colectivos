@@ -20,7 +20,8 @@
         "image": {
           "landscape": "/data/interurbano/101/img/landscape.webp",
           "square": "/data/interurbano/101/img/square.webp"
-        }
+        },
+        "id": "101/los-nogales"
       },
       "geometry": {
         "coordinates": [

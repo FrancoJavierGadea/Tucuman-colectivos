@@ -20,7 +20,8 @@
         "image": {
           "landscape": "/data/interurbano/122/img/landscape.webp",
           "square": "/data/interurbano/122/img/square.webp"
-        }
+        },
+        "id": "122/san-jorge"
       },
       "geometry": {
         "coordinates": [

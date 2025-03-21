@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Linea el-provincial",
+        "name": "Linea El Provincial",
         "direction": "San pablo",
         "length_km": 37.92,
         "category": "interurbano",
