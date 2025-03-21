@@ -10,52 +10,92 @@ import { Feature } from "ol";
 
 
 /**
- * @typedef {Object} BusLayers
- *  @property {Vector} line - Bus line path layer
- *  @property {Vector} followPoint - Bus point follow path layer
+ * @typedef {Object} BusRouteStyle
+ *  @property {String} pathColor
+ *  @property {number} pathWidth
+ *  @property {String} pointColor
+ *  @property {number} pointRadius
+ * 
+ * @typedef {Object} BusRouteParams
+ *  @property {String} id ID 
+ *  @property {Object} busPath Bus Path geojson
+ *  @property {Object} busStops Bus Stops geojson
+ *  @property {BusRouteStyle} style BusRoute styles
+ * 
+ * @typedef {Object} BusRouteLayers
+ *  @property {VectorLayer} path - Bus path layer
+ *  @property {VectorLayer} followPoint - Bus point follow path layer
  *  @property {Group} group - A group with all layers to add to the map
  */
 
 export default class BusRoute {
 
+    static defaultStyle = {
+        pathColor: '#000',
+        pathWidth: 3,
+        pointColor: '#000',
+        pointRadius: 6  
+    };
+
+    #busPath = null;
+    #busPathGeometry = null;
+    #busStops = null;
+
+    #followPoint = null;
+
+    /**
+     * @constructor
+     * @param {BusRouteParams} params 
+     */
     constructor(params = {}){
 
-        this.features = new GeoJSON().readFeatures(params.geojson);
+        const {
+            id, busPath, busStops, style = {}
+        } = params;
 
-        this.geometry = this.features.at(0).getGeometry();
+        this.id = id;
 
-        this.source = new VectorSource({
-            features: this.features
-        });
+        this.#busPath = new GeoJSON().readFeatures(busPath);
+        this.#busStops = new GeoJSON().readFeatures(busStops);
 
+        this.#busPathGeometry = this.#busPath.at(0).getGeometry();
 
-        this.style = params.style;
+        //MARK: Style
+        for (const key in BusRoute.defaultStyle) {
+            
+            style[key] ??= BusRoute.defaultStyle[key] 
+        }
 
-        /**@type {BusLayers} */
+        /**@type {BusRouteStyle} */
+        this.style = style;
+
+        //MARK: Layers
+        /**@type {BusRouteLayers} */
         this.layers = {
-            line: this.#drawLine(),
+            path: this.#drawPath(),
             followPoint: this.#drawFollowPoint()
         };
 
         this.layers.group = new Group({
             layers: [
-                this.layers.line,
+                this.layers.path,
                 this.layers.followPoint
             ]
         });
     }
 
-    #drawLine(){
+    #drawPath(){
 
         const layer = new VectorLayer({
 
-            source: this.source,
+            source: new VectorSource({
+                features: this.#busPath
+            }),
 
             style: new Style({
-
                 stroke: new Stroke({
-                    color: this.style.color,
-                    width: 2
+                    color: this.style.pathColor,
+                    width: this.style.pathWidth
                 })
             }),
 
@@ -66,19 +106,17 @@ export default class BusRoute {
         return layer;
     }
 
-    #followPoint = null;
-
     #drawFollowPoint(){
 
-        const coords = this.geometry.getCoordinateAt(0);
+        const coords = this.#busPathGeometry.getCoordinateAt(0);
 
         const point = new Feature(new Point(coords))
 
         point.setStyle(
             new Style({
                 image: new Circle({
-                    radius: 6,
-                    fill: new Fill({ color: 'red' })
+                    radius: this.style.pointRadius,
+                    fill: new Fill({ color: this.style.pointColor })
                 })
             })
         );
@@ -87,7 +125,9 @@ export default class BusRoute {
 
             source: new VectorSource({ features: [point] }),
             updateWhileInteracting: true,
-            updateWhileAnimating: true
+            updateWhileAnimating: true,
+
+            visible: false
         });
 
         this.#followPoint = point;
@@ -95,11 +135,12 @@ export default class BusRoute {
         return layer;
     }
 
+    //MARK: FollowPoint Animation
     animate(delta){
 
         if(this.#followPoint){
 
-            const coord = this.geometry.getCoordinateAt(delta);
+            const coord = this.#busPathGeometry.getCoordinateAt(delta);
     
             this.#followPoint.getGeometry().setCoordinates(coord);
         }
@@ -109,9 +150,71 @@ export default class BusRoute {
 
         if(this.#followPoint){
 
-            const coord = this.geometry.getCoordinateAt(0);
+            const coord = this.#busPathGeometry.getCoordinateAt(0);
     
             this.#followPoint.getGeometry().setCoordinates(coord);
         }
+    }
+
+    //MARK: Change Style
+    /**
+     * 
+     * @param {BusRouteStyle} style 
+     */
+    changeStyle(style = {}){
+
+        const changedStyles = [];
+
+        for (const key in style) {
+            
+            if(style[key] && this.style[key] !== style[key]){
+
+                this.style[key] = style[key];
+
+                changedStyles.push(key);
+            }
+        }
+
+        //Bus Path style
+        if(['pathColor', 'pathWidth'].some(key => changedStyles.includes(key))){
+
+            /**@type {Stroke} */
+            const stroke = this.layers.path.getStyle().getStroke();
+    
+            stroke.setColor(this.style.pathColor);
+            stroke.setWidth(this.style.pathWidth);
+
+            console.log('change path style');
+
+            this.layers.path.changed();
+        }
+
+        //Follow Point style
+        if(['pointColor', 'pointRadius'].some(key => changedStyles.includes(key))){
+
+            /**@type {Circle} */
+            const circle = this.#followPoint.getStyle().getImage();
+    
+            circle.setRadius(this.style.pointRadius);
+            circle.getFill().setColor(this.style.pointColor);
+
+            console.log('change point style');
+    
+            this.layers.followPoint.changed();
+        }
+
+        
+    }
+
+
+    //MARK: Getters y Setters
+    set show(value){
+
+        this.layers.group.setVisible(Boolean(value));
+    }
+
+    get show(){
+
+        return this.layers.group.getVisible();
     }
 }

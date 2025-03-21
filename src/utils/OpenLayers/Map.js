@@ -1,4 +1,4 @@
-import Map from "ol/Map.js";
+import { default as OpenLayersMap } from "ol/Map.js";
 import TileLayer from "ol/layer/Tile.js";
 import View from "ol/View.js"
 import { XYZ } from "ol/source.js";
@@ -8,7 +8,6 @@ import * as Condition from 'ol/events/condition.js'
 
 import { useGeographic } from "ol/proj.js";
 import { DEFAULT_CONTROLS, PlayButton, CustomControls } from "./MapControls.js";
-import { createXYZ } from "ol/tilegrid.js";
 import { countTiles } from "./count-tiles.js";
 import { TUCUMAN } from "./constants.js";
 import { MapAnimation } from "./Animation.js";
@@ -79,7 +78,7 @@ export default class OpenMap {
             extent: [params.bounds.west, params.bounds.south, params.bounds.east, params.bounds.north]
         });
 
-        this.map = new Map({
+        this.map = new OpenLayersMap({
 
             target: params.element,
             layers: [ this.#tilesLayer ],
@@ -104,16 +103,11 @@ export default class OpenMap {
         this.map.on('moveend', (e) => {
 
             //Cambiar la duracion de la animacion segun el nivel zoom, para mantener la misma velocidad
-            if(this.#busAnimations.playing){
-                
-                const zoom = parseInt(this.view.getZoom());
-                const duration = 10 + Math.pow(2, (zoom % 10));
+            const zoom = parseInt(this.view.getZoom());
+            const duration = 10 + Math.pow(2, (zoom % 10));
 
-                this.#busAnimations.changeDuration(duration);
-            }
+            this.#busAnimations.changeDuration(duration);
         });
-
-        this.renderPath();
     }
 
 
@@ -155,36 +149,52 @@ export default class OpenMap {
     }
 
 
-    /**@type {Array<BusRoute>} */
-    #busRoutes = [];
+    /**@type {Map<String, BusRoute>} */
+    #busRoutes = new Map();
 
     //MARK: Render Path
-    async renderPath(src = '/data/urbano/7/aget/recorrido.v2.geojson'){
+    addRoute(params = {}){
 
-        const response = await fetch(src);
+        const {id, busPath, busStops, style = {}} = params;
 
-        const json = await response.json();
+        console.log({busPath, busStops});
+
+        if(this.hasRoute(id)) return;
 
         const busRoute = new BusRoute({
-            geojson: json,
-            style: {
-                color: '#756'
-            }
+            id,
+            busPath, 
+            busStops,
+            style
         });
 
-        this.#busRoutes.push(busRoute);
+        this.#busRoutes.set(id, busRoute);
 
         this.map.addLayer(busRoute.layers.group);
     }
 
+    hasRoute(id){
+
+        return this.#busRoutes.has(id);
+    }
+
+    getRoute(id){
+
+        return this.#busRoutes.get(id);
+    }
+
+    getRoutes(){
+
+        return this.#busRoutes;
+    }
 
 
     //MARK: Animations
     #busAnimations = new MapAnimation((delta) => {
 
-        for (let i = 0; i < this.#busRoutes.length; i++) {
+        for (const [key, busRoute] of this.#busRoutes) {
 
-            this.#busRoutes[i].animate(delta);
+            busRoute.show && busRoute.animate(delta);
         }
         
     }, {loop: true});

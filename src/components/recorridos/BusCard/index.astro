@@ -5,11 +5,11 @@ import stops_icon from "bootstrap-icons/icons/geo-alt.svg?raw";
 import report_icon from "bootstrap-icons/icons/exclamation-triangle.svg?raw";
 import "./bus-card.css";
 
-const {title, direction, length, provider, id, image} = Astro.props;
+const {title, direction, length, provider, id, image, category} = Astro.props;
 ---
 
 
-<custom-bus-card data-bus-id={id}>
+<custom-bus-card route-id={id} bus-category={category}>
 
     <div class="Bus-content" role="button">
 

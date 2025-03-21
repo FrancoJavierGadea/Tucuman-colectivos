@@ -30,10 +30,6 @@ const LINES = Object.entries(
     if (numB) return 1; 
 
     return a.localeCompare(b);
-})
-.map(([line, routes]) => {
-
-    return [line, routes?.filter(route => route.id)]
 });
 ---
 
@@ -45,7 +41,7 @@ const LINES = Object.entries(
                 <summary>{line}</summary>
                 <div class="Bus-lines-routes">
                     {
-                        routes.map((route, index) => {
+                        routes.map((route) => {
 
                             return <BusCard 
                                 title={route.name} 
@@ -54,6 +50,7 @@ const LINES = Object.entries(
                                 length={route.length_km}
                                 provider={route.provider?.name}
                                 id={route.id}
+                                category={category}
                             />
                         })
                     }

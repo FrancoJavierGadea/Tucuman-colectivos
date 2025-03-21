@@ -66,13 +66,17 @@ export class MapAnimation {
 
     changeDuration(duration){
 
-        if(this.duration === duration || !this.playing) return;
+        if(this.duration === duration) return;
 
-        const currentTime = window.performance.now();
-        const progress = (currentTime - this.#startTime) / (this.duration * 1000);
+        if(this.playing){
 
-        // Ajustar startTime para mantener la animación sin saltos
-        this.#startTime = currentTime - progress * (duration * 1000);
+            const currentTime = window.performance.now();
+            const progress = (currentTime - this.#startTime) / (this.duration * 1000);
+    
+            // Ajustar startTime para mantener la animación sin saltos
+            this.#startTime = currentTime - progress * (duration * 1000);
+        }
+
         this.duration = duration;
     }
 }

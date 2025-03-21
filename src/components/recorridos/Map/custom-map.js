@@ -77,7 +77,8 @@ export class CustomMap extends HTMLElement {
             tilesURL: this.tilesURL,
         });
 
-        //this.renderPath();
+        
+        this.addRoute({category: 'urbano', id: '1/mitre'});
     }
 
 
@@ -145,7 +146,7 @@ export class CustomMap extends HTMLElement {
         value ? this.setAttribute('rotate', value) : this.removeAttribute('rotate');
     }
     
- //
+    //MARK: getConfigValues
     getConfigValues(){
 
         return Object.keys(Map.defaultValues).reduce((acc, key) => {
@@ -155,6 +156,64 @@ export class CustomMap extends HTMLElement {
             return acc;
 
         }, {});
+    }
+
+
+    //MARK: addRoute
+    /**
+     * @param {{category:string, id:string, style:import("@/utils/OpenLayers/BusRoute.js").BusRouteStyle}} params 
+     */
+    async addRoute(params){
+
+        const {category, id, style} = params;
+
+        try {
+            const busPath = await (
+                await fetch(`/data/${category}/${id}/recorrido.geojson`)
+            ).json();
+    
+            const busStops = await (
+                await fetch(`/data/${category}/${id}/paradas.geojson`)
+            ).json();
+
+            this.map.addRoute({
+                id, busPath, busStops,
+            });  
+        } 
+        catch (error) {
+            
+            console.log(error);
+        }
+    }
+
+    //MARK: show / hide route
+    /**
+     * @param {{category:string, id:string, color:string}} params  
+     */
+    async showRoute(params = {}){
+
+        const {category, id, color} = params;
+
+        if(!this.map.hasRoute(id)){
+
+            await this.addRoute({id, category});
+        }
+        
+        this.map.getRoute(id).changeStyle({pathColor: color, pointColor: color});
+        this.map.getRoute(id).show = true; 
+    }
+
+    /**
+     * @param {{category:string, id:string}} params  
+     */
+    async hideRoute(params){
+
+        const {category, id} = params;
+
+        if(this.map.hasRoute(id)){
+
+            this.map.getRoute(id).show = false;
+        } 
     }
  
 }

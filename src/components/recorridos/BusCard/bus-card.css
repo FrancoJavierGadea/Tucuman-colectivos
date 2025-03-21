@@ -1,13 +1,10 @@
-@import "./bus-card-colors.css";
-
 
 custom-bus-card {
     --bus-card-bg: #ffffff;
     --bus-card-color: #333;
     --bus-card-shadow: 0 2px 4px 0 #0000001a;
-    --bus-card-active-bg: var(--bus-card-bg);
 
-    --bus-card-hover-bg: color-mix(in srgb, var(--bus-card-active-bg), black 25%);
+    --bus-card-hover-bg: color-mix(in srgb, var(--bus-card-bg), black 25%);
 
     --bus-card-saved-color: #0D6EFD;
 }
@@ -15,14 +12,11 @@ custom-bus-card {
     --bus-card-bg: #333;
     --bus-card-color: #fff;
     --bus-card-shadow: 0 2px 4px 0 #0000001a;
-    --bus-card-active-bg: var(--bus-card-bg);
 
-    --bus-card-hover-bg: color-mix(in srgb, var(--bus-card-active-bg), white 25%);
+    --bus-card-hover-bg: color-mix(in srgb, var(--bus-card-bg), white 25%);
 
     --bus-card-saved-color: #F3B229;
 }
-
-
 
 
 custom-bus-card {
@@ -44,12 +38,6 @@ custom-bus-card {
         &:hover .Bus-info {
             background-color: var(--bus-card-hover-bg);
         }
-    }
-
-    &[data-color] .Bus-content {
-
-        background-color: var(--bus-card-active-bg);
-        color: var(--bus-card-color);
     }
 
     .Bus-image {
@@ -108,5 +96,24 @@ custom-bus-card {
 
     &[saved] .Save-btn {
         color: var(--bus-card-saved-color);
+    }
+}
+
+custom-bus-card[active] .Bus-content {
+
+    background-color: color-mix(in srgb, var(--bus-card-active-bg), white 50%);
+
+    &:hover .Bus-info {
+
+        background-color: color-mix(in srgb, var(--bus-card-active-bg), white 35%);
+    }    
+}
+[data-bs-theme="dark"] custom-bus-card[active] .Bus-content {
+
+    background-color: var(--bus-card-active-bg);
+
+    &:hover .Bus-info {
+        
+        background-color: color-mix(in srgb, var(--bus-card-active-bg), white 20%);
     }
 }

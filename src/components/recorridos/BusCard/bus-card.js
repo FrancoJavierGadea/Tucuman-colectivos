@@ -1,74 +1,123 @@
-import SAVED_BUS_PATHS from '@/scripts/localStorage/SavedBusPaths.js';
+import SAVED_BUS_ROUTES from '@/scripts/localStorage/SavedBusRoutes.js';
 
 
 const BUS_CARD_COLORS = [
-    { dark: '#11448F', light: '#84B0F0' },
-    { dark: '#D32F2F', light: '#D79D9D' },
-    { dark: '#388E3C', light: '#A0D68A' },
-    { dark: '#7B1FA2', light: '#C48BFF' },
-    { dark: '#00695C', light: '#48A999' },
-    { dark: '#C2185B', light: '#FF80AB' },
+    '#11448F',
+    '#D32F2F',
+    '#388E3C',
+    '#7B1FA2',
+    '#00695C',
+    '#C2185B',
 ];
 
+function getColor(){
 
+    getColor.index ??= 0;
+
+    const color = BUS_CARD_COLORS.at(getColor.index % BUS_CARD_COLORS.length);
+
+    getColor.index++;
+
+    return color;
+}
 
 export class BusCard extends HTMLElement {
-
-    saved = false;
-
-    active = false;
 
     constructor() {
         super();
 
-        this.id = this.getAttribute('data-bus-id');
+        this.routeID = this.getAttribute('route-id');
+        this.busCategory = this.getAttribute('bus-category');
 
         this.$ = (selector) => this.querySelector(selector);
 
         //Main button
-        this.$('.Bus-content').addEventListener('click', () => this.addBusPath());
+        this.$('.Bus-content').addEventListener('click', () => this.toogleRoute());
         
         //Save Button
-        this.saved = SAVED_BUS_PATHS.has(this.id);
-        this.saved && this.setAttribute('saved', '');
+        this.saved = SAVED_BUS_ROUTES.has(this.routeID);
 
-        SAVED_BUS_PATHS.on((busPaths) => {
+        SAVED_BUS_ROUTES.on((savedRoutes) => {
 
-            this.saved = busPaths.includes(this.id);
-            this.saved ? this.setAttribute('saved', '') : this.removeAttribute('saved');
+            this.saved = savedRoutes.has(this.routeID);
         });
 
         this.$('.Save-btn').addEventListener('click', () => {
 
-            !this.saved ? SAVED_BUS_PATHS.add(this.id) : SAVED_BUS_PATHS.remove(this.id);
+            this.saved = !this.saved;
+            
+            this.saved ? SAVED_BUS_ROUTES.add(this.routeID) : SAVED_BUS_ROUTES.remove(this.routeID);
         });
     }
 
-    addBusPath(){
+    toogleRoute(){
 
         this.active = !this.active;
 
         if(this.active){
 
-            const index = document.querySelectorAll(`.Bus-lines ${this.tagName}[data-color]`).length % BUS_CARD_COLORS.length;
+            this.color ??= getColor();
 
-            const color = BUS_CARD_COLORS[index];
-
-            console.log(color);
-
-            document.querySelectorAll(`${this.tagName}[data-bus-id="${this.id}"]`)
-            .forEach((busCard) => {
-
-                busCard.setAttribute('data-color', index);
+            document.querySelector('custom-map').showRoute({
+                id: this.routeID, 
+                category: this.busCategory, 
+                color: this.color
             });
         }
         else {
 
-            document.querySelectorAll(`${this.tagName}[data-bus-id="${this.id}"]`)
-            .forEach((busCard) => {
-
-                busCard.removeAttribute('data-color');
+            document.querySelector('custom-map').hideRoute({
+                id: this.routeID, 
+                category: this.busCategory
             });
         }
+    }
+
+    set active(value){
+
+        document.querySelectorAll(`${this.tagName}[route-id="${this.routeID}"]`)
+        .forEach((busCard) => {
+
+            value ? busCard.setAttribute('active', '') : busCard.removeAttribute('active');
+        });
+    }
+    get active(){
+
+        return this.hasAttribute('active');
+    }
+
+    set saved(value){
+
+        document.querySelectorAll(`${this.tagName}[route-id="${this.routeID}"]`)
+        .forEach((busCard) => {
+
+            value ? busCard.setAttribute('saved', '') : busCard.removeAttribute('saved');
+        });
+    }
+    get saved(){
+
+        return this.hasAttribute('saved');
+    }
+
+
+    set color(color){
+
+        document.querySelectorAll(`${this.tagName}[route-id="${this.routeID}"]`)
+        .forEach((busCard) => {
+
+            if(color){
+
+                busCard.setAttribute('color', color);
+                busCard.style.setProperty('--bus-card-active-bg', color);
+            }
+            else {
+
+                busCard.removeAttribute('color');
+            }
+        }); 
+    }
+    get color(){
+
+        return this.getAttribute('color');
     }
 }
