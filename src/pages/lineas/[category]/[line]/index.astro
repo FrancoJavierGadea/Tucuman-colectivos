@@ -1,0 +1,78 @@
+---
+import BusRoutesMap from '@/components/lineas/BusRoutesMap.astro';
+import LandscapeImage from '@/components/lineas/LandscapeImage.astro';
+import Layout from '@/layouts/Layout.astro';
+
+export async function getStaticPaths() {
+
+    const FILES = (await Promise.all(
+        Object.values(import.meta.glob('/public/data/**/*.json'))
+        .map(async (file) => {
+
+            return await file();
+        })
+    ))
+    .filter(metadata => metadata.id);
+
+    return FILES.map(metadata => {
+
+        const [line] = metadata.id.split('/');
+
+        return { params: {category: metadata.category, line } }
+    });
+}
+
+const { category, line } = Astro.params;
+
+const METADATA = (await Promise.all(
+    Object.values(import.meta.glob('/public/data/**/*.json'))
+    .map(async (file) => {
+
+        return await file();
+    })
+))
+.find(metadata => {
+
+    if(metadata.id){
+
+        const [line] = metadata.id.split('/');
+
+        return metadata.category === category && line === line;
+    }
+});
+
+
+
+
+---
+
+<Layout>
+
+    <main class="container">
+
+        <section class="Banner">
+
+            <LandscapeImage src={METADATA.image.landscape} />
+
+        </section>
+
+
+        <section class="Map-widget">
+
+            <BusRoutesMap category={category} lines={[line]} />
+
+        </section>
+
+    </main>
+</Layout>
+
+
+<style>
+
+    .Banner {
+        height: 400px;
+    }
+    .Map-widget {
+        height: 600px;
+    }
+</style>
