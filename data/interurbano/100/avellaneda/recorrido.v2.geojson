@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 100",
-        "direction": "Avellaneda",
         "length_km": 26.29,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/100/img/landscape.webp",
           "square": "/data/interurbano/100/img/square.webp"
         },
-        "id": "100/avellaneda"
+        "id": "100/avellaneda",
+        "route": "avellaneda",
+        "line": "100"
       },
       "geometry": {
         "coordinates": [

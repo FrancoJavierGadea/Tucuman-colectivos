@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 6",
-        "direction": "Crisostomo alvarez",
         "length_km": 23.83,
         "category": "urbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/urbano/6/img/landscape.webp",
           "square": "/data/urbano/6/img/square.webp"
-        }
+        },
+        "route": "crisostomo-alvarez",
+        "line": "6"
       },
       "geometry": {
         "coordinates": [

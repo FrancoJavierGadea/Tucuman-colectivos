@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 102",
-        "direction": "Horco molle",
         "length_km": 40.85,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/102/img/landscape.webp",
           "square": "/data/interurbano/102/img/square.webp"
         },
-        "id": "102/horco-molle"
+        "id": "102/horco-molle",
+        "route": "horco-molle",
+        "line": "102"
       },
       "geometry": {
         "coordinates": [

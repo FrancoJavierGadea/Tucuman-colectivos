@@ -1,6 +1,5 @@
 {
   "name": "Linea 121",
-  "direction": "Alderetes",
   "length_km": 28.67,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/121/img/landscape.webp",
     "square": "/data/interurbano/121/img/square.webp"
   },
-  "id": "121/alderetes"
+  "id": "121/alderetes",
+  "route": "alderetes",
+  "line": "121"
 }

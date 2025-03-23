@@ -4,7 +4,7 @@
 ## Endpoints
 
 ```txt
-/data/{category}/{line}/{direction}/{data_type}
+/data/{category}/{line}/{route}/{data_type}
 ```
 
 - `{category}` es `urbano` `interurbano` `rural`
@@ -13,7 +13,7 @@
 
    Ej: `103` `1` `3` `9` `el-provincial`
 
-- `{direction}` es es recorrido
+- `{route}` es es recorrido
 
    Ej: `horario` `anti-horario` `lavalle`, `las-piedras` `viamonte`
 
@@ -29,8 +29,7 @@
 ```json
 {
    "name": "Linea 19",
-   "direction": "Anti horario",
-   "length_km": 25.07,
+   "length_km": 25.15,
    "category": "urbano",
    "provider": {
       "name": "B y V Transportes S.R.L.",
@@ -41,11 +40,13 @@
          "website": "https://byvtransportes.com.ar/"
       }
    },
-   "id": "19/antihorario",
    "image": {
       "landscape": "/data/urbano/19/img/landscape.webp",
       "square": "/data/urbano/19/img/square.webp"
-   }
+   },
+   "route": "horario",
+   "line": "19",
+   "id": "19/horario"
 }
 ```
 

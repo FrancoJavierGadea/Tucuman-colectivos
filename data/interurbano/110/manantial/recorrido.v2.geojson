@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 110",
-        "direction": "Manantial",
         "length_km": 34.64,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/110/img/landscape.webp",
           "square": "/data/interurbano/110/img/square.webp"
         },
-        "id": "110/manantial"
+        "id": "110/manantial",
+        "route": "manantial",
+        "line": "110"
       },
       "geometry": {
         "coordinates": [

@@ -1,6 +1,5 @@
 {
   "name": "Linea 105",
-  "direction": "Unsta",
   "length_km": 56.27,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/105/img/landscape.webp",
     "square": "/data/interurbano/105/img/square.webp"
   },
-  "id": "105/unsta"
+  "id": "105/unsta",
+  "route": "unsta",
+  "line": "105"
 }

@@ -1,6 +1,5 @@
 {
   "name": "Linea 4",
-  "direction": "Colombres",
   "length_km": 26.71,
   "category": "urbano",
   "provider": {
@@ -16,5 +15,7 @@
   "image": {
     "landscape": "/data/urbano/4/img/landscape.webp",
     "square": "/data/urbano/4/img/square.webp"
-  }
+  },
+  "route": "colombres",
+  "line": "4"
 }

@@ -4,7 +4,7 @@ import BusCard from "./BusCard/index.astro";
 const {category = 'urbano', lines = []} = Astro.props;
 
 let FILES = (await Promise.all(
-    Object.values(import.meta.glob('/public/data/**/*.json'))
+    Object.values(import.meta.glob('/public/data/**/metadata.json'))
     .map(async (file) => {
 
         return await file();

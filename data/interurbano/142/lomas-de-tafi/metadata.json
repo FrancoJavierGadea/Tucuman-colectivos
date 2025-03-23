@@ -1,6 +1,5 @@
 {
   "name": "Linea 142",
-  "direction": "Lomas de tafi",
   "length_km": 32.91,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/142/img/landscape.webp",
     "square": "/data/interurbano/142/img/square.webp"
   },
-  "id": "142/lomas-de-tafi"
+  "id": "142/lomas-de-tafi",
+  "route": "lomas-de-tafi",
+  "line": "142"
 }

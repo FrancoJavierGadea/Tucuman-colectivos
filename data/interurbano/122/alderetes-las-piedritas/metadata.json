@@ -1,6 +1,5 @@
 {
   "name": "Linea 122",
-  "direction": "Alderetes - Las Piedritas",
   "length_km": 28.82,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/122/img/landscape.webp",
     "square": "/data/interurbano/122/img/square.webp"
   },
-  "id": "122/alderetes-las-piedritas"
+  "id": "122/alderetes-las-piedritas",
+  "route": "alderetes-las-piedritas",
+  "line": "122"
 }

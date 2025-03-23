@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 118",
-        "direction": "200 viviendas",
         "length_km": 34.11,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/118/img/landscape.webp",
           "square": "/data/interurbano/118/img/square.webp"
         },
-        "id": "118/200-viviendas"
+        "id": "118/200-viviendas",
+        "route": "200-viviendas",
+        "line": "118"
       },
       "geometry": {
         "coordinates": [

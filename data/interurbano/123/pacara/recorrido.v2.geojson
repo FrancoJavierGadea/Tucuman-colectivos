@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 123",
-        "direction": "Pascar",
         "length_km": 35.34,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/123/img/landscape.webp",
           "square": "/data/interurbano/123/img/square.webp"
         },
-        "id": "123/pacara"
+        "id": "123/pacara",
+        "route": "pacara",
+        "line": "123"
       },
       "geometry": {
         "coordinates": [

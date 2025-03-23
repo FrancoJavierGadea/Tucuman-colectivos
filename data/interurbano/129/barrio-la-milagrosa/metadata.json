@@ -1,6 +1,5 @@
 {
   "name": "Linea 129",
-  "direction": "Barrio La Milagrosa",
   "length_km": 21.85,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/129/img/landscape.webp",
     "square": "/data/interurbano/129/img/square.webp"
   },
-  "id": "129/barrio-la-milagrosa"
+  "id": "129/barrio-la-milagrosa",
+  "route": "barrio-la-milagrosa",
+  "line": "129"
 }

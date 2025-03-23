@@ -1,6 +1,5 @@
 {
   "name": "Linea 118",
-  "direction": "Apunt",
   "length_km": 30.97,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/118/img/landscape.webp",
     "square": "/data/interurbano/118/img/square.webp"
   },
-  "id": "118/apunt"
+  "id": "118/apunt",
+  "route": "apunt",
+  "line": "118"
 }

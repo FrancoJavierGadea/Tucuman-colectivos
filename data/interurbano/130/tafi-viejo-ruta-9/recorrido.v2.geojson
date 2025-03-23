@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 130",
-        "direction": "Ruta 9",
         "length_km": 42.41,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/interurbano/130/img/landscape.webp",
           "square": "/data/interurbano/130/img/square.webp"
-        }
+        },
+        "route": "tafi-viejo-ruta-9",
+        "line": "130"
       },
       "geometry": {
         "coordinates": [

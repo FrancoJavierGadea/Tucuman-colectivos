@@ -1,6 +1,5 @@
 {
   "name": "Linea 100",
-  "direction": "San pablo",
   "length_km": 49.65,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/100/img/landscape.webp",
     "square": "/data/interurbano/100/img/square.webp"
   },
-  "id": "100/san-pablo"
+  "id": "100/san-pablo",
+  "route": "san-pablo",
+  "line": "100"
 }

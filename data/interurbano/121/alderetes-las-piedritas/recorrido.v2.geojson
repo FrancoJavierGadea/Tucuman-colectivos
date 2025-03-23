@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 121",
-        "direction": "Alderetes - Las Piedritas",
         "length_km": 30.86,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/121/img/landscape.webp",
           "square": "/data/interurbano/121/img/square.webp"
         },
-        "id": "121/alderetes-las-piedritas"
+        "id": "121/alderetes-las-piedritas",
+        "route": "alderetes-las-piedritas",
+        "line": "121"
       },
       "geometry": {
         "coordinates": [

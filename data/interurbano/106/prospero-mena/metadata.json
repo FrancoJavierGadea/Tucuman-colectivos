@@ -1,6 +1,5 @@
 {
   "name": "Linea 106",
-  "direction": "Prospero mena",
   "length_km": 41.71,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/106/img/landscape.webp",
     "square": "/data/interurbano/106/img/square.webp"
   },
-  "id": "106/prospero-mena"
+  "id": "106/prospero-mena",
+  "route": "prospero-mena",
+  "line": "106"
 }

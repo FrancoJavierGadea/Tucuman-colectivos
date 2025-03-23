@@ -1,6 +1,5 @@
 {
   "name": "Linea 6",
-  "direction": "Democracia",
   "length_km": 46.23,
   "category": "urbano",
   "provider": {
@@ -16,5 +15,7 @@
   "image": {
     "landscape": "/data/urbano/6/img/landscape.webp",
     "square": "/data/urbano/6/img/square.webp"
-  }
+  },
+  "route": "democracia",
+  "line": "6"
 }

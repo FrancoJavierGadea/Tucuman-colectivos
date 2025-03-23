@@ -1,6 +1,5 @@
 {
   "name": "Linea 121",
-  "direction": "Hospital del este",
   "length_km": 35.88,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/121/img/landscape.webp",
     "square": "/data/interurbano/121/img/square.webp"
   },
-  "id": "121/hospital-del-este"
+  "id": "121/hospital-del-este",
+  "route": "hospital-del-este",
+  "line": "121"
 }

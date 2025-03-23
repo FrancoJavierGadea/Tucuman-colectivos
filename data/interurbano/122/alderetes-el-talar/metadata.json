@@ -1,6 +1,5 @@
 {
   "name": "Linea 122",
-  "direction": "Alderetes - El Talar",
   "length_km": 32.79,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/122/img/landscape.webp",
     "square": "/data/interurbano/122/img/square.webp"
   },
-  "id": "122/alderetes-el-talar"
+  "id": "122/alderetes-el-talar",
+  "route": "alderetes-el-talar",
+  "line": "122"
 }

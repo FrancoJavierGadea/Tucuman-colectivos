@@ -1,6 +1,5 @@
 {
   "name": "Linea 106",
-  "direction": "Barrio vial 2",
   "length_km": 37.49,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/106/img/landscape.webp",
     "square": "/data/interurbano/106/img/square.webp"
   },
-  "id": "106/barrio-vial-2"
+  "id": "106/barrio-vial-2",
+  "route": "barrio-vial-2",
+  "line": "106"
 }

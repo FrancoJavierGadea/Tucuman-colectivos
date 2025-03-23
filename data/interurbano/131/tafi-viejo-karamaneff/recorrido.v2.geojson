@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 131",
-        "direction": "Tafi Viejo - Karamaneff",
         "length_km": 36.94,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/interurbano/131/img/landscape.webp",
           "square": "/data/interurbano/131/img/square.webp"
-        }
+        },
+        "route": "tafi-viejo-karamaneff",
+        "line": "131"
       },
       "geometry": {
         "coordinates": [

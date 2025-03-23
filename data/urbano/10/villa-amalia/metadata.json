@@ -1,6 +1,5 @@
 {
   "name": "Linea 10",
-  "direction": "Villa amalia",
   "length_km": 43.53,
   "category": "urbano",
   "provider": {
@@ -16,5 +15,7 @@
   "image": {
     "landscape": "/data/urbano/10/img/landscape.webp",
     "square": "/data/urbano/10/img/square.webp"
-  }
+  },
+  "route": "villa-amalia",
+  "line": "10"
 }

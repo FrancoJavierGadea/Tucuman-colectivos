@@ -1,6 +1,5 @@
 {
   "name": "Linea 118",
-  "direction": "La rinconada",
   "length_km": 34.01,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/118/img/landscape.webp",
     "square": "/data/interurbano/118/img/square.webp"
   },
-  "id": "118/la-rinconada"
+  "id": "118/la-rinconada",
+  "route": "la-rinconada",
+  "line": "118"
 }

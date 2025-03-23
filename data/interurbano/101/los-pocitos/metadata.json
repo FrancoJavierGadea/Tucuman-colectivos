@@ -1,6 +1,5 @@
 {
   "name": "Linea 101",
-  "direction": "Los pocitos",
   "length_km": 18.97,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/101/img/landscape.webp",
     "square": "/data/interurbano/101/img/square.webp"
   },
-  "id": "101/los-pocitos"
+  "id": "101/los-pocitos",
+  "route": "los-pocitos",
+  "line": "101"
 }

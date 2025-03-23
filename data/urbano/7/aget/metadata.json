@@ -1,6 +1,5 @@
 {
   "name": "Linea 7",
-  "direction": "Aget",
   "length_km": 41.13,
   "category": "urbano",
   "provider": {
@@ -16,5 +15,7 @@
   "image": {
     "landscape": "/data/urbano/7/img/landscape.webp",
     "square": "/data/urbano/7/img/square.webp"
-  }
+  },
+  "route": "aget",
+  "line": "7"
 }

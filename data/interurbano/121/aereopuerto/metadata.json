@@ -1,6 +1,5 @@
 {
   "name": "Linea 121",
-  "direction": "Aereopuerto",
   "length_km": 32.28,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/121/img/landscape.webp",
     "square": "/data/interurbano/121/img/square.webp"
   },
-  "id": "121/aereopuerto"
+  "id": "121/aereopuerto",
+  "route": "aereopuerto",
+  "line": "121"
 }

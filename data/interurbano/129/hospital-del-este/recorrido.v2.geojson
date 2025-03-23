@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 129",
-        "direction": "Hospital del este",
         "length_km": 24.51,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/129/img/landscape.webp",
           "square": "/data/interurbano/129/img/square.webp"
         },
-        "id": "129/hospital-del-este"
+        "id": "129/hospital-del-este",
+        "route": "hospital-del-este",
+        "line": "129"
       },
       "geometry": {
         "coordinates": [

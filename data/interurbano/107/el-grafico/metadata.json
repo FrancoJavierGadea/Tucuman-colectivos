@@ -1,6 +1,5 @@
 {
   "name": "Linea 107",
-  "direction": "El grafico",
   "length_km": 31.64,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/107/img/landscape.webp",
     "square": "/data/interurbano/107/img/square.webp"
   },
-  "id": "107/el-grafico"
+  "id": "107/el-grafico",
+  "route": "el-grafico",
+  "line": "107"
 }

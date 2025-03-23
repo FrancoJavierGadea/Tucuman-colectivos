@@ -1,6 +1,5 @@
 {
   "name": "Linea 118",
-  "direction": "Pie del cerro",
   "length_km": 27.45,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/118/img/landscape.webp",
     "square": "/data/interurbano/118/img/square.webp"
   },
-  "id": "118/pie-del-cerro"
+  "id": "118/pie-del-cerro",
+  "route": "pie-del-cerro",
+  "line": "118"
 }

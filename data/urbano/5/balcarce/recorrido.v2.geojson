@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 5",
-        "direction": "Balcarce",
         "length_km": 30.89,
         "category": "urbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/urbano/5/img/landscape.webp",
           "square": "/data/urbano/5/img/square.webp"
-        }
+        },
+        "route": "balcarce",
+        "line": "5"
       },
       "geometry": {
         "coordinates": [

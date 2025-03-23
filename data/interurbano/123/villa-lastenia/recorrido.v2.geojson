@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 123",
-        "direction": "Villa Lastenia",
         "length_km": 37.19,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/123/img/landscape.webp",
           "square": "/data/interurbano/123/img/square.webp"
         },
-        "id": "123/villa-lastenia"
+        "id": "123/villa-lastenia",
+        "route": "villa-lastenia",
+        "line": "123"
       },
       "geometry": {
         "coordinates": [

@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 131",
-        "direction": "Lomas de tafi",
         "length_km": 28.45,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/interurbano/131/img/landscape.webp",
           "square": "/data/interurbano/131/img/square.webp"
-        }
+        },
+        "route": "lomas-de-tafi",
+        "line": "131"
       },
       "geometry": {
         "coordinates": [

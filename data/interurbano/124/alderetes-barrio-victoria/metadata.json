@@ -1,6 +1,5 @@
 {
   "name": "Linea 124",
-  "direction": "Alderetes - Barrio Victoria",
   "length_km": 29.28,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/124/img/landscape.webp",
     "square": "/data/interurbano/124/img/square.webp"
   },
-  "id": "124/alderetes-barrio-victoria"
+  "id": "124/alderetes-barrio-victoria",
+  "route": "alderetes-barrio-victoria",
+  "line": "124"
 }

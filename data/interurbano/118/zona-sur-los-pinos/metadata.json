@@ -1,6 +1,5 @@
 {
   "name": "Linea 118",
-  "direction": "Zona sur",
   "length_km": 35.71,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/118/img/landscape.webp",
     "square": "/data/interurbano/118/img/square.webp"
   },
-  "id": "118/zona-sur-los-pinos"
+  "id": "118/zona-sur-los-pinos",
+  "route": "zona-sur-los-pinos",
+  "line": "118"
 }

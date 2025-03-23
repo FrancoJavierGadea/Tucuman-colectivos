@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 125",
-        "direction": "Aereopuerto",
         "length_km": 28.17,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/125/img/landscape.webp",
           "square": "/data/interurbano/125/img/square.webp"
         },
-        "id": "125/barrio-aereopuerto"
+        "id": "125/barrio-aereopuerto",
+        "route": "barrio-aereopuerto",
+        "line": "125"
       },
       "geometry": {
         "coordinates": [

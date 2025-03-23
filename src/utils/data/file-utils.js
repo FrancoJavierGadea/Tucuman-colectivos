@@ -6,7 +6,7 @@ import * as prettier from "prettier";
 
 /**
  * 
- * @param {({category, line, direction, folder, url}) => {}} callback 
+ * @param {({category, line, route, folder, url}) => {}} callback 
  */
 export async function exploreDataFolder(callback = () => {}){
 
@@ -18,15 +18,15 @@ export async function exploreDataFolder(callback = () => {}){
 
         for (const line of lines) {
             
-            const directions = await fs.readdir(path.join(DATA_FOLDER, category, line));
+            const routes = await fs.readdir(path.join(DATA_FOLDER, category, line));
 
-            for (const direction of directions) {
+            for (const route of routes) {
                 
-                const folder = path.join(DATA_FOLDER, category, line, direction);
+                const folder = path.join(DATA_FOLDER, category, line, route);
 
                 const url = folder.replace(process.cwd(), '').replaceAll('\\', '/');
 
-                await callback({ category, line, direction, folder, url });
+                await callback({ category, line, route, folder, url });
             }
         }
     }

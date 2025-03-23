@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 107",
-        "direction": "El sol",
         "length_km": 31.66,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/107/img/landscape.webp",
           "square": "/data/interurbano/107/img/square.webp"
         },
-        "id": "107/el-sol"
+        "id": "107/el-sol",
+        "route": "el-sol",
+        "line": "107"
       },
       "geometry": {
         "coordinates": [

@@ -1,6 +1,5 @@
 {
   "name": "Linea 101",
-  "direction": "Lomas de tafi",
   "length_km": 27.99,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/101/img/landscape.webp",
     "square": "/data/interurbano/101/img/square.webp"
   },
-  "id": "101/lomas-de-tafi"
+  "id": "101/lomas-de-tafi",
+  "route": "lomas-de-tafi",
+  "line": "101"
 }

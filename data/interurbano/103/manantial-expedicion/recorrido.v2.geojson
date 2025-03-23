@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 103",
-        "direction": "Manantial expedicion",
         "length_km": 45.12,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/103/img/landscape.webp",
           "square": "/data/interurbano/103/img/square.webp"
         },
-        "id": "103/manantial-expedicion"
+        "id": "103/manantial-expedicion",
+        "route": "manantial-expedicion",
+        "line": "103"
       },
       "geometry": {
         "coordinates": [

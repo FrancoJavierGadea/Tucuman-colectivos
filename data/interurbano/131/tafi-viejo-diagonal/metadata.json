@@ -1,6 +1,5 @@
 {
   "name": "Linea 131",
-  "direction": "Tafi Viejo por diagonal",
   "length_km": 40.44,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
   "image": {
     "landscape": "/data/interurbano/131/img/landscape.webp",
     "square": "/data/interurbano/131/img/square.webp"
-  }
+  },
+  "route": "tafi-viejo-diagonal",
+  "line": "131"
 }

@@ -1,6 +1,5 @@
 {
   "name": "Linea 124",
-  "direction": "Alderetes",
   "length_km": 28.08,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/124/img/landscape.webp",
     "square": "/data/interurbano/124/img/square.webp"
   },
-  "id": "124/alderetes"
+  "id": "124/alderetes",
+  "route": "alderetes",
+  "line": "124"
 }

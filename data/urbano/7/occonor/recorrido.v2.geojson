@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 7",
-        "direction": "Occonor",
         "length_km": 42.28,
         "category": "urbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/urbano/7/img/landscape.webp",
           "square": "/data/urbano/7/img/square.webp"
-        }
+        },
+        "route": "occonor",
+        "line": "7"
       },
       "geometry": {
         "coordinates": [

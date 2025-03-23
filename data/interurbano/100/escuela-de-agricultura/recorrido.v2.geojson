@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 100",
-        "direction": "Escuela de agricultura",
         "length_km": 43.7,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/100/img/landscape.webp",
           "square": "/data/interurbano/100/img/square.webp"
         },
-        "id": "100/escuela-de-agricultura"
+        "id": "100/escuela-de-agricultura",
+        "route": "escuela-de-agricultura",
+        "line": "100"
       },
       "geometry": {
         "coordinates": [

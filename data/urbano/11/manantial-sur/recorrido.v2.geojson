@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 11",
-        "direction": "Manantial sur",
         "length_km": 24.58,
         "category": "urbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/urbano/11/img/landscape.webp",
           "square": "/data/urbano/11/img/square.webp"
-        }
+        },
+        "route": "manantial-sur",
+        "line": "11"
       },
       "geometry": {
         "coordinates": [

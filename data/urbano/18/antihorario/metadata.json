@@ -1,6 +1,5 @@
 {
   "name": "Linea 18",
-  "direction": "Antihorario",
   "length_km": 14.59,
   "category": "urbano",
   "provider": {
@@ -16,5 +15,7 @@
   "image": {
     "landscape": "/data/urbano/18/img/landscape.webp",
     "square": "/data/urbano/18/img/square.webp"
-  }
+  },
+  "route": "antihorario",
+  "line": "18"
 }

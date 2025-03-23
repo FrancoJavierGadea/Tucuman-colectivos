@@ -1,6 +1,5 @@
 {
   "name": "Linea 122",
-  "direction": "San jorge",
   "length_km": 28.73,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/122/img/landscape.webp",
     "square": "/data/interurbano/122/img/square.webp"
   },
-  "id": "122/san-jorge"
+  "id": "122/san-jorge",
+  "route": "san-jorge",
+  "line": "122"
 }

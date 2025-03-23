@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 141",
-        "direction": "Barrio Policial IV",
         "length_km": 19.67,
         "category": "interurbano",
         "provider": {
@@ -21,7 +20,9 @@
           "landscape": "/data/interurbano/141/img/landscape.webp",
           "square": "/data/interurbano/141/img/square.webp"
         },
-        "id": "141/policial-IV"
+        "id": "141/policial-IV",
+        "route": "policial-IV",
+        "line": "141"
       },
       "geometry": {
         "coordinates": [

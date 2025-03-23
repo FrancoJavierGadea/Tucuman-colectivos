@@ -1,6 +1,5 @@
 {
   "name": "Linea 141",
-  "direction": "Los Aguirre",
   "length_km": 23.77,
   "category": "interurbano",
   "provider": {
@@ -16,5 +15,7 @@
     "landscape": "/data/interurbano/141/img/landscape.webp",
     "square": "/data/interurbano/141/img/square.webp"
   },
-  "id": "141/los-aguirres"
+  "id": "141/los-aguirres",
+  "route": "los-aguirres",
+  "line": "141"
 }

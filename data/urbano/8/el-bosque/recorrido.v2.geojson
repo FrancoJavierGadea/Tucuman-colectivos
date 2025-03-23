@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "name": "Linea 8",
-        "direction": "El bosque",
         "length_km": 29.09,
         "category": "urbano",
         "provider": {
@@ -21,7 +20,9 @@
         "image": {
           "landscape": "/data/urbano/8/img/landscape.webp",
           "square": "/data/urbano/8/img/square.webp"
-        }
+        },
+        "route": "el-bosque",
+        "line": "8"
       },
       "geometry": {
         "coordinates": [
