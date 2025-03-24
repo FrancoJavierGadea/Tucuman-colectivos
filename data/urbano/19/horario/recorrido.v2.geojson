@@ -22,7 +22,8 @@
           "square": "/data/urbano/19/img/square.webp"
         },
         "route": "horario",
-        "line": "19"
+        "line": "19",
+        "route_description": "Horario"
       },
       "geometry": {
         "coordinates": [

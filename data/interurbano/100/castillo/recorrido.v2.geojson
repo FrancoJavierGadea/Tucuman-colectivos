@@ -22,7 +22,8 @@
         },
         "id": "100/castillo",
         "route": "castillo",
-        "line": "100"
+        "line": "100",
+        "route_description": "Castillo"
       },
       "geometry": {
         "coordinates": [

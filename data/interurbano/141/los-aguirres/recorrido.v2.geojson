@@ -22,7 +22,8 @@
         },
         "id": "141/los-aguirres",
         "route": "los-aguirres",
-        "line": "141"
+        "line": "141",
+        "route_description": "Los Aguirre"
       },
       "geometry": {
         "coordinates": [

@@ -17,5 +17,6 @@
     "square": "/data/urbano/3/img/square.webp"
   },
   "route": "lavalle",
-  "line": "3"
+  "line": "3",
+  "route_description": "Lavalle"
 }

@@ -22,7 +22,8 @@
           "square": "/data/interurbano/el-provincial/img/square.webp"
         },
         "route": "rinconada",
-        "line": "el-provincial"
+        "line": "el-provincial",
+        "route_description": "Rinconada"
       },
       "geometry": {
         "coordinates": [

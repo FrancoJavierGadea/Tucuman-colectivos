@@ -22,7 +22,8 @@
         },
         "id": "103/manantial-expedicion",
         "route": "manantial-expedicion",
-        "line": "103"
+        "line": "103",
+        "route_description": "Manantial expedicion"
       },
       "geometry": {
         "coordinates": [

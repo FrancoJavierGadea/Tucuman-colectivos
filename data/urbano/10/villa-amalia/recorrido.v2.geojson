@@ -22,7 +22,8 @@
           "square": "/data/urbano/10/img/square.webp"
         },
         "route": "villa-amalia",
-        "line": "10"
+        "line": "10",
+        "route_description": "Villa amalia"
       },
       "geometry": {
         "coordinates": [

@@ -22,7 +22,8 @@
           "square": "/data/urbano/17/img/square.webp"
         },
         "route": "los-chacaritos",
-        "line": "17"
+        "line": "17",
+        "route_description": "Los chacaritos"
       },
       "geometry": {
         "coordinates": [

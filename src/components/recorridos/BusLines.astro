@@ -1,63 +1,25 @@
 ---
 import BusCard from "./BusCard/index.astro";
+import { getLines } from "@/utils/BusRoutes/getLines.js";
 
 const {category = 'urbano', lines = []} = Astro.props;
 
-let FILES = (await Promise.all(
-    Object.values(import.meta.glob('/public/data/**/metadata.json'))
-    .map(async (file) => {
-
-        return await file();
-    })
-))
-.filter(metadata => metadata.category === category);
-
-//Mostrar unicamente lineas especificas en lugar de todas, en base a sus ID
-if(lines.length > 0){
-
-    FILES = FILES.filter(metadata => {
-
-        const [line] = metadata.id.split('/');
-
-        return lines.includes(line);
-    });
-}
-
-const LINES = Object.entries(
-    Object.groupBy(FILES, (metadata) => {
-
-        //Agrupamos por el nombre de la linea
-        return metadata.name;
-    })
-)
-.toSorted(([a], [b]) => {
-
-    //Ordenar por numero de Linea
-    const numA = a.match(/\d+/);
-    const numB = b.match(/\d+/);
-
-    if(numA && numB) return parseInt(numA[0], 10) - parseInt(numB[0], 10);
-
-    if(numA) return -1;
-    if(numB) return 1; 
-
-    return a.localeCompare(b);
-});
+const LINES = await getLines({category, lines});
 ---
 
 <div class="Bus-lines" slot="urbano">
     {
-        LINES.map(([line, routes], index) => {
+        LINES.map(({line, routes, name}, index) => {
 
             return <details open>
-                <summary>{line}</summary>
+                <summary>{name}</summary>
                 <div class="Bus-lines-routes">
                     {
                         routes.map((route) => {
 
                             return <BusCard 
                                 title={route.name} 
-                                direction={route.direction} 
+                                route={route.route_description} 
                                 image={route.image?.square}
                                 length={route.length_km}
                                 provider={route.provider?.name}

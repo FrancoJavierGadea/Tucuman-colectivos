@@ -22,7 +22,8 @@
         },
         "id": "107/el-sol",
         "route": "el-sol",
-        "line": "107"
+        "line": "107",
+        "route_description": "El sol"
       },
       "geometry": {
         "coordinates": [

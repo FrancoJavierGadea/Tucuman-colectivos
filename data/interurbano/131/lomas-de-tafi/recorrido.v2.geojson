@@ -22,7 +22,8 @@
           "square": "/data/interurbano/131/img/square.webp"
         },
         "route": "lomas-de-tafi",
-        "line": "131"
+        "line": "131",
+        "route_description": "Lomas de tafi"
       },
       "geometry": {
         "coordinates": [

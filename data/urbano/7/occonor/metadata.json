@@ -17,5 +17,6 @@
     "square": "/data/urbano/7/img/square.webp"
   },
   "route": "occonor",
-  "line": "7"
+  "line": "7",
+  "route_description": "Occonor"
 }

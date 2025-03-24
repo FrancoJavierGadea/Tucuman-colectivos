@@ -22,7 +22,8 @@
         },
         "id": "100/avellaneda",
         "route": "avellaneda",
-        "line": "100"
+        "line": "100",
+        "route_description": "Avellaneda"
       },
       "geometry": {
         "coordinates": [

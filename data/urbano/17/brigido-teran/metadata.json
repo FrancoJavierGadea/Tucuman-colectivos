@@ -17,5 +17,6 @@
     "square": "/data/urbano/17/img/square.webp"
   },
   "route": "brigido-teran",
-  "line": "17"
+  "line": "17",
+  "route_description": "Brigido teran"
 }

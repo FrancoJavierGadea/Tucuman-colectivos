@@ -22,7 +22,8 @@
           "square": "/data/urbano/11/img/square.webp"
         },
         "route": "11-de-marzo",
-        "line": "11"
+        "line": "11",
+        "route_description": "11 de Marzo"
       },
       "geometry": {
         "coordinates": [

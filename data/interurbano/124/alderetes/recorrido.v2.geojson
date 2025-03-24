@@ -22,7 +22,8 @@
         },
         "id": "124/alderetes",
         "route": "alderetes",
-        "line": "124"
+        "line": "124",
+        "route_description": "Alderetes"
       },
       "geometry": {
         "coordinates": [

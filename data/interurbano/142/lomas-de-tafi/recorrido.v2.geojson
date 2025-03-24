@@ -22,7 +22,8 @@
         },
         "id": "142/lomas-de-tafi",
         "route": "lomas-de-tafi",
-        "line": "142"
+        "line": "142",
+        "route_description": "Lomas de tafi"
       },
       "geometry": {
         "coordinates": [

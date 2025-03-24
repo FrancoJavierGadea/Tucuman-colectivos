@@ -22,7 +22,8 @@
           "square": "/data/urbano/19/img/square.webp"
         },
         "route": "antihorario",
-        "line": "19"
+        "line": "19",
+        "route_description": "Anti horario"
       },
       "geometry": {
         "coordinates": [

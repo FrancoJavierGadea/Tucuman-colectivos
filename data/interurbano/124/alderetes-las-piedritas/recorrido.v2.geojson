@@ -22,7 +22,8 @@
         },
         "id": "124/alderetes-las-piedritas",
         "route": "alderetes-las-piedritas",
-        "line": "124"
+        "line": "124",
+        "route_description": "Alderetes - Las Piedritas"
       },
       "geometry": {
         "coordinates": [

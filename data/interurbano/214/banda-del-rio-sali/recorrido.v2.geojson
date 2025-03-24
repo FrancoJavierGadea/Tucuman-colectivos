@@ -13,7 +13,8 @@
         },
         "id": "214/banda-del-rio-sali",
         "route": "banda-del-rio-sali",
-        "line": "214"
+        "line": "214",
+        "route_description": "Banda del rio Sali"
       },
       "geometry": {
         "coordinates": [

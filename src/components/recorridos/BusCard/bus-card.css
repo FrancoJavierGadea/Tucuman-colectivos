@@ -58,7 +58,7 @@ custom-bus-card {
             font-size: clamp(18px, 3vw, 22px);
             letter-spacing: 2px;
         }
-        .Bus-direction {
+        .Bus-route {
             font-size: clamp(16px, 3vw, 18px);
             letter-spacing: 1px;
         }

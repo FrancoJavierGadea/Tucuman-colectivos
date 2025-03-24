@@ -17,12 +17,12 @@ export async function updateMetadata(){
 
             const recorrido = await readJSON(path.join(folder, 'recorrido.v2.geojson'));
 
-            //
-            metadata.route = route;
-            metadata.line = line;
-            metadata.id = `${line}/${route}`;
+            console.log(`https://raw.githubusercontent.com/FrancoJavierGadea/Tucuman-colectivos/refs/heads/main${url}/metadata.json`);
 
-            delete metadata.direction;
+            const oldMetadata = await (await fetch(new URL(`https://raw.githubusercontent.com/FrancoJavierGadea/Tucuman-colectivos/refs/heads/main${url}/metadata.json`).href)).json();
+
+            //
+            metadata["route_description"] = oldMetadata.direction;
 
 
             //Update Length km
@@ -34,7 +34,7 @@ export async function updateMetadata(){
 
             await writeJSON(path.join(folder, 'metadata.json'), metadata);
 
-            await writeJSON(path.join(folder, 'recorrido.v2.geojson'), recorrido);
+           await writeJSON(path.join(folder, 'recorrido.v2.geojson'), recorrido);
         }
 
     });

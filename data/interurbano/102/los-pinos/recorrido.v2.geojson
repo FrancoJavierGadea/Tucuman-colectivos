@@ -22,7 +22,8 @@
         },
         "id": "102/los-pinos",
         "route": "los-pinos",
-        "line": "102"
+        "line": "102",
+        "route_description": "Los pinos"
       },
       "geometry": {
         "coordinates": [

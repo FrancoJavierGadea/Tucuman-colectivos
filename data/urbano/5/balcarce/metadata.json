@@ -17,5 +17,6 @@
     "square": "/data/urbano/5/img/square.webp"
   },
   "route": "balcarce",
-  "line": "5"
+  "line": "5",
+  "route_description": "Balcarce"
 }

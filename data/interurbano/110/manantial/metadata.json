@@ -17,5 +17,6 @@
   },
   "id": "110/manantial",
   "route": "manantial",
-  "line": "110"
+  "line": "110",
+  "route_description": "Manantial"
 }

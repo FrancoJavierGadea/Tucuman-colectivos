@@ -22,7 +22,8 @@
           "square": "/data/urbano/4/img/square.webp"
         },
         "route": "mercofrut",
-        "line": "4"
+        "line": "4",
+        "route_description": "Mercofrut"
       },
       "geometry": {
         "coordinates": [

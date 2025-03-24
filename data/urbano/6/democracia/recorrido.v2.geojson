@@ -22,7 +22,8 @@
           "square": "/data/urbano/6/img/square.webp"
         },
         "route": "democracia",
-        "line": "6"
+        "line": "6",
+        "route_description": "Democracia"
       },
       "geometry": {
         "coordinates": [

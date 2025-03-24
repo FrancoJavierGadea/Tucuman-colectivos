@@ -17,5 +17,6 @@
   },
   "id": "101/lomas-de-tafi",
   "route": "lomas-de-tafi",
-  "line": "101"
+  "line": "101",
+  "route_description": "Lomas de tafi"
 }

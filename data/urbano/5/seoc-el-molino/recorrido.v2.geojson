@@ -22,7 +22,8 @@
           "square": "/data/urbano/5/img/square.webp"
         },
         "route": "seoc-el-molino",
-        "line": "5"
+        "line": "5",
+        "route_description": "SEOC - El molino"
       },
       "geometry": {
         "coordinates": [

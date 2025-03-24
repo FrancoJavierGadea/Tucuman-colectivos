@@ -22,7 +22,8 @@
           "square": "/data/urbano/1/img/square.webp"
         },
         "route": "mitre",
-        "line": "1"
+        "line": "1",
+        "route_description": "Mitre"
       },
       "geometry": {
         "coordinates": [

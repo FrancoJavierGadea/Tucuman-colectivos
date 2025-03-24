@@ -22,7 +22,8 @@
         },
         "id": "125/barrio-aereopuerto",
         "route": "barrio-aereopuerto",
-        "line": "125"
+        "line": "125",
+        "route_description": "Aereopuerto"
       },
       "geometry": {
         "coordinates": [

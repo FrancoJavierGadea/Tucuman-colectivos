@@ -17,5 +17,6 @@
     "square": "/data/urbano/9/img/square.webp"
   },
   "route": "bulnes",
-  "line": "9"
+  "line": "9",
+  "route_description": "Bulnes"
 }

@@ -22,7 +22,8 @@
         },
         "id": "101/el-grafico",
         "route": "el-grafico",
-        "line": "101"
+        "line": "101",
+        "route_description": "El grafico"
       },
       "geometry": {
         "coordinates": [

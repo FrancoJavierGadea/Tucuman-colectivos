@@ -17,5 +17,6 @@
   },
   "id": "121/hospital-del-este",
   "route": "hospital-del-este",
-  "line": "121"
+  "line": "121",
+  "route_description": "Hospital del este"
 }

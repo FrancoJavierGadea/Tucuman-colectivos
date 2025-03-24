@@ -22,7 +22,8 @@
           "square": "/data/interurbano/130/img/square.webp"
         },
         "route": "tafi-viejo-san-jose",
-        "line": "130"
+        "line": "130",
+        "route_description": "San jose"
       },
       "geometry": {
         "coordinates": [

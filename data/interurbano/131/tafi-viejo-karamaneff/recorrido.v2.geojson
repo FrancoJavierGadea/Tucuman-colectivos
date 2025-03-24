@@ -22,7 +22,8 @@
           "square": "/data/interurbano/131/img/square.webp"
         },
         "route": "tafi-viejo-karamaneff",
-        "line": "131"
+        "line": "131",
+        "route_description": "Tafi Viejo - Karamaneff"
       },
       "geometry": {
         "coordinates": [

@@ -22,7 +22,8 @@
         },
         "id": "118/200-viviendas",
         "route": "200-viviendas",
-        "line": "118"
+        "line": "118",
+        "route_description": "200 viviendas"
       },
       "geometry": {
         "coordinates": [

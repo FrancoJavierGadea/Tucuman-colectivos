@@ -17,5 +17,6 @@
   },
   "id": "106/barrio-vial-2",
   "route": "barrio-vial-2",
-  "line": "106"
+  "line": "106",
+  "route_description": "Barrio vial 2"
 }

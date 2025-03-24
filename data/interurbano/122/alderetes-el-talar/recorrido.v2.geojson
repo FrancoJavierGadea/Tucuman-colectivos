@@ -22,7 +22,8 @@
         },
         "id": "122/alderetes-el-talar",
         "route": "alderetes-el-talar",
-        "line": "122"
+        "line": "122",
+        "route_description": "Alderetes - El Talar"
       },
       "geometry": {
         "coordinates": [

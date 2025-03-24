@@ -17,5 +17,6 @@
     "square": "/data/urbano/8/img/square.webp"
   },
   "route": "muñecas",
-  "line": "8"
+  "line": "8",
+  "route_description": "Muñecas"
 }

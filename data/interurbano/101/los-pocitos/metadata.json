@@ -17,5 +17,6 @@
   },
   "id": "101/los-pocitos",
   "route": "los-pocitos",
-  "line": "101"
+  "line": "101",
+  "route_description": "Los pocitos"
 }

@@ -17,5 +17,6 @@
   },
   "id": "118/zona-sur-los-pinos",
   "route": "zona-sur-los-pinos",
-  "line": "118"
+  "line": "118",
+  "route_description": "Zona sur"
 }

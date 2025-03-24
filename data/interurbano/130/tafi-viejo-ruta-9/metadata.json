@@ -17,5 +17,6 @@
     "square": "/data/interurbano/130/img/square.webp"
   },
   "route": "tafi-viejo-ruta-9",
-  "line": "130"
+  "line": "130",
+  "route_description": "Ruta 9"
 }

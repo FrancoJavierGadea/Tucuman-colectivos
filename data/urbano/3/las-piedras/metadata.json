@@ -17,5 +17,6 @@
     "square": "/data/urbano/3/img/square.webp"
   },
   "route": "las-piedras",
-  "line": "3"
+  "line": "3",
+  "route_description": "Las piedras"
 }

@@ -22,7 +22,8 @@
         },
         "id": "129/hospital-del-este",
         "route": "hospital-del-este",
-        "line": "129"
+        "line": "129",
+        "route_description": "Hospital del este"
       },
       "geometry": {
         "coordinates": [

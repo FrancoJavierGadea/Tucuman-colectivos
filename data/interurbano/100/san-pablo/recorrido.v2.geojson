@@ -22,7 +22,8 @@
         },
         "id": "100/san-pablo",
         "route": "san-pablo",
-        "line": "100"
+        "line": "100",
+        "route_description": "San pablo"
       },
       "geometry": {
         "coordinates": [

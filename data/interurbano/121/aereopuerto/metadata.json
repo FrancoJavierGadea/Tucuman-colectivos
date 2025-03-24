@@ -17,5 +17,6 @@
   },
   "id": "121/aereopuerto",
   "route": "aereopuerto",
-  "line": "121"
+  "line": "121",
+  "route_description": "Aereopuerto"
 }

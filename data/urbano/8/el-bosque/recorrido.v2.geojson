@@ -22,7 +22,8 @@
           "square": "/data/urbano/8/img/square.webp"
         },
         "route": "el-bosque",
-        "line": "8"
+        "line": "8",
+        "route_description": "El bosque"
       },
       "geometry": {
         "coordinates": [

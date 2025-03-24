@@ -5,7 +5,7 @@ import stops_icon from "bootstrap-icons/icons/geo-alt.svg?raw";
 import report_icon from "bootstrap-icons/icons/exclamation-triangle.svg?raw";
 import "./bus-card.css";
 
-const {title, direction, length, provider, id, image, category} = Astro.props;
+const {title, route, length, provider, id, image, category} = Astro.props;
 ---
 
 
@@ -17,7 +17,7 @@ const {title, direction, length, provider, id, image, category} = Astro.props;
 
         <div class="Bus-info">
             <h4 class="Bus-title">{title}</h4>
-            <p class="Bus-direction">{direction}</p>
+            <p class="Bus-route">{route}</p>
 
             <div class="Bus-footer">
                 <span class="Bus-provider">{provider}</span>

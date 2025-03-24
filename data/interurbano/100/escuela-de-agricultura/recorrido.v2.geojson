@@ -22,7 +22,8 @@
         },
         "id": "100/escuela-de-agricultura",
         "route": "escuela-de-agricultura",
-        "line": "100"
+        "line": "100",
+        "route_description": "Escuela de agricultura"
       },
       "geometry": {
         "coordinates": [

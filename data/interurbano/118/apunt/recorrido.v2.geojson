@@ -22,7 +22,8 @@
         },
         "id": "118/apunt",
         "route": "apunt",
-        "line": "118"
+        "line": "118",
+        "route_description": "Apunt"
       },
       "geometry": {
         "coordinates": [

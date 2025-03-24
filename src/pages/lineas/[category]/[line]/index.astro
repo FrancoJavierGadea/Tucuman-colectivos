@@ -2,48 +2,21 @@
 import BusRoutesMap from '@/components/lineas/BusRoutesMap.astro';
 import LandscapeImage from '@/components/lineas/LandscapeImage.astro';
 import Layout from '@/layouts/Layout.astro';
+import { getRoutes } from '@/utils/BusRoutes/getRoutes.js';
 
 export async function getStaticPaths() {
 
-    const FILES = (await Promise.all(
-        Object.values(import.meta.glob('/public/data/**/*.json'))
-        .map(async (file) => {
+    const ROUTES = await getRoutes();
 
-            return await file();
-        })
-    ))
-    .filter(metadata => metadata.id);
+    return ROUTES.map(({category, line}) => {
 
-    return FILES.map(metadata => {
-
-        const [line] = metadata.id.split('/');
-
-        return { params: {category: metadata.category, line } }
-    });
+        return {params: {category, line}}
+    })
 }
 
 const { category, line } = Astro.params;
 
-const METADATA = (await Promise.all(
-    Object.values(import.meta.glob('/public/data/**/*.json'))
-    .map(async (file) => {
-
-        return await file();
-    })
-))
-.find(metadata => {
-
-    if(metadata.id){
-
-        const [line] = metadata.id.split('/');
-
-        return metadata.category === category && line === line;
-    }
-});
-
-
-
-
+const METADATA = (await getRoutes({category, lines: [line]})).at(0);
 ---
 
 <Layout>

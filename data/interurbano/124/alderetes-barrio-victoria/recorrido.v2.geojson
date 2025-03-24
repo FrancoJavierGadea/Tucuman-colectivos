@@ -22,7 +22,8 @@
         },
         "id": "124/alderetes-barrio-victoria",
         "route": "alderetes-barrio-victoria",
-        "line": "124"
+        "line": "124",
+        "route_description": "Alderetes - Barrio Victoria"
       },
       "geometry": {
         "coordinates": [

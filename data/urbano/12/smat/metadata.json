@@ -17,5 +17,6 @@
     "square": "/data/urbano/12/img/square.webp"
   },
   "route": "smat",
-  "line": "12"
+  "line": "12",
+  "route_description": "Smat"
 }

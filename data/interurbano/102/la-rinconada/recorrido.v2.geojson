@@ -22,7 +22,8 @@
         },
         "id": "102/la-rinconada",
         "route": "la-rinconada",
-        "line": "102"
+        "line": "102",
+        "route_description": "La rinconada"
       },
       "geometry": {
         "coordinates": [

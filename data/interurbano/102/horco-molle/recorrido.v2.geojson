@@ -22,7 +22,8 @@
         },
         "id": "102/horco-molle",
         "route": "horco-molle",
-        "line": "102"
+        "line": "102",
+        "route_description": "Horco molle"
       },
       "geometry": {
         "coordinates": [

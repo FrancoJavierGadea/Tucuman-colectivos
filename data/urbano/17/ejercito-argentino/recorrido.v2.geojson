@@ -22,7 +22,8 @@
           "square": "/data/urbano/17/img/square.webp"
         },
         "route": "ejercito-argentino",
-        "line": "17"
+        "line": "17",
+        "route_description": "Ejercito argentino"
       },
       "geometry": {
         "coordinates": [

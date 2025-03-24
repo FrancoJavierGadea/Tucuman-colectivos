@@ -22,7 +22,8 @@
         },
         "id": "122/rincon-del-este",
         "route": "rincon-del-este",
-        "line": "122"
+        "line": "122",
+        "route_description": "Rincon del este"
       },
       "geometry": {
         "coordinates": [

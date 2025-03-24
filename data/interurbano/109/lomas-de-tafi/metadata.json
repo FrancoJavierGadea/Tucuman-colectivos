@@ -17,5 +17,6 @@
     "square": "/data/interurbano/109/img/square.webp"
   },
   "route": "lomas-de-tafi",
-  "line": "109"
+  "line": "109",
+  "route_description": "Lomas de tafi"
 }

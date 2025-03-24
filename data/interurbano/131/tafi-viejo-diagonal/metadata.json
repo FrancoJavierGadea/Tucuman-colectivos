@@ -17,5 +17,6 @@
     "square": "/data/interurbano/131/img/square.webp"
   },
   "route": "tafi-viejo-diagonal",
-  "line": "131"
+  "line": "131",
+  "route_description": "Tafi Viejo por diagonal"
 }

@@ -17,5 +17,6 @@
     "square": "/data/urbano/18/img/square.webp"
   },
   "route": "antihorario",
-  "line": "18"
+  "line": "18",
+  "route_description": "Antihorario"
 }

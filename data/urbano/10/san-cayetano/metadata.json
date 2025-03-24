@@ -17,5 +17,6 @@
     "square": "/data/urbano/10/img/square.webp"
   },
   "route": "san-cayetano",
-  "line": "10"
+  "line": "10",
+  "route_description": "San cayetano"
 }

@@ -22,7 +22,8 @@
           "square": "/data/urbano/12/img/square.webp"
         },
         "route": "municipal",
-        "line": "12"
+        "line": "12",
+        "route_description": "Municipal"
       },
       "geometry": {
         "coordinates": [

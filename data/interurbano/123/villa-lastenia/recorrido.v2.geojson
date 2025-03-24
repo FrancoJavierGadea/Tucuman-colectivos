@@ -22,7 +22,8 @@
         },
         "id": "123/villa-lastenia",
         "route": "villa-lastenia",
-        "line": "123"
+        "line": "123",
+        "route_description": "Villa Lastenia"
       },
       "geometry": {
         "coordinates": [

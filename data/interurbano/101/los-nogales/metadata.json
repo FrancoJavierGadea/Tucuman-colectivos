@@ -17,5 +17,6 @@
   },
   "id": "101/los-nogales",
   "route": "los-nogales",
-  "line": "101"
+  "line": "101",
+  "route_description": "Los nogales"
 }

@@ -22,7 +22,8 @@
           "square": "/data/urbano/1/img/square.webp"
         },
         "route": "salta",
-        "line": "1"
+        "line": "1",
+        "route_description": "Salta"
       },
       "geometry": {
         "coordinates": [
